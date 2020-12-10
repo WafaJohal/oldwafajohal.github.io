@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Damien Pellier | Wafa Johal</title>
+    <link>https://wafajohal.github.io/authors/damien-pellier/</link>
+      <atom:link href="https://wafajohal.github.io/authors/damien-pellier/index.xml" rel="self" type="application/rss+xml" />
+    <description>Damien Pellier</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wafajohal.github.io/img/site-icon.png</url>
+      <title>Damien Pellier</title>
+      <link>https://wafajohal.github.io/authors/damien-pellier/</link>
+    </image>
+    
+    <item>
+      <title>Une architecture cognitive et affective orientée interaction</title>
+      <link>https://wafajohal.github.io/publication/pellier-2018-architecture/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/pellier-2018-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social human-robot interaction: A new cognitive and affective interaction-oriented architecture</title>
+      <link>https://wafajohal.github.io/publication/adam-2016-social/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/adam-2016-social/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A cognitive and affective architecture for social human-robot interaction</title>
+      <link>https://wafajohal.github.io/publication/johal-2015-cognitive/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/johal-2015-cognitive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

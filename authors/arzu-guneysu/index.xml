@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arzu Guneysu | Wafa Johal</title>
+    <link>https://wafajohal.github.io/authors/arzu-guneysu/</link>
+      <atom:link href="https://wafajohal.github.io/authors/arzu-guneysu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Arzu Guneysu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wafajohal.github.io/img/site-icon.png</url>
+      <title>Arzu Guneysu</title>
+      <link>https://wafajohal.github.io/authors/arzu-guneysu/</link>
+    </image>
+    
+    <item>
+      <title>Using Tabletop Robots to promote Inclusive Classroom Experiences</title>
+      <link>https://wafajohal.github.io/publication/neto-using-2020/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/neto-using-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bringing letters to life: handwriting with haptic-enabled tangible robots</title>
+      <link>https://wafajohal.github.io/publication/asselborn-2018-bringing/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/asselborn-2018-bringing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

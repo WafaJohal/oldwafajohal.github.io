@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tegami | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/tegami/</link>
+      <atom:link href="https://wafajohal.github.io/tags/tegami/index.xml" rel="self" type="application/rss+xml" />
+    <description>tegami</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wafajohal.github.io/img/site-icon.png</url>
+      <title>tegami</title>
+      <link>https://wafajohal.github.io/tags/tegami/</link>
+    </image>
+    
+    <item>
+      <title>iReCheck</title>
+      <link>https://wafajohal.github.io/project/irecheck/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/project/irecheck/</guid>
+      <description>&lt;p&gt;Nearly 8% of children between 4 and 12 are dysgraphic or encounter serious difficulties in learning handwriting. Dysgraphia, just like dyslexia, can seriously impair the everyday school life of children and have damageable impact on their academic achievements. The detection of such difficulties should be done as soon as possible to minimize its effect on the child’s school performances. And an adaptive remediation should be provided. The CHILI Lab at EPFL showed how a robotic co-learner agent could have positive effects on the child&amp;rsquo;s motivation to practice handwriting. However, motivation is only one aspect that needs to be taken into account in order to provide a long-term adaptive training experience for children learning how to write.&lt;/p&gt;
+&lt;p&gt;In the iReCHeCk project, we propose a finer characterization of handwriting, as a multimodal activity, taking into account the body posture to capture important features in the handwriting process. We will develop engaging training activities with a robot to monitor the learning status of the child, allowing therapists to evaluate progresses, while adapting the robot&amp;rsquo;s attitude and the training task to the needs of the learner. Our goal being to touch a wide range of handwriting learners, these activities will be tested on two populations: Typically Developed Children that are learning how to write at school; Children with Neuro-Developmental Disorders, presenting handwriting difficulties along with other disorders (i.e. attentional, autistic).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

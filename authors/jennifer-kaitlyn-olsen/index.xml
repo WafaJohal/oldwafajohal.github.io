@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jennifer Kaitlyn Olsen | Wafa Johal</title>
+    <link>https://wafajohal.github.io/authors/jennifer-kaitlyn-olsen/</link>
+      <atom:link href="https://wafajohal.github.io/authors/jennifer-kaitlyn-olsen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jennifer Kaitlyn Olsen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wafajohal.github.io/img/site-icon.png</url>
+      <title>Jennifer Kaitlyn Olsen</title>
+      <link>https://wafajohal.github.io/authors/jennifer-kaitlyn-olsen/</link>
+    </image>
+    
+    <item>
+      <title>Gamified Motor Training with Tangible Robots in Older Adults: a Feasibility Study and Comparison with Young</title>
+      <link>https://wafajohal.github.io/publication/guneysu-ozgur-gamified-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/guneysu-ozgur-gamified-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robot Analytics: What Do Human-Robot Interaction Traces Tell Us About Learning?</title>
+      <link>https://wafajohal.github.io/publication/nasir-2019-robot/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/nasir-2019-robot/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

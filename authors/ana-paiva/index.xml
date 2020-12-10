@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ana Paiva | Wafa Johal</title>
+    <link>https://wafajohal.github.io/authors/ana-paiva/</link>
+      <atom:link href="https://wafajohal.github.io/authors/ana-paiva/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ana Paiva</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wafajohal.github.io/img/site-icon.png</url>
+      <title>Ana Paiva</title>
+      <link>https://wafajohal.github.io/authors/ana-paiva/</link>
+    </image>
+    
+    <item>
+      <title>Using Tabletop Robots to promote Inclusive Classroom Experiences</title>
+      <link>https://wafajohal.github.io/publication/neto-using-2020/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/neto-using-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring the Role of Perspective Taking in Educational Child-Robot Interaction</title>
+      <link>https://wafajohal.github.io/publication/yadollahi-2020-exploring/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/yadollahi-2020-exploring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Studying the Effect of Robot Frustration on Children&#39;s Change of Perspective</title>
+      <link>https://wafajohal.github.io/publication/yadollahi-studying-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/yadollahi-studying-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When deictic gestures in a robot can harm child-robot collaboration</title>
+      <link>https://wafajohal.github.io/publication/yadollahi-2018-deictic/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/yadollahi-2018-deictic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expressing Motivations By Facilitating Other’s Inverse Reinforcement Learning</title>
+      <link>https://wafajohal.github.io/publication/jacq-2017-expressing/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/jacq-2017-expressing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workshop on Robots for Learning: R4L</title>
+      <link>https://wafajohal.github.io/publication/johal-2017-workshop/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/johal-2017-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Child-robot spatial arrangement in a learning by teaching activity</title>
+      <link>https://wafajohal.github.io/publication/johal-2016-child/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/johal-2016-child/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cognitive architecture for mutual modelling</title>
+      <link>https://wafajohal.github.io/publication/jacq-2016-cognitive/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/jacq-2016-cognitive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
