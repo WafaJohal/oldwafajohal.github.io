@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Friedhelm C Hummel | Wafa Johal</title>
+    <link>https://wafajohal.github.io/authors/friedhelm-c-hummel/</link>
+      <atom:link href="https://wafajohal.github.io/authors/friedhelm-c-hummel/index.xml" rel="self" type="application/rss+xml" />
+    <description>Friedhelm C Hummel</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wafajohal.github.io/img/site-icon.png</url>
+      <title>Friedhelm C Hummel</title>
+      <link>https://wafajohal.github.io/authors/friedhelm-c-hummel/</link>
+    </image>
+    
+    <item>
+      <title>Designing Configurable Arm Rehabilitation Games: How Do Different Game Elements Affect User Motion Trajectories?</title>
+      <link>https://wafajohal.github.io/publication/ozgur-designing-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/ozgur-designing-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards an Adaptive Upper Limb Rehabilitation Game with Tangible Robots</title>
+      <link>https://wafajohal.github.io/publication/ozgur-2019-towards/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/ozgur-2019-towards/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paul Baxter | Wafa Johal</title>
+    <link>https://wafajohal.github.io/authors/paul-baxter/</link>
+      <atom:link href="https://wafajohal.github.io/authors/paul-baxter/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paul Baxter</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wafajohal.github.io/img/site-icon.png</url>
+      <title>Paul Baxter</title>
+      <link>https://wafajohal.github.io/authors/paul-baxter/</link>
+    </image>
+    
+    <item>
+      <title>The near future of children&#39;s robotics</title>
+      <link>https://wafajohal.github.io/publication/charisi-2018-near/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/charisi-2018-near/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

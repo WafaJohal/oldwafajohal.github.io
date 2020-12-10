@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>robots4learning | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/robots4learning/</link>
+      <atom:link href="https://wafajohal.github.io/tags/robots4learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>robots4learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 22 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wafajohal.github.io/img/site-icon.png</url>
+      <title>robots4learning</title>
+      <link>https://wafajohal.github.io/tags/robots4learning/</link>
+    </image>
+    
+    <item>
+      <title>UC San Diego, California, USA, November 2019</title>
+      <link>https://wafajohal.github.io/talk/ucsandiego_hrimini2019/</link>
+      <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/talk/ucsandiego_hrimini2019/</guid>
+      <description>&lt;p&gt;I gave a short talk at the HRI Mini symposium on Orchestration of Robot Populated Classrooms, a recent work started with &lt;a href=&#34;https://wafajohal.github.io/authors/sina-shahmoradi/&#34;&gt;Sina Shahmoradi&lt;/a&gt;, &lt;a href=&#34;https://wafajohal.github.io/authors/jauwairia-nasir/&#34;&gt;Jauwairia Nasir&lt;/a&gt; and &lt;a href=&#34;https://wafajohal.github.io/authors/utku-norman/&#34;&gt;Utku Norman&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vTnhl9vGI8PfwTmAdzq8uh9axoV-atvvN87Xrlt4_ctt5YNDIO-mZbe4O9McfIyGlaQ2Vierw7k9tXO/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Organising a Winter School on Developing Technologies in Educational Settings</title>
+      <link>https://wafajohal.github.io/post/edtech-winterschool/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/post/edtech-winterschool/</guid>
+      <description>&lt;p&gt;22 participants attended the 4 days training event at EPFL on Developing Technologies in Educational Settings.
+The winter school recieved the support of the NCCR Robotcs and the Animatas H2020 EU project.
+We had invited great speakers and got excellent feedback from the participants.
+I specially wanted to thank Florence Colomb, Dr. Jennifer Olsen, Prof. Pierre Dillenourg, Dr. Catharine Oertel, Utku Norman, Jauwairia Nasir and Sina Shahmodari for helping me organising the event.&lt;/p&gt;
+&lt;p&gt;The official page of the winter school is here:
+&lt;a href=&#34;https://chili.epfl.ch/digital_learning_ws/&#34;&gt;https://chili.epfl.ch/digital_learning_ws/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

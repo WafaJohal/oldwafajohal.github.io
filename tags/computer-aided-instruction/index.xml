@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer aided instruction | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/computer-aided-instruction/</link>
+      <atom:link href="https://wafajohal.github.io/tags/computer-aided-instruction/index.xml" rel="self" type="application/rss+xml" />
+    <description>computer aided instruction</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wafajohal.github.io/img/site-icon.png</url>
+      <title>computer aided instruction</title>
+      <link>https://wafajohal.github.io/tags/computer-aided-instruction/</link>
+    </image>
+    
+    <item>
+      <title>Augmented Robotics for Learners: A Case Study on Optics</title>
+      <link>https://wafajohal.github.io/publication/johal-augmented-2019/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/johal-augmented-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
