@@ -262,6 +262,11 @@
   </url>
   
   <url>
+    <loc>https://wafajohal.github.io/tags/haptic/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wafajohal.github.io/tags/haptic-interface/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -283,6 +288,11 @@
   
   <url>
     <loc>https://wafajohal.github.io/tags/interactive-learning-environments/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wafajohal.github.io/tags/interactive-learning/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -364,6 +374,11 @@
   <url>
     <loc>https://wafajohal.github.io/authors/salvatore-m.-anzalone/</loc>
     <lastmod>2020-11-02T15:21:57+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wafajohal.github.io/tags/tangible-robot/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -527,6 +542,11 @@
   </url>
   
   <url>
+    <loc>https://wafajohal.github.io/tags/experiment/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wafajohal.github.io/tags/experimental-group/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url>
@@ -548,11 +568,6 @@
   
   <url>
     <loc>https://wafajohal.github.io/tags/infrared-sensors/</loc>
-    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wafajohal.github.io/tags/interactive-learning/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -1257,11 +1272,6 @@
   </url>
   
   <url>
-    <loc>https://wafajohal.github.io/tags/haptic/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://wafajohal.github.io/tags/home-assistant/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
@@ -1293,11 +1303,6 @@
   
   <url>
     <loc>https://wafajohal.github.io/tags/swarm/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wafajohal.github.io/tags/tangible-robot/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -1452,6 +1457,11 @@
   </url>
   
   <url>
+    <loc>https://wafajohal.github.io/authors/wafa-benkaouar/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wafajohal.github.io/authors/wafa-benkaouar-johal/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -1527,11 +1537,6 @@
   </url>
   
   <url>
-    <loc>https://wafajohal.github.io/authors/wafa-benkaouar/</loc>
-    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://wafajohal.github.io/authors/admin/</loc>
   </url>
   
@@ -1565,10 +1570,6 @@
   
   <url>
     <loc>https://wafajohal.github.io/tags/cse-honours/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wafajohal.github.io/tags/experiment/</loc>
   </url>
   
   <url>
