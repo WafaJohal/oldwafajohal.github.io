@@ -5,12 +5,20 @@
     <link>https://wafajohal.github.io/</link>
       <atom:link href="https://wafajohal.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Wafa Johal</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Mon, 11 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wafajohal.github.io/img/site-icon.png</url>
       <title>Wafa Johal</title>
       <link>https://wafajohal.github.io/</link>
     </image>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://wafajohal.github.io/slides/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/slides/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>News</title>
@@ -39,7 +47,7 @@
     <item>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://wafajohal.github.io/talk/</link>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/talk/</guid>
       <description></description>
     </item>
