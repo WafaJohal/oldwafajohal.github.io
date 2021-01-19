@@ -29,6 +29,15 @@
     </item>
     
     <item>
+      <title>CoWriter</title>
+      <link>https://wafajohal.github.io/project/cowriter/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/project/cowriter/</guid>
+      <description>&lt;p&gt;In the CoWriter Project, we explore how the learning by teaching approach can be employed to motivate children to practice their handwriting skills with a small humanoid robot.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>CoWriting Kazakh</title>
       <link>https://wafajohal.github.io/project/cowriting_kazakh/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
@@ -39,14 +48,6 @@
 &lt;p&gt;With this Seed Funding Grant, we propose to initiate this collaboration via two main phases: 1) data collection required for adapting Kazakh language in both alphabets into the CoWriter and 2) implementation of the &amp;ldquo;CoWriting Kazakh&amp;rdquo; child-robot interaction activity.&lt;/p&gt;
 &lt;p&gt;The data collection phase includes collecting children’s handwriting data using a Wacom tablet. This data is required for training the CoWriter’s learning algorithm. Then we propose to adapt the CoWriter to the Kazakh alphabet and to explore whether it is the best approach to start the switch from the first graders in comparison to children who already know some English as the Latin alphabet might be easier for them. The implementation phase also includes the CoWriter’s deployment by conducting a series of experiments with children and teachers investigating cross-cultural differences in the classrooms.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Tegami</title>
-      <link>https://wafajohal.github.io/project/tegami/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://wafajohal.github.io/project/tegami/</guid>
-      <description></description>
     </item>
     
     <item>
