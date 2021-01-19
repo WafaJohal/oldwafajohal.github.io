@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dynamico | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/dynamico/</link>
+      <atom:link href="https://wafajohal.github.io/tags/dynamico/index.xml" rel="self" type="application/rss+xml" />
+    <description>dynamico</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wafajohal.github.io/img/site-icon.png</url>
+      <title>dynamico</title>
+      <link>https://wafajohal.github.io/tags/dynamico/</link>
+    </image>
+    
+    <item>
+      <title>Dynamico</title>
+      <link>https://wafajohal.github.io/project/cowriter/dynamico/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/project/cowriter/dynamico/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
