@@ -5,12 +5,44 @@
     <link>https://wafajohal.github.io/tags/</link>
       <atom:link href="https://wafajohal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wafajohal.github.io/img/site-icon.png</url>
       <title>Tags</title>
       <link>https://wafajohal.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>&#34;anthropomorphism&#34;</title>
+      <link>https://wafajohal.github.io/tags/anthropomorphism/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/anthropomorphism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;human-likeness&#34;</title>
+      <link>https://wafajohal.github.io/tags/human-likeness/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/human-likeness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;perception load&#34;</title>
+      <link>https://wafajohal.github.io/tags/perception-load/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/perception-load/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;robot design&#34;</title>
+      <link>https://wafajohal.github.io/tags/robot-design/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/robot-design/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>learning</title>
@@ -37,14 +69,6 @@
     </item>
     
     <item>
-      <title>education</title>
-      <link>https://wafajohal.github.io/tags/education/</link>
-      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://wafajohal.github.io/tags/education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>cellulo</title>
       <link>https://wafajohal.github.io/tags/cellulo/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
@@ -65,6 +89,102 @@
       <link>https://wafajohal.github.io/tags/cowriting_kazakh/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/tags/cowriting_kazakh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;3D model&#34;</title>
+      <link>https://wafajohal.github.io/tags/3d-model/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/3d-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;educational tool&#34;</title>
+      <link>https://wafajohal.github.io/tags/educational-tool/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/educational-tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;Game&#34;</title>
+      <link>https://wafajohal.github.io/tags/game/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;Haptics&#34;</title>
+      <link>https://wafajohal.github.io/tags/haptics/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/haptics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;literature review&#34;</title>
+      <link>https://wafajohal.github.io/tags/literature-review/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/literature-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;Maps&#34;</title>
+      <link>https://wafajohal.github.io/tags/maps/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/maps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;multi-robot&#34;</title>
+      <link>https://wafajohal.github.io/tags/multi-robot/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/multi-robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;Non-visual interaction&#34;</title>
+      <link>https://wafajohal.github.io/tags/non-visual-interaction/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/non-visual-interaction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;Robots&#34;</title>
+      <link>https://wafajohal.github.io/tags/robots/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/robots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;Spatial cognition&#34;</title>
+      <link>https://wafajohal.github.io/tags/spatial-cognition/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/spatial-cognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;swarm robots&#34;</title>
+      <link>https://wafajohal.github.io/tags/swarm-robots/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/swarm-robots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;Wayfinding&#34;</title>
+      <link>https://wafajohal.github.io/tags/wayfinding/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/wayfinding/</guid>
       <description></description>
     </item>
     
@@ -101,14 +221,6 @@
     </item>
     
     <item>
-      <title>haptic</title>
-      <link>https://wafajohal.github.io/tags/haptic/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://wafajohal.github.io/tags/haptic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Haptic interface</title>
       <link>https://wafajohal.github.io/tags/haptic-interface/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
@@ -129,14 +241,6 @@
       <link>https://wafajohal.github.io/tags/interactive-learning-environments/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/tags/interactive-learning-environments/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>interactive learning</title>
-      <link>https://wafajohal.github.io/tags/interactive-learning/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://wafajohal.github.io/tags/interactive-learning/</guid>
       <description></description>
     </item>
     
@@ -193,14 +297,6 @@
       <link>https://wafajohal.github.io/tags/robots-for-education/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/tags/robots-for-education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tangible robot</title>
-      <link>https://wafajohal.github.io/tags/tangible-robot/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://wafajohal.github.io/tags/tangible-robot/</guid>
       <description></description>
     </item>
     
@@ -349,18 +445,18 @@
     </item>
     
     <item>
-      <title>educational robots</title>
-      <link>https://wafajohal.github.io/tags/educational-robots/</link>
+      <title>education</title>
+      <link>https://wafajohal.github.io/tags/education/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://wafajohal.github.io/tags/educational-robots/</guid>
+      <guid>https://wafajohal.github.io/tags/education/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>experiment</title>
-      <link>https://wafajohal.github.io/tags/experiment/</link>
+      <title>educational robots</title>
+      <link>https://wafajohal.github.io/tags/educational-robots/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://wafajohal.github.io/tags/experiment/</guid>
+      <guid>https://wafajohal.github.io/tags/educational-robots/</guid>
       <description></description>
     </item>
     
@@ -393,6 +489,14 @@
       <link>https://wafajohal.github.io/tags/infrared-sensors/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/tags/infrared-sensors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>interactive learning</title>
+      <link>https://wafajohal.github.io/tags/interactive-learning/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/interactive-learning/</guid>
       <description></description>
     </item>
     
@@ -517,6 +621,14 @@
     </item>
     
     <item>
+      <title>haptic</title>
+      <link>https://wafajohal.github.io/tags/haptic/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/haptic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>home assistant</title>
       <link>https://wafajohal.github.io/tags/home-assistant/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
@@ -557,6 +669,14 @@
     </item>
     
     <item>
+      <title>tangible robot</title>
+      <link>https://wafajohal.github.io/tags/tangible-robot/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/tangible-robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>active</title>
       <link>https://wafajohal.github.io/tags/active/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -593,6 +713,14 @@
       <link>https://wafajohal.github.io/tags/cse-honours/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/tags/cse-honours/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>experiment</title>
+      <link>https://wafajohal.github.io/tags/experiment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/experiment/</guid>
       <description></description>
     </item>
     
