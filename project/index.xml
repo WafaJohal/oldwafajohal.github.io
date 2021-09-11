@@ -5,12 +5,23 @@
     <link>https://wafajohal.github.io/project/</link>
       <atom:link href="https://wafajohal.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wafajohal.github.io/img/site-icon.png</url>
       <title>Projects</title>
       <link>https://wafajohal.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Join the Group</title>
+      <link>https://wafajohal.github.io/project/join_the_group/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/project/join_the_group/</guid>
+      <description>&lt;p&gt;Enabling robots to navigate in indoors environments in a safe and socially acceptable manner around groups of humans is still an open research area. Socially aware navigation considers the multi-modal assessment of the group dynamics, group formation inferring, path planning, real-time path adaptation, and human-robot communication.
+Up to now the research in the field has considered a couple of classical scenarios such as crossing a group in a corridor or passing a door. Limitations in terms of lack of realistic datasets is often mentioned in the field. In this research project, we will aim to design several scenarios involving groups of humans in realistic settings. Our work will focus on three main tasks for the robot: 1) approach and join a group, 2) passing by a group and 3) greeting a group. A first step of the project will be to \textbf{record a novel dataset} with rich interactions between the humans (H-H scenarios) and between humans and a teleoperated robot (H-R scenarios). The dataset will be collected at the HRI facility allowing multimodal synchronous recording. After that, a \textbf{new model for path planning} will be developed. For the model, we will explore rule-based constraints (i.e. not passing between two persons speaking together) and learned constrained using the dataset recorded to infer implicit social norms. Finally, the \textbf{model will be tested} empirically with new users in which the robot will have to take real-time path planning decisions.&lt;/p&gt;
+&lt;h2 id=&#34;call-for-participation-to-experiment&#34;&gt;Call for participation to experiment&lt;/h2&gt;
+</description>
+    </item>
     
     <item>
       <title>HURL</title>
@@ -34,6 +45,14 @@
       <description>&lt;p&gt;Nearly 8% of children between 4 and 12 are dysgraphic or encounter serious difficulties in learning handwriting. Dysgraphia, just like dyslexia, can seriously impair the everyday school life of children and have damageable impact on their academic achievements. The detection of such difficulties should be done as soon as possible to minimize its effect on the child’s school performances. And an adaptive remediation should be provided. The CHILI Lab at EPFL showed how a robotic co-learner agent could have positive effects on the child&amp;rsquo;s motivation to practice handwriting. However, motivation is only one aspect that needs to be taken into account in order to provide a long-term adaptive training experience for children learning how to write.&lt;/p&gt;
 &lt;p&gt;In the iReCHeCk project, we propose a finer characterization of handwriting, as a multimodal activity, taking into account the body posture to capture important features in the handwriting process. We will develop engaging training activities with a robot to monitor the learning status of the child, allowing therapists to evaluate progresses, while adapting the robot&amp;rsquo;s attitude and the training task to the needs of the learner. Our goal being to touch a wide range of handwriting learners, these activities will be tested on two populations: Typically Developed Children that are learning how to write at school; Children with Neuro-Developmental Disorders, presenting handwriting difficulties along with other disorders (i.e. attentional, autistic).&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://wafajohal.github.io/project/under_grad_past_projects/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/project/under_grad_past_projects/</guid>
+      <description></description>
     </item>
     
     <item>

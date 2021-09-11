@@ -5,12 +5,36 @@
     <link>https://wafajohal.github.io/tags/</link>
       <atom:link href="https://wafajohal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wafajohal.github.io/img/site-icon.png</url>
       <title>Tags</title>
       <link>https://wafajohal.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>affective computing</title>
+      <link>https://wafajohal.github.io/tags/affective-computing/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/affective-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>navigation</title>
+      <link>https://wafajohal.github.io/tags/navigation/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/navigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social robot</title>
+      <link>https://wafajohal.github.io/tags/social-robot/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/social-robot/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>&#34;anthropomorphism&#34;</title>
@@ -89,6 +113,14 @@
       <link>https://wafajohal.github.io/tags/tangible/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/tags/tangible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opencv</title>
+      <link>https://wafajohal.github.io/tags/opencv/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/opencv/</guid>
       <description></description>
     </item>
     
@@ -317,14 +349,6 @@
     </item>
     
     <item>
-      <title>social robot</title>
-      <link>https://wafajohal.github.io/tags/social-robot/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://wafajohal.github.io/tags/social-robot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>tangible robots</title>
       <link>https://wafajohal.github.io/tags/tangible-robots/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
@@ -413,14 +437,6 @@
     </item>
     
     <item>
-      <title>Augmented Reality</title>
-      <link>https://wafajohal.github.io/tags/augmented-reality/</link>
-      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://wafajohal.github.io/tags/augmented-reality/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>augmented reality representations</title>
       <link>https://wafajohal.github.io/tags/augmented-reality-representations/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
@@ -433,6 +449,14 @@
       <link>https://wafajohal.github.io/tags/augmented-robotics/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/tags/augmented-robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>augmented-reality</title>
+      <link>https://wafajohal.github.io/tags/augmented-reality/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/tags/augmented-reality/</guid>
       <description></description>
     </item>
     
@@ -633,14 +657,6 @@
       <link>https://wafajohal.github.io/tags/visual-attention/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/tags/visual-attention/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>affective computing</title>
-      <link>https://wafajohal.github.io/tags/affective-computing/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://wafajohal.github.io/tags/affective-computing/</guid>
       <description></description>
     </item>
     

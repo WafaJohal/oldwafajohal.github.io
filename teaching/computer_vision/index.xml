@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>📚 Courses on Computer Vision | Wafa Johal</title>
+    <link>https://wafajohal.github.io/teaching/computer_vision/</link>
+      <atom:link href="https://wafajohal.github.io/teaching/computer_vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>📚 Courses on Computer Vision</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Thu, 09 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wafajohal.github.io/img/site-icon.png</url>
+      <title>📚 Courses on Computer Vision</title>
+      <link>https://wafajohal.github.io/teaching/computer_vision/</link>
+    </image>
+    
+    <item>
+      <title>Week1 - Image Formatiion</title>
+      <link>https://wafajohal.github.io/teaching/computer_vision/week1/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/teaching/computer_vision/week1/</guid>
+      <description>&lt;h3 id=&#34;list-of-demo-for-week-1&#34;&gt;List of demo for Week 1&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Week2</title>
+      <link>https://wafajohal.github.io/teaching/computer_vision/week2/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/teaching/computer_vision/week2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

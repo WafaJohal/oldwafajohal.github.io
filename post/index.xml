@@ -5,12 +5,22 @@
     <link>https://wafajohal.github.io/post/</link>
       <atom:link href="https://wafajohal.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Wed, 17 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wafajohal.github.io/img/site-icon.png</url>
       <title>News</title>
       <link>https://wafajohal.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>🏆 GROW Faculty Engineering Grant - Awarded!</title>
+      <link>https://wafajohal.github.io/post/grow2021/</link>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/post/grow2021/</guid>
+      <description>&lt;p&gt;I have been awarded 20,000AUD by the Faculty of Engineering to start a new prject called GIRL &amp;ldquo;Gamified and Interactive Robot Learning&amp;rdquo;.
+I really look forward to starting to work on this.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>📣 2 PhD Positions in Human-Robot Interaction 🤖</title>
