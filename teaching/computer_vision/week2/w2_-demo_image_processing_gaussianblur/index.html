@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="import cv2 import numpy as np from matplotlib import pyplot as plt img = cv2.imread(&#39;noisyImg_1.jpg&#39;,1) #convert BGR to RGB img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) plt.imshow(img) &lt;matplotlib.image.AxesImage at 0x1de43671b70&gt;  #Gaussian filtering blur = cv2.GaussianBlur(img,(5,5),3) plt.imshow(blur) &lt;matplotlib.image.AxesImage at 0x1de437332e8&gt;  cv2.getGaussianKernel? [1;31mDocstring:[0m getGaussianKernel(ksize, sigma[, ktype]) -&gt; retval . @brief Returns Gaussian filter coefficients. . . The function computes and returns the \f$\texttt{ksize} \times 1\f$ matrix of Gaussian filter . coefficients: . . \f[G_i= \alpha *e^{-(i-( \texttt{ksize} -1)/2)^2/(2* \texttt{sigma}^2)},\f] .">
+  <meta name="description" content="    ">
 
   
   <link rel="alternate" hreflang="en-us" href="https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/">
@@ -114,12 +114,14 @@
   
   <meta property="og:site_name" content="Wafa Johal">
   <meta property="og:url" content="https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/">
-  <meta property="og:title" content=" | Wafa Johal">
-  <meta property="og:description" content="import cv2 import numpy as np from matplotlib import pyplot as plt img = cv2.imread(&#39;noisyImg_1.jpg&#39;,1) #convert BGR to RGB img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) plt.imshow(img) &lt;matplotlib.image.AxesImage at 0x1de43671b70&gt;  #Gaussian filtering blur = cv2.GaussianBlur(img,(5,5),3) plt.imshow(blur) &lt;matplotlib.image.AxesImage at 0x1de437332e8&gt;  cv2.getGaussianKernel? [1;31mDocstring:[0m getGaussianKernel(ksize, sigma[, ktype]) -&gt; retval . @brief Returns Gaussian filter coefficients. . . The function computes and returns the \f$\texttt{ksize} \times 1\f$ matrix of Gaussian filter . coefficients: . . \f[G_i= \alpha *e^{-(i-( \texttt{ksize} -1)/2)^2/(2* \texttt{sigma}^2)},\f] ."><meta property="og:image" content="https://wafajohal.github.io/img/site-icon.png">
+  <meta property="og:title" content="Demo Gaussian Blur | Wafa Johal">
+  <meta property="og:description" content="    "><meta property="og:image" content="https://wafajohal.github.io/img/site-icon.png">
   <meta property="twitter:image" content="https://wafajohal.github.io/img/site-icon.png"><meta property="og:locale" content="en-us">
   
     
+      <meta property="article:published_time" content="2020-01-01T00:00:00&#43;00:00">
     
+    <meta property="article:modified_time" content="2020-01-01T00:00:00&#43;00:00">
   
 
   
@@ -138,7 +140,7 @@
 
 
 
-  <title> | Wafa Johal</title>
+  <title>Demo Gaussian Blur | Wafa Johal</title>
 
 </head>
 
@@ -418,7 +420,7 @@
   
   
 <div class="article-container pt-3">
-  <h1></h1>
+  <h1>Demo Gaussian Blur</h1>
 
   
 
@@ -460,7 +462,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=http://wafa.johal.orghttps://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/&amp;text=" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=http://wafa.johal.orghttps://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/&amp;text=Demo%20Gaussian%20Blur" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -473,7 +475,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=http://wafa.johal.orghttps://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/&amp;title=" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=http://wafa.johal.orghttps://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/&amp;title=Demo%20Gaussian%20Blur" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -521,13 +523,13 @@ img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>
 plt<span style="color:#f92672">.</span>imshow(img)
 </code></pre></div><pre><code>&lt;matplotlib.image.AxesImage at 0x1de43671b70&gt;
 </code></pre>
-<p><img src="output_1_1.png" alt="png"></p>
+<p><img src="/img/teaching/computer_vision/week2/gaussian_blur/output_1_1.png" alt="png"></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#Gaussian filtering</span>
 blur <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>GaussianBlur(img,(<span style="color:#ae81ff">5</span>,<span style="color:#ae81ff">5</span>),<span style="color:#ae81ff">3</span>)
 plt<span style="color:#f92672">.</span>imshow(blur)
 </code></pre></div><pre><code>&lt;matplotlib.image.AxesImage at 0x1de437332e8&gt;
 </code></pre>
-<p><img src="output_2_1.png" alt="png"></p>
+<p><img src="/img/teaching/computer_vision/week2/gaussian_blur/output_2_1.png" alt="png"></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">cv2<span style="color:#f92672">.</span>getGaussianKernel<span style="color:#960050;background-color:#1e0010">?</span>
 </code></pre></div><pre><code>[1;31mDocstring:[0m
 getGaussianKernel(ksize, sigma[, ktype]) -&gt; retval
@@ -570,7 +572,7 @@ plt<span style="color:#f92672">.</span>show()
  [0.03751576 0.04431963 0.04685151 0.04431963 0.03751576]
  [0.0317564  0.03751576 0.03965895 0.03751576 0.0317564 ]]
 </code></pre>
-<p><img src="output_4_1.png" alt="png"></p>
+<p><img src="/img/teaching/computer_vision/week2/gaussian_blur/output_4_1.png" alt="png"></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">blur2 <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>filter2D(img,<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>,GM)
 </code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#show original and filtered images</span>
 plt<span style="color:#f92672">.</span>figure(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">10</span>))
@@ -581,7 +583,7 @@ plt<span style="color:#f92672">.</span>xticks([]), plt<span style="color:#f92672
 plt<span style="color:#f92672">.</span>subplot(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">3</span>),plt<span style="color:#f92672">.</span>imshow(blur2),plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#39;Blurred 2&#39;</span>)
 plt<span style="color:#f92672">.</span>xticks([]), plt<span style="color:#f92672">.</span>yticks([])
 plt<span style="color:#f92672">.</span>show()
-</code></pre></div><p><img src="output_6_0.png" alt="png"></p>
+</code></pre></div><p><img src="/img/teaching/computer_vision/week2/gaussian_blur/output_6_0.png" alt="png"></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
 </code></pre></div>
     </div>
@@ -590,6 +592,12 @@ plt<span style="color:#f92672">.</span>show()
 
 
     
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/opencv/">opencv</a>
+  
+</div>
 
 
 
@@ -633,6 +641,22 @@ plt<span style="color:#f92672">.</span>show()
 
 
       
+      
+      <div class="article-widget">
+        <div class="hr-light"></div>
+        <h3>Related</h3>
+        <ul>
+          
+          <li><a href="/teaching/computer_vision/week1/w1_demo1_image_formation_opencvbasics/">Demo 1 OpenCV Basics</a></li>
+          
+          <li><a href="/teaching/computer_vision/week1/w1_demo2_image_formation_colorspaces/">Demo 2 Color Spaces</a></li>
+          
+          <li><a href="/teaching/computer_vision/week2/w2_-demo_image_processing_bitplanes/">Demo Bit-Planes</a></li>
+          
+          <li><a href="/teaching/computer_vision/week2/w2_-demo_image_processing_fourier_smoothing/">Demo Fourier Transform and Frequency filtering</a></li>
+          
+        </ul>
+      </div>
       
     
 

@@ -116,7 +116,7 @@
   
   <meta property="og:site_name" content="Wafa Johal">
   <meta property="og:url" content="https://wafajohal.github.io/teaching/computer_vision/week2/">
-  <meta property="og:title" content="Week2 | Wafa Johal">
+  <meta property="og:title" content="Week2 - Image Processing | Wafa Johal">
   <meta property="og:description" content="Demos for week 2"><meta property="og:image" content="https://wafajohal.github.io/img/site-icon.png">
   <meta property="twitter:image" content="https://wafajohal.github.io/img/site-icon.png"><meta property="og:locale" content="en-us">
   
@@ -137,7 +137,7 @@
 
 
 
-  <title>Week2 | Wafa Johal</title>
+  <title>Week2 - Image Processing | Wafa Johal</title>
 
 </head>
 
@@ -417,7 +417,7 @@
     
   
 <div class="universal-wrapper pt-3">
-  <h1>Week2</h1>
+  <h1>Week2 - Image Processing</h1>
 
   
 
@@ -435,6 +435,15 @@
   
   
   <div>
+    <h2><a href="/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/">Demo Gaussian Blur</a></h2>
+    <div class="article-style">
+      
+          
+      
+    </div>
+  </div>
+  
+  <div>
     <h2><a href="/teaching/computer_vision/week2/w2_-demo_image_processing_bitplanes/">Demo Bit-Planes</a></h2>
     <div class="article-style">
       
@@ -444,19 +453,10 @@
   </div>
   
   <div>
-    <h2><a href="/teaching/computer_vision/week2/w2_-demo_image_processing_fourier_smoothing/">Demo Fourier Transform &#43; Frequency filtering</a></h2>
+    <h2><a href="/teaching/computer_vision/week2/w2_-demo_image_processing_fourier_smoothing/">Demo Fourier Transform and Frequency filtering</a></h2>
     <div class="article-style">
       
         
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/"></a></h2>
-    <div class="article-style">
-      
-      import cv2 import numpy as np from matplotlib import pyplot as plt img = cv2.imread(&#39;noisyImg_1.jpg&#39;,1) #convert BGR to RGB img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) plt.imshow(img) &lt;matplotlib.image.AxesImage at 0x1de43671b70&gt;  #Gaussian filtering blur = cv2.GaussianBlur(img,(5,5),3) plt.imshow(blur) &lt;matplotlib.image.AxesImage at 0x1de437332e8&gt;  cv2.getGaussianKernel? [1;31mDocstring:[0m getGaussianKernel(ksize, sigma[, ktype]) -&gt; retval . @brief Returns Gaussian filter coefficients. . . The function computes and returns the \f$\texttt{ksize} \times 1\f$ matrix of Gaussian filter . coefficients: . . \f[G_i= \alpha *e^{-(i-( \texttt{ksize} -1)/2)^2/(2* \texttt{sigma}^2)},\f] .
       
     </div>
   </div>
