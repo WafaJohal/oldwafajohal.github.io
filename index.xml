@@ -5,7 +5,11 @@
     <link>https://wafajohal.github.io/</link>
       <atom:link href="https://wafajohal.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Wafa Johal</description>
+<<<<<<< HEAD
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Thu, 09 Sep 2021 00:00:00 +0000</lastBuildDate>
+=======
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate>
+>>>>>>> 2e28fee3eb4f05e556faebbcd636719c5e49cc3c
     <image>
       <url>https://wafajohal.github.io/img/site-icon.png</url>
       <title>Wafa Johal</title>
@@ -13,14 +17,12 @@
     </image>
     
     <item>
+<<<<<<< HEAD
       <title>Teachings</title>
       <link>https://wafajohal.github.io/teaching/</link>
       <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/teaching/</guid>
-      <description></description>
-    </item>
-    
-    <item>
+=======
       <title>News</title>
       <link>https://wafajohal.github.io/post/</link>
       <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
@@ -29,6 +31,34 @@
     </item>
     
     <item>
+      <title>Slides</title>
+      <link>https://wafajohal.github.io/slides/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/slides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://wafajohal.github.io/publication/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/</guid>
+>>>>>>> 2e28fee3eb4f05e556faebbcd636719c5e49cc3c
+      <description></description>
+    </item>
+    
+    <item>
+<<<<<<< HEAD
+      <title>News</title>
+      <link>https://wafajohal.github.io/post/</link>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+=======
+>>>>>>> 2e28fee3eb4f05e556faebbcd636719c5e49cc3c
       <title>Projects</title>
       <link>https://wafajohal.github.io/project/</link>
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
