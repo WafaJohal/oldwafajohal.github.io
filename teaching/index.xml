@@ -13,12 +13,20 @@
     </image>
     
     <item>
-      <title>📚 Courses on Computer Vision</title>
+      <title>👁️ Course on Computer Vision</title>
       <link>https://wafajohal.github.io/teaching/computer_vision/</link>
       <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/teaching/computer_vision/</guid>
-      <description>&lt;p&gt;Explore our courses below and expand your knowledge!&lt;/p&gt;
+      <description>&lt;p&gt;Demos for COMP9517 Computer Vision&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>🤖 Resources for Human-Robot Interaction</title>
+      <link>https://wafajohal.github.io/teaching/human-robot-interaction/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/teaching/human-robot-interaction/</guid>
+      <description></description>
     </item>
     
   </channel>

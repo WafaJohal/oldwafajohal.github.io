@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gelareh Mohammadi | Wafa Johal</title>
+    <link>https://wafajohal.github.io/authors/gelareh-mohammadi/</link>
+      <atom:link href="https://wafajohal.github.io/authors/gelareh-mohammadi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gelareh Mohammadi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wafajohal.github.io/img/site-icon.png</url>
+      <title>Gelareh Mohammadi</title>
+      <link>https://wafajohal.github.io/authors/gelareh-mohammadi/</link>
+    </image>
+    
+    <item>
+      <title>Speech-Based Gesture Generation for Robots and Embodied Agents: A Scoping Review</title>
+      <link>https://wafajohal.github.io/publication/liu-2021-speech/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/liu-2021-speech/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

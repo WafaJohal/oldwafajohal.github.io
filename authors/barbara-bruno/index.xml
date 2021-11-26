@@ -5,12 +5,20 @@
     <link>https://wafajohal.github.io/authors/barbara-bruno/</link>
       <atom:link href="https://wafajohal.github.io/authors/barbara-bruno/index.xml" rel="self" type="application/rss+xml" />
     <description>Barbara Bruno</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wafajohal.github.io/img/site-icon.png</url>
       <title>Barbara Bruno</title>
       <link>https://wafajohal.github.io/authors/barbara-bruno/</link>
     </image>
+    
+    <item>
+      <title>Robots for Learning - Learner-Centred Design</title>
+      <link>https://wafajohal.github.io/publication/johal-2021-r-4-l/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/johal-2021-r-4-l/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Iterative Design and Evaluation of a Tangible Robot-Assisted Handwriting Activity for Special Education</title>

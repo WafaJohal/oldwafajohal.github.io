@@ -5,12 +5,20 @@
     <link>https://wafajohal.github.io/tags/hri/</link>
       <atom:link href="https://wafajohal.github.io/tags/hri/index.xml" rel="self" type="application/rss+xml" />
     <description>hri</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wafajohal.github.io/img/site-icon.png</url>
       <title>hri</title>
       <link>https://wafajohal.github.io/tags/hri/</link>
     </image>
+    
+    <item>
+      <title>List of Typical Questionnaires used in HRI</title>
+      <link>https://wafajohal.github.io/teaching/human-robot-interaction/questionnaires/questionnaires/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/teaching/human-robot-interaction/questionnaires/questionnaires/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Machine Learning for Social Interaction Modelling</title>

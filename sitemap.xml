@@ -23,7 +23,7 @@
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/</loc>
-    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/teaching/computer_vision/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
@@ -50,16 +50,28 @@
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/tags/social-robot/</loc>
-    <lastmod>2021-02-28T09:32:21+11:00</lastmod>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/tags/</loc>
-    <lastmod>2021-02-28T09:32:21+11:00</lastmod>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/tags/anthropomorphism/</loc>
     <lastmod>2021-01-19T16:36:09+11:00</lastmod>
   </url><url>
+    <loc>https://wafajohal.github.io/tags/co-speech-gestures/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/gesture-generation/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
     <loc>https://wafajohal.github.io/tags/human-likeness/</loc>
     <lastmod>2021-01-19T16:36:09+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/literature-review/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/nao/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/tags/perception-load/</loc>
     <lastmod>2021-01-19T16:36:09+11:00</lastmod>
@@ -67,20 +79,41 @@
     <loc>https://wafajohal.github.io/tags/robot-design/</loc>
     <lastmod>2021-01-19T16:36:09+11:00</lastmod>
   </url><url>
+    <loc>https://wafajohal.github.io/tags/robot-in-education/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/robots-for-learning/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/scoping-review/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/survey/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
     <loc>https://wafajohal.github.io/publication_types/1/</loc>
-    <lastmod>2021-02-28T09:32:21+11:00</lastmod>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/amirova-2021-nao/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/publication_types/2/</loc>
-    <lastmod>2021-02-28T09:32:21+11:00</lastmod>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/categories/2/</loc>
     <lastmod>2021-02-28T09:32:21+11:00</lastmod>
   </url><url>
+    <loc>https://wafajohal.github.io/authors/aida-amirova/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
     <loc>https://wafajohal.github.io/authors/anara-sandygulova/</loc>
-    <lastmod>2021-02-28T09:32:21+11:00</lastmod>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/authors/</loc>
-    <lastmod>2021-04-12T15:02:19+10:00</lastmod>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/barbara-bruno/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/authors/bolat-tleubayev/</loc>
     <lastmod>2021-02-28T09:32:21+11:00</lastmod>
@@ -97,17 +130,47 @@
     <loc>https://wafajohal.github.io/authors/daisy-ingle/</loc>
     <lastmod>2021-01-19T16:36:09+11:00</lastmod>
   </url><url>
+    <loc>https://wafajohal.github.io/authors/elmira-yadollahi/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/gelareh-mohammadi/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/human-robot-interaction/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/jennifer-k.-olsen/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/mohamed-chetouani/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
     <loc>https://wafajohal.github.io/authors/nadine-marcus/</loc>
     <lastmod>2021-01-19T16:36:09+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/nazerke-rakhymbayeva/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/authors/pierre-dillenbourg/</loc>
     <lastmod>2021-02-28T09:32:21+11:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/publication_types/</loc>
-    <lastmod>2021-04-12T15:02:19+10:00</lastmod>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/publication/</loc>
-    <lastmod>2021-04-12T15:02:19+10:00</lastmod>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/robot/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2021-r-4-l/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/liu-2021-speech/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/severin-lemaignan/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/publication/asselborn-2021-transferability/</loc>
     <lastmod>2021-02-28T09:32:21+11:00</lastmod>
@@ -119,7 +182,13 @@
     <lastmod>2021-02-28T09:32:21+11:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/authors/wafa-johal/</loc>
-    <lastmod>2021-02-28T09:32:21+11:00</lastmod>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/yang-song/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/yu-liu/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/authors/zhanel-zhexenova/</loc>
     <lastmod>2021-02-28T09:32:21+11:00</lastmod>
@@ -132,9 +201,6 @@
   </url><url>
     <loc>https://wafajohal.github.io/tags/learning/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
-  </url><url>
-    <loc>https://wafajohal.github.io/tags/robot/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/post/decra2021/</loc>
     <lastmod>2020-12-10T00:00:00+00:00</lastmod>
@@ -205,9 +271,6 @@
     <loc>https://wafajohal.github.io/tags/haptics/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
-    <loc>https://wafajohal.github.io/tags/literature-review/</loc>
-    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
-  </url><url>
     <loc>https://wafajohal.github.io/tags/maps/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
@@ -241,9 +304,6 @@
     <loc>https://wafajohal.github.io/tags/aging/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://wafajohal.github.io/authors/aida-amirova/</loc>
-    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
-  </url><url>
     <loc>https://wafajohal.github.io/authors/aida-zhanatkyzy/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -257,9 +317,6 @@
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/authors/ayberk-ozgur/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://wafajohal.github.io/authors/barbara-bruno/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/authors/bernard-oriola/</loc>
@@ -298,9 +355,6 @@
     <loc>https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_fourier_smoothing/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://wafajohal.github.io/authors/elmira-yadollahi/</loc>
-    <lastmod>2020-11-02T15:21:57+11:00</lastmod>
-  </url><url>
     <loc>https://wafajohal.github.io/publication/yadollahi-2020-exploring/</loc>
     <lastmod>2020-11-02T15:21:57+11:00</lastmod>
   </url><url>
@@ -326,6 +380,9 @@
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/tags/healthy-ageing/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/hri/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/authors/hugues-pellerin/</loc>
@@ -361,6 +418,9 @@
     <loc>https://wafajohal.github.io/authors/laurence-casteran/</loc>
     <lastmod>2020-11-02T15:21:57+11:00</lastmod>
   </url><url>
+    <loc>https://wafajohal.github.io/teaching/human-robot-interaction/questionnaires/questionnaires/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://wafajohal.github.io/authors/m-chetouani/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
@@ -390,6 +450,9 @@
   </url><url>
     <loc>https://wafajohal.github.io/authors/quentin-chibaudel/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/questionnaire/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/tags/r4l/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
@@ -440,6 +503,9 @@
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/authors/zhansaule-telisheva/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/teaching/human-robot-interaction/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/tags/animatas/</loc>
@@ -521,9 +587,6 @@
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/authors/francesco-mondada/</loc>
-    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://wafajohal.github.io/tags/human-robot-interaction/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/tags/infrared-detectors/</loc>
@@ -731,9 +794,6 @@
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/publication/yadollahi-studying-2019/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://wafajohal.github.io/authors/severin-lemaignan/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wafajohal.github.io/publication/zolna-2019-dynamics/</loc>
@@ -1142,8 +1202,6 @@
     <loc>https://wafajohal.github.io/tags/experiment/</loc>
   </url><url>
     <loc>https://wafajohal.github.io/prospective/undergrad/fyv_2020/</loc>
-  </url><url>
-    <loc>https://wafajohal.github.io/tags/hri/</loc>
   </url><url>
     <loc>https://wafajohal.github.io/prospective/undergrad/human_action_recognition/</loc>
   </url><url>
