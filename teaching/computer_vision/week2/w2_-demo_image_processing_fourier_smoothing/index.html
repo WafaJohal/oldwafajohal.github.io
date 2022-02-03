@@ -81,7 +81,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.18b6ac536628b6630abf21fa9bde0929.css">
+  <link rel="stylesheet" href="/css/academic.min.ef76d4f57fc9dbc864921c8fd1149009.css">
 
   
 
@@ -512,10 +512,10 @@
   <div class="article-container">
 
     <div class="article-style">
-      <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> cv2
-<span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+      <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> cv2
+<span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
 <span style="color:#f92672">from</span> matplotlib <span style="color:#f92672">import</span> pyplot <span style="color:#66d9ef">as</span> plt
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#39;minion.jpg&#39;</span>,<span style="color:#ae81ff">1</span>)
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#39;minion.jpg&#39;</span>,<span style="color:#ae81ff">1</span>)
 <span style="color:#75715e">#convert BGR to RGB</span>
 img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2GRAY)
 
@@ -529,7 +529,7 @@ plt<span style="color:#f92672">.</span>subplot(<span style="color:#ae81ff">1</sp
 plt<span style="color:#f92672">.</span>hist(img<span style="color:#f92672">.</span>flatten())
 plt<span style="color:#f92672">.</span>show()
 </code></pre></div><p><img src="/img/teaching/computer_vision/week2/fourier/output_2_0.png" alt="png"></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># create the centering matrix</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># create the centering matrix</span>
 centering_m <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>full((img<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">0</span>] , img<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">1</span>]), <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)
 
 <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>,img<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">0</span>]):
@@ -544,7 +544,7 @@ plt<span style="color:#f92672">.</span>hist(centering_m<span style="color:#f9267
 plt<span style="color:#f92672">.</span>show()
 
 </code></pre></div><p><img src="/img/teaching/computer_vision/week2/fourier/output_3_0.png" alt="png"></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">centered_img <span style="color:#f92672">=</span> img <span style="color:#f92672">*</span>centering_m
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">centered_img <span style="color:#f92672">=</span> img <span style="color:#f92672">*</span>centering_m
 plt<span style="color:#f92672">.</span>figure(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">10</span>))
 plt<span style="color:#f92672">.</span>subplot(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">1</span>)
 plt<span style="color:#f92672">.</span>imshow(centered_img, cmap <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;gray&#34;</span>)
@@ -552,7 +552,7 @@ plt<span style="color:#f92672">.</span>subplot(<span style="color:#ae81ff">1</sp
 plt<span style="color:#f92672">.</span>hist(centered_img<span style="color:#f92672">.</span>flatten())
 plt<span style="color:#f92672">.</span>show()
 </code></pre></div><p><img src="/img/teaching/computer_vision/week2/fourier/output_4_0.png" alt="png"></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># compute the 2D FFT</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># compute the 2D FFT</span>
 dft <span style="color:#f92672">=</span>  np<span style="color:#f92672">.</span>fft<span style="color:#f92672">.</span>fft2(centered_img)
 plt<span style="color:#f92672">.</span>figure(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">10</span>))
 plt<span style="color:#f92672">.</span>imshow(np<span style="color:#f92672">.</span>log(<span style="color:#ae81ff">1</span><span style="color:#f92672">+</span>np<span style="color:#f92672">.</span>abs(dft)), cmap <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;gray&#34;</span>)
@@ -560,12 +560,12 @@ plt<span style="color:#f92672">.</span>imshow(np<span style="color:#f92672">.</s
 </code></pre></div><pre><code>&lt;matplotlib.image.AxesImage at 0x1dfe72c33c8&gt;
 </code></pre>
 <p><img src="/img/teaching/computer_vision/week2/fourier/output_5_1.png" alt="png"></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">distance</span>(point1,point2):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">distance</span>(point1,point2):
     <span style="color:#66d9ef">return</span> np<span style="color:#f92672">.</span>sqrt((point1[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">-</span>point2[<span style="color:#ae81ff">0</span>])<span style="color:#f92672">**</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> (point1[<span style="color:#ae81ff">1</span>]<span style="color:#f92672">-</span>point2[<span style="color:#ae81ff">1</span>])<span style="color:#f92672">**</span><span style="color:#ae81ff">2</span>)
 </code></pre></div><h2 id="filters">Filters</h2>
 <h2 id="ideal-lowpass-filter">Ideal LowPass Filter</h2>
 <p><img src="/img/teaching/computer_vision/week2/fourier/equations/idealLP.png" alt=""></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">idealFilterLP</span>(D0,imgShape):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">idealFilterLP</span>(D0,imgShape):
     base <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>zeros(imgShape[:<span style="color:#ae81ff">2</span>])
     rows, cols <span style="color:#f92672">=</span> imgShape[:<span style="color:#ae81ff">2</span>]
     center <span style="color:#f92672">=</span> (rows<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>,cols<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>)
@@ -580,7 +580,7 @@ plt<span style="color:#f92672">.</span>show()
 </code></pre></div><p><img src="/img/teaching/computer_vision/week2/fourier/output_9_0.png" alt="png"></p>
 <h2 id="ideal-highpass-filter">Ideal HighPass Filter</h2>
 <p><img src="/img/teaching/computer_vision/week2/fourier/equations/idealHP.png" alt=""></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">idealFilterHP</span>(D0,imgShape):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">idealFilterHP</span>(D0,imgShape):
     base <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>ones(imgShape[:<span style="color:#ae81ff">2</span>])
     rows, cols <span style="color:#f92672">=</span> imgShape[:<span style="color:#ae81ff">2</span>]
     center <span style="color:#f92672">=</span> (rows<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>,cols<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>)
@@ -596,7 +596,7 @@ plt<span style="color:#f92672">.</span>show()
 </code></pre></div><p><img src="/img/teaching/computer_vision/week2/fourier/output_11_0.png" alt="png"></p>
 <h2 id="gaussian-lowpass-filter">Gaussian LowPass Filter</h2>
 <p><img src="/img/teaching/computer_vision/week2/fourier/equations/gaussianLP.png" alt=""></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">gaussianLP</span>(D0,imgShape):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">gaussianLP</span>(D0,imgShape):
     base <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>zeros(imgShape[:<span style="color:#ae81ff">2</span>])
     rows, cols <span style="color:#f92672">=</span> imgShape[:<span style="color:#ae81ff">2</span>]
     center <span style="color:#f92672">=</span> (rows<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>,cols<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>)
@@ -611,7 +611,7 @@ plt<span style="color:#f92672">.</span>show()
 </code></pre></div><p><img src="/img/teaching/computer_vision/week2/fourier/output_13_0.png" alt="png"></p>
 <h2 id="gaussian-highpass-filter">Gaussian HighPass Filter</h2>
 <p><img src="/img/teaching/computer_vision/week2/fourier/equations/gaussianHP.png" alt=""></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">gaussianHP</span>(D0,imgShape):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">gaussianHP</span>(D0,imgShape):
     base <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>zeros(imgShape[:<span style="color:#ae81ff">2</span>])
     rows, cols <span style="color:#f92672">=</span> imgShape[:<span style="color:#ae81ff">2</span>]
     center <span style="color:#f92672">=</span> (rows<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>,cols<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>)
@@ -625,7 +625,7 @@ plt<span style="color:#f92672">.</span>xticks([]), plt<span style="color:#f92672
 plt<span style="color:#f92672">.</span>show()
 </code></pre></div><p><img src="/img/teaching/computer_vision/week2/fourier/output_15_0.png" alt="png"></p>
 <h2 id="apply-filter-on-dft">Apply Filter on DFT</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># filter the DFT</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># filter the DFT</span>
 fdft <span style="color:#f92672">=</span> dft <span style="color:#f92672">*</span> idealFilterLP(<span style="color:#ae81ff">50</span>,img<span style="color:#f92672">.</span>shape) <span style="color:#75715e">## note that we do a multiplication cause we are in the frequency domain</span>
 
 <span style="color:#75715e"># inverse the filtered DFT</span>
@@ -644,7 +644,7 @@ plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#39;In
 plt<span style="color:#f92672">.</span>show()
 
 </code></pre></div><p><img src="/img/teaching/computer_vision/week2/fourier/output_17_0.png" alt="png"></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># filter the DFT</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># filter the DFT</span>
 fdft <span style="color:#f92672">=</span> dft <span style="color:#f92672">*</span> gaussianLP(<span style="color:#ae81ff">50</span>,img<span style="color:#f92672">.</span>shape)
 
 <span style="color:#75715e"># inverse the filtered DFT</span>
@@ -663,7 +663,7 @@ plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#39;In
 plt<span style="color:#f92672">.</span>show()
 </code></pre></div><p><img src="/img/teaching/computer_vision/week2/fourier/output_18_0.png" alt="png"></p>
 <h2 id="demonstraring-that-we-can-go-back-and-forth-from-image-to-frequency-without-loss">Demonstraring that we can go back and forth from image to frequency without loss</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># inverse the filtered DFT</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># inverse the filtered DFT</span>
 idft <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>fft<span style="color:#f92672">.</span>ifft2(dft)
 
 <span style="color:#75715e"># take the real part and de center it</span>
@@ -883,7 +883,7 @@ plt<span style="color:#f92672">.</span>show()
   
 
   <p class="powered-by">
-    © 2021 &middot; 
+    © 2022 &middot; 
 
     
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> 

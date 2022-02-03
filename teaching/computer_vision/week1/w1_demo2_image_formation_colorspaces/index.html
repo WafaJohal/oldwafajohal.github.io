@@ -81,7 +81,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.18b6ac536628b6630abf21fa9bde0929.css">
+  <link rel="stylesheet" href="/css/academic.min.ef76d4f57fc9dbc864921c8fd1149009.css">
 
   
 
@@ -520,13 +520,13 @@
   <div class="article-container">
 
     <div class="article-style">
-      <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> cv2
-<span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#f92672">as</span> plt
-<span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+      <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> cv2
+<span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+<span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
 
 
 img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#34;beachBox.jpg&#34;</span>)
-<span style="color:#66d9ef">print</span>(img<span style="color:#f92672">.</span>shape)
+print(img<span style="color:#f92672">.</span>shape)
 plt<span style="color:#f92672">.</span>axis(<span style="color:#e6db74">&#39;off&#39;</span>) <span style="color:#75715e"># if you want to hide the axis</span>
 plt<span style="color:#f92672">.</span>imshow(img)
 plt<span style="color:#f92672">.</span>show()
@@ -535,12 +535,12 @@ plt<span style="color:#f92672">.</span>show()
 <p><img src="/img/teaching/computer_vision/week1/demo2/output_1_1.png" alt="png"></p>
 <p>Documentation on <a href="https://docs.opencv.org/3.4/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56">imread</a></p>
 <p>Bookmark this <a href="https://docs.opencv.org/">https://docs.opencv.org/</a></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">cv2<span style="color:#f92672">.</span>__version__
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">cv2<span style="color:#f92672">.</span>__version__
 </code></pre></div><pre><code>'3.4.5'
 </code></pre>
 <h1 id="plot-the-image">Plot the image</h1>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">RGB_im <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2RGB)
-<span style="color:#66d9ef">print</span>(RGB_im<span style="color:#f92672">.</span>shape)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">RGB_im <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2RGB)
+print(RGB_im<span style="color:#f92672">.</span>shape)
 plt<span style="color:#f92672">.</span>imshow(RGB_im)
 plt<span style="color:#f92672">.</span>show()
 </code></pre></div><pre><code>(743, 1280, 3)
@@ -548,7 +548,7 @@ plt<span style="color:#f92672">.</span>show()
 <p><img src="/img/teaching/computer_vision/week1/demo2/output_5_1.png" alt="png"></p>
 <h1 id="rgb-channel-decomposition">RGB Channel Decomposition</h1>
 <p><img src="/img/teaching/computer_vision/week1/ColorSpaces/RGB.jpg" alt=""></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">b <span style="color:#f92672">=</span> RGB_im<span style="color:#f92672">.</span>copy()
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">b <span style="color:#f92672">=</span> RGB_im<span style="color:#f92672">.</span>copy()
 <span style="color:#75715e"># (x,y,nb_channels = 3  [R, G, B])</span>
 <span style="color:#75715e"># set green and red channels to 0</span>
 b[:, :, <span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span> <span style="color:#75715e"># sets the value in the red channels to 0</span>
@@ -584,8 +584,8 @@ plt<span style="color:#f92672">.</span>show()
 <p><img src="/img/teaching/computer_vision/week1/demo2/output_7_3.png" alt="png"></p>
 <h1 id="hsv">HSV</h1>
 <p><img src="/img/teaching/computer_vision/week1/ColorSpaces/HSV.jpg" alt=""></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">imgHSV <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2HSV)
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">h <span style="color:#f92672">=</span> imgHSV<span style="color:#f92672">.</span>copy()
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">imgHSV <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2HSV)
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">h <span style="color:#f92672">=</span> imgHSV<span style="color:#f92672">.</span>copy()
 <span style="color:#75715e"># set S and V channels to 255</span>
 h[:, :, <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">255</span>
 h[:, :, <span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">255</span>
@@ -622,8 +622,8 @@ plt<span style="color:#f92672">.</span>show()
 <p><img src="/img/teaching/computer_vision/week1/demo2/output_10_3.png" alt="png"></p>
 <h1 id="lab">LAB</h1>
 <p><img src="/img/teaching/computer_vision/week1/ColorSpaces/Lab.png" alt=""></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">imgLAB <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2LAB)
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> matplotlib.colors <span style="color:#f92672">as</span> clr <span style="color:#75715e"># this library is used to create the color maps for matplotlib </span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">imgLAB <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2LAB)
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> matplotlib.colors <span style="color:#66d9ef">as</span> clr <span style="color:#75715e"># this library is used to create the color maps for matplotlib </span>
 
 
 l <span style="color:#f92672">=</span> imgLAB<span style="color:#f92672">.</span>copy()
@@ -667,8 +667,8 @@ plt<span style="color:#f92672">.</span>show()
 <p><img src="/img/teaching/computer_vision/week1/demo2/output_13_2.png" alt="png"></p>
 <p><img src="/img/teaching/computer_vision/week1/demo2/output_13_3.png" alt="png"></p>
 <h1 id="ycrcb">YCrCb</h1>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">imgYCrCb <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2YCrCb)
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Your turn! </span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">imgYCrCb <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2YCrCb)
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Your turn! </span>
 <span style="color:#75715e"># Try to display the different channels of the YCrCb format individually for our given image using the method above or another method</span>
 </code></pre></div>
     </div>
@@ -869,7 +869,7 @@ plt<span style="color:#f92672">.</span>show()
   
 
   <p class="powered-by">
-    © 2021 &middot; 
+    © 2022 &middot; 
 
     
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> 

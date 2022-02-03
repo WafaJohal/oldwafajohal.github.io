@@ -5,7 +5,7 @@
     <link>https://wafajohal.github.io/teaching/computer_vision/week1/</link>
       <atom:link href="https://wafajohal.github.io/teaching/computer_vision/week1/index.xml" rel="self" type="application/rss+xml" />
     <description>Week1 - Image Formatiion</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Thu, 09 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Thu, 09 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wafajohal.github.io/img/site-icon.png</url>
       <title>Week1 - Image Formatiion</title>
@@ -17,46 +17,46 @@
       <link>https://wafajohal.github.io/teaching/computer_vision/week1/w1_demo1_image_formation_opencvbasics/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/teaching/computer_vision/week1/w1_demo1_image_formation_opencvbasics/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#f92672&#34;&gt;as&lt;/span&gt; np 
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; np 
 &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; cv2
-&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.pyplot &lt;span style=&#34;color:#f92672&#34;&gt;as&lt;/span&gt; plt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# read an image&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.pyplot &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; plt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# read an image&lt;/span&gt;
 img &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imread(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;test1.jpg&amp;#39;&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;image&amp;#39;&lt;/span&gt;,img)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;image&amp;#39;&lt;/span&gt;,img)
 cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;waitKey(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;)
 cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;destroyAllWindows()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# print image dimension&lt;/span&gt;
-&lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# print image dimension&lt;/span&gt;
+print(img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;(225, 225, 3)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# print a pixel value&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# print a pixel value&lt;/span&gt;
 px &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; img[&lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;]
-&lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(px)
+print(px)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;[  8 150 255]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# get an ROI region&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# get an ROI region&lt;/span&gt;
 roi &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; img[&lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;:&lt;span style=&#34;color:#ae81ff&#34;&gt;120&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;:&lt;span style=&#34;color:#ae81ff&#34;&gt;120&lt;/span&gt;]
 &lt;span style=&#34;color:#75715e&#34;&gt;# replace another region in the image with the selected ROI&lt;/span&gt;
 img[&lt;span style=&#34;color:#ae81ff&#34;&gt;180&lt;/span&gt;:&lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;180&lt;/span&gt;:&lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; roi
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# display the modified image&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# display the modified image&lt;/span&gt;
 cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;image2&amp;#39;&lt;/span&gt;,img)
 cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;waitKey(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;)
 cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;destroyAllWindows()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# write the image output into a new file&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# write the image output into a new file&lt;/span&gt;
 cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imwrite(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;res_1.png&amp;#39;&lt;/span&gt;,img)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;True
 &lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(img)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(img)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.image.AxesImage at 0x28e7f6ba550&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo1/output_9_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#convert BGR to RGB&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#convert BGR to RGB&lt;/span&gt;
 rgb_img &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor(img, cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;COLOR_BGR2RGB)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(rgb_img)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.image.AxesImage at 0x28e7f7680b8&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo1/output_10_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## to look at the documentation of a function inside your notebook use a &amp;#39;?&amp;#39;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## to look at the documentation of a function inside your notebook use a &amp;#39;?&amp;#39;&lt;/span&gt;
 cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;?&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;cvtColor(src, code[, dst[, dstCn]]) -&amp;gt; dst
 .   @brief Converts an image from one color space to another.
@@ -100,7 +100,7 @@ cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor&lt;span styl
 .   
 .   @see @ref imgproc_color_conversions
 &lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
@@ -109,13 +109,13 @@ cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor&lt;span styl
       <link>https://wafajohal.github.io/teaching/computer_vision/week1/w1_demo2_image_formation_colorspaces/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/teaching/computer_vision/week1/w1_demo2_image_formation_colorspaces/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; cv2
-&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.pyplot &lt;span style=&#34;color:#f92672&#34;&gt;as&lt;/span&gt; plt
-&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#f92672&#34;&gt;as&lt;/span&gt; np
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; cv2
+&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.pyplot &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; plt
+&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; np
 
 
 img &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imread(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;beachBox.jpg&amp;#34;&lt;/span&gt;)
-&lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape)
+print(img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;axis(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;off&amp;#39;&lt;/span&gt;) &lt;span style=&#34;color:#75715e&#34;&gt;# if you want to hide the axis&lt;/span&gt;
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(img)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
@@ -124,12 +124,12 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 &lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_1_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Documentation on &lt;a href=&#34;https://docs.opencv.org/3.4/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56&#34;&gt;imread&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Bookmark this &lt;a href=&#34;https://docs.opencv.org/&#34;&gt;https://docs.opencv.org/&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;__version__
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;__version__
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;&#39;3.4.5&#39;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h1 id=&#34;plot-the-image&#34;&gt;Plot the image&lt;/h1&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;RGB_im &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor(img, cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;COLOR_BGR2RGB)
-&lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(RGB_im&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;RGB_im &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor(img, cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;COLOR_BGR2RGB)
+print(RGB_im&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(RGB_im)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;(743, 1280, 3)
@@ -137,7 +137,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 &lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_5_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;rgb-channel-decomposition&#34;&gt;RGB Channel Decomposition&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/ColorSpaces/RGB.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; RGB_im&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;copy()
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; RGB_im&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;copy()
 &lt;span style=&#34;color:#75715e&#34;&gt;# (x,y,nb_channels = 3  [R, G, B])&lt;/span&gt;
 &lt;span style=&#34;color:#75715e&#34;&gt;# set green and red channels to 0&lt;/span&gt;
 b[:, :, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# sets the value in the red channels to 0&lt;/span&gt;
@@ -173,8 +173,8 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 &lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_7_3.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;hsv&#34;&gt;HSV&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/ColorSpaces/HSV.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;imgHSV &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor(img, cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;COLOR_BGR2HSV)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;h &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; imgHSV&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;copy()
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;imgHSV &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor(img, cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;COLOR_BGR2HSV)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;h &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; imgHSV&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;copy()
 &lt;span style=&#34;color:#75715e&#34;&gt;# set S and V channels to 255&lt;/span&gt;
 h[:, :, &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;
 h[:, :, &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;
@@ -211,8 +211,8 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 &lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_10_3.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;lab&#34;&gt;LAB&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/ColorSpaces/Lab.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;imgLAB &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor(img, cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;COLOR_BGR2LAB)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.colors &lt;span style=&#34;color:#f92672&#34;&gt;as&lt;/span&gt; clr &lt;span style=&#34;color:#75715e&#34;&gt;# this library is used to create the color maps for matplotlib &lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;imgLAB &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor(img, cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;COLOR_BGR2LAB)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.colors &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; clr &lt;span style=&#34;color:#75715e&#34;&gt;# this library is used to create the color maps for matplotlib &lt;/span&gt;
 
 
 l &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; imgLAB&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;copy()
@@ -256,8 +256,8 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 &lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_13_2.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_13_3.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;ycrcb&#34;&gt;YCrCb&lt;/h1&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;imgYCrCb &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor(img, cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;COLOR_BGR2YCrCb)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your turn! &lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;imgYCrCb &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor(img, cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;COLOR_BGR2YCrCb)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your turn! &lt;/span&gt;
 &lt;span style=&#34;color:#75715e&#34;&gt;# Try to display the different channels of the YCrCb format individually for our given image using the method above or another method&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
@@ -267,28 +267,28 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
       <link>https://wafajohal.github.io/teaching/computer_vision/week1/w1_demo3_image_formation_resolution/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/teaching/computer_vision/week1/w1_demo3_image_formation_resolution/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; cv2
-&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.pyplot &lt;span style=&#34;color:#f92672&#34;&gt;as&lt;/span&gt; plt
-&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#f92672&#34;&gt;as&lt;/span&gt; np
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; cv2
+&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.pyplot &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; plt
+&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; np
 
 
 img &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imread(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;minion.jpg&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;) &lt;span style=&#34;color:#75715e&#34;&gt;# read as a grayscale image&lt;/span&gt;
-&lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape)
+print(img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(img)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;(532, 800)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo3/output_1_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(img, cmap&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gray&amp;#39;&lt;/span&gt;, vmin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, vmax&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(img, cmap&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gray&amp;#39;&lt;/span&gt;, vmin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, vmax&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo3/output_2_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Grayscale Image&amp;#39;&lt;/span&gt;, img)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Grayscale Image&amp;#39;&lt;/span&gt;, img)
 cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;waitKey(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;) &lt;span style=&#34;color:#75715e&#34;&gt;# press any key&lt;/span&gt;
 cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;destroyAllWindows()
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;resize-image&#34;&gt;Resize Image&lt;/h2&gt;
 &lt;p&gt;Let&amp;rsquo;s play with the resolution of this image and try to resize it.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;resize&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;?&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;resize&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;?&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;[1;31mDocstring:[0m
 resize(src, dsize[, dst[, fx[, fy[, interpolation]]]]) -&amp;gt; dst
 .   @brief Resizes an image.
@@ -326,29 +326,29 @@ resize(src, dsize[, dst[, fx[, fy[, interpolation]]]]) -&amp;gt; dst
 .   @sa  warpAffine, warpPerspective, remap
 [1;31mType:[0m      builtin_function_or_method
 &lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;half &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;resize(img, None, fx&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.5&lt;/span&gt;, fy&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.5&lt;/span&gt;)
-&lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(half&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;half &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;resize(img, &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;, fx&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.5&lt;/span&gt;, fy&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.5&lt;/span&gt;)
+print(half&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(half,  cmap&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gray&amp;#39;&lt;/span&gt;, vmin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, vmax&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;(266, 400)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo3/output_6_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# if you run this cell several times, you will see the resolution decreasing very fast.&lt;/span&gt;
-half &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;resize(half, None, fx&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.5&lt;/span&gt;, fy&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.5&lt;/span&gt;)
-&lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(half&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# if you run this cell several times, you will see the resolution decreasing very fast.&lt;/span&gt;
+half &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;resize(half, &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;, fx&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.5&lt;/span&gt;, fy&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.5&lt;/span&gt;)
+print(half&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(half,  cmap&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gray&amp;#39;&lt;/span&gt;, vmin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, vmax&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;(133, 200)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo3/output_7_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;half&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;half&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;(133, 200)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;half&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;size
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;half&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;size
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;26600
 &lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;half&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;dtype
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;half&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;dtype
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
