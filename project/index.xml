@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | </title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>Join the Group</title>
+      <link>/project/join_the_group/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/project/join_the_group/</guid>
+      <description>&lt;p&gt;Enabling robots to navigate in indoors environments in a safe and socially acceptable manner around groups of humans is still an open research area. Socially aware navigation considers the multi-modal assessment of the group dynamics, group formation inferring, path planning, real-time path adaptation, and human-robot communication.
+Up to now the research in the field has considered a couple of classical scenarios such as crossing a group in a corridor or passing a door. Limitations in terms of lack of realistic datasets is often mentioned in the field. In this research project, we will aim to design several scenarios involving groups of humans in realistic settings. Our work will focus on three main tasks for the robot: 1) approach and join a group, 2) passing by a group and 3) greeting a group. A first step of the project will be to \textbf{record a novel dataset} with rich interactions between the humans (H-H scenarios) and between humans and a teleoperated robot (H-R scenarios). The dataset will be collected at the HRI facility allowing multimodal synchronous recording. After that, a \textbf{new model for path planning} will be developed. For the model, we will explore rule-based constraints (i.e. not passing between two persons speaking together) and learned constrained using the dataset recorded to infer implicit social norms. Finally, the \textbf{model will be tested} empirically with new users in which the robot will have to take real-time path planning decisions.&lt;/p&gt;
+&lt;h2 id=&#34;call-for-participation-to-experiment&#34;&gt;Call for participation to experiment&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>HURL</title>
+      <link>/project/hurl/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/project/hurl/</guid>
+      <description>&lt;p&gt;Robots are foreseen to be used in a variety of home contexts and interacting with novice users, such as assisting the dependent elderly in daily housework (i.e., caring and unpacking groceries, fetching, and pouring a glass of water, etc). Enabling robots to adapt to their environment through learning context specific tasks would be necessary for them to be used adequately by non-programming users.&lt;/p&gt;
+&lt;p&gt;Several methods have been proposed to teach new skills to robots while keeping the human in the loop. Among these methods, the Reinforcement Learning (“RL”) approach is the most common one. However, the literature reports several issues with including human trainers in RL scenarios. Significant research reports a positive bias in RL rewards, and that human-generated reward signals change as the learning progress being inconsistent over time (the trainer adapts her strategy). This can be explained by the difficulty for human trainers to teach basic procedural motions. They generally tend to exaggerate their demonstrations or be more kind with time.&lt;/p&gt;
+&lt;p&gt;In education, a good instructor maintains a mental model of the learner’s state (what has been learned and what needs clarification). This helps the teacher to appropriately structure the upcoming learning tasks with timely feedback and guidance. The learner can help the instructor by expressing their internal state via communicative acts that reveal their understanding, confusion, and attention. Robot’s learning parameters, however, can be overwhelming for a novice user and may increase the human workload (by increasing inaccurate feedbacks, and hence decreasing the robot’s learning). The challenge lies on training humans to be efficient trainers and enabling them to plan, assess and manage the robot’s learning.&lt;/p&gt;
+&lt;p&gt;Another noticeable issue is the disengagement of humans during the training task. Teaching procedural skills to a robot learner can be time consuming and repetitive. This often results in increased noise in human feedback making their input less reliable. Some researchers have imagined several strategies for the robot to cope with this, such as detecting inconsistencies and asking for additional feedback. This project proposes to investigate how collaborative and competitive games could enable better quality feedback when robots are learning from humans. Inspired by instructional design, we will study how building teaching tools for human teachers can effectively improve the robot’s learning. We will also aim to engage the trainer longer by identifying and integrating a gamification element in the training.&lt;/p&gt;
+&lt;p&gt;This project is a 3-year endeavour funded by the Australian Research Council starting mid-2021. Under this umbrella, we are looking at hiring two PhD students in the Faculty of Engineering at the School of Computer Science. This project will make an extensive use of the National Facility for Human Robot Interaction Research.&lt;/p&gt;
+&lt;p&gt;For more information about the PhD positions contact Dr Wafa Johal: &lt;a href=&#34;mailto:wafa.johal@unsw.edu.au&#34;&gt;wafa.johal@unsw.edu.au&lt;/a&gt;  and consult &lt;a href=&#34;https://wafa.johal.org/prospective/phd/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wafa.johal.org/prospective/phd/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>iReCheck</title>
+      <link>/project/irecheck/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/project/irecheck/</guid>
+      <description>&lt;p&gt;Nearly 8% of children between 4 and 12 are dysgraphic or encounter serious difficulties in learning handwriting. Dysgraphia, just like dyslexia, can seriously impair the everyday school life of children and have damageable impact on their academic achievements. The detection of such difficulties should be done as soon as possible to minimize its effect on the child’s school performances. And an adaptive remediation should be provided. The CHILI Lab at EPFL showed how a robotic co-learner agent could have positive effects on the child&amp;rsquo;s motivation to practice handwriting. However, motivation is only one aspect that needs to be taken into account in order to provide a long-term adaptive training experience for children learning how to write.&lt;/p&gt;
+&lt;p&gt;In the iReCHeCk project, we propose a finer characterization of handwriting, as a multimodal activity, taking into account the body posture to capture important features in the handwriting process. We will develop engaging training activities with a robot to monitor the learning status of the child, allowing therapists to evaluate progresses, while adapting the robot&amp;rsquo;s attitude and the training task to the needs of the learner. Our goal being to touch a wide range of handwriting learners, these activities will be tested on two populations: Typically Developed Children that are learning how to write at school; Children with Neuro-Developmental Disorders, presenting handwriting difficulties along with other disorders (i.e. attentional, autistic).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Animatas</title>
+      <link>/project/animatas/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/animatas/</guid>
+      <description>&lt;p&gt;Animatas is a H2020 MCS International Training Network involving 8 insitutions from Europe and several international partners (amoong which UNSW).
+The goal of the project is to investigate social learning and embodiement of autonomous agents in learning contexts.&lt;/p&gt;
+&lt;p&gt;Three aspects are investigated at EPFL with some collaborators:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Modelling Engagement in Collaborative Learning Scenario&lt;/strong&gt; - Jauwairia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;How can we build a group model of engagement? Can we quantify engagement with regard to learning and find the optimal engagement for the group of learners?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mutual Understanding in Learner-Robot Interaction&lt;/strong&gt; - Utku&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Can we build an agent able to detect mis-understanding? to repair them or create them (for the sake of learning)?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Orchestration of Robot Populated Classroom&lt;/strong&gt; - Sina&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;How to enable teachers to manage and monitor their classroom during robotics practical?
+What are the advantages and drawbacks of robots in the classroom in terms of teacher&amp;rsquo;s orchestration?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Behavioural Analysis in HRI</title>
+      <link>/project/engagement/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/engagement/</guid>
+      <description>&lt;p&gt;In the field of human-robot interaction (HRI) as in many other technical fields, an innumerable number of different
+metrics to analyze the interaction can be found in as many studies. Even-though many of these metrics are not&lt;/p&gt;
+&lt;p&gt;comparable between studies, we observe that the research community in HRI, but also in many other
+research domain, is starting to seek for reproducibility [10]; a consensus begins to appear concerning
+common measures that can be used across a wide range of studies. In social HRI, the evaluation of
+the quality of an interaction is complex because it is very task dependent. However, certain metrics
+such as engagement seem to well reflect the quality of interactions between a robot agent and the
+human.&lt;/p&gt;
+&lt;p&gt;One aspect of acceptability of a robot is the home environment in which it is to be able to perceive when it will be
+solicited. The goal for the robot is to not disturb the user and to be able to predict that it will be solicited. This is
+something we do all the time as humans (we can see a street vendor approaching us and we know they will talk
+to us). The process for us human relies on proxemics (speed and angle of approach) but not only.&lt;/p&gt;
+&lt;p&gt;In my work on modeling engagement [11, 12], I used multi-modal data to train a SVM to detect engagement. We&lt;/p&gt;
+&lt;p&gt;collected data from various sensors embedded in the Kompai robot and reduced the number of crucial features
+from 32 to 7. Interestingly shoulder orientation and position of the face in the image are among these crucial
+features. If we transpose these features to what humans do, these features seem coherent with behavioral
+analysis.
+The previous model aimed to predict the engagement, but once the user is engaged, it is important to evaluate its
+attitude and mood. Using the COST and HAART dataset, we trained a model to detect social touch. Together with
+colleagues, we won the Social Touch Challenge at ICMI 2015 improving the gestures recognition from 60% accuracy
+to 70% training a Random Forest Model. [13]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Behavioural Styles</title>
+      <link>/project/stylebot/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/stylebot/</guid>
+      <description>&lt;p&gt;I have been developing a model of the so called behavioral styles. These styles act like a filter over
+communicative gestures to transpose a way of performing an action. We used multiple platforms (Nao – humanoid,
+and Reeti – facial expression) to test this rendering on facial and bodily communication [14]. We showed
+that these styles were perceptible and could influence the attitude of the child interacting with the
+robot[15, 16].
+More recently, we showed that idle movements (movements that have no communicative intention) when
+displayed by a humanoid robot increases the anthropomorphic perception of the robot by the user
+[17].
+These findings help in designing more natural interaction with humanoid robots, making them more acceptable
+and socially intelligent.
+Research Perspectives: We will be continuing research in this area working within the ANIMATAS EU project
+(starting in January 2018) on synchrony and how alignment can keep learners engaged in a collaborative task with a
+robot.&lt;/p&gt;
+&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/YH4ywpgM1OU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Xg49gsWKMLY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cellulo</title>
+      <link>/project/cellulo/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/cellulo/</guid>
+      <description>&lt;p&gt;With the Cellulo project [6], a part of the Transversal Educational Activities of the NCCR Robotics, we introduced a
+new robotic platform which is small and easily deployable. A dotted pattern printed on regular paper enables the
+Cellulo robots with absolute localization with a precision of 270 microns [7]. The robots also have a new
+locomotion system with a drive relying on a permanent magnet to actuate coated metal balls [8]. This new drive
+design allows backdrivability; i.e. it allows the robot to move and to be moved without damaging it. With this
+system, we also implemented a haptic feedback modality, allowing the user to feel forces when grasping the robot
+[9].
+The robots are connected via Bluetooth to a master (PC or tablet) that handles the logical and computation of the
+activity. The onboard PCB of the robots only allows for proceeding the localization (image capture and decoding of
+the pattern) and the control of the three wheels actuation.
+During two years, we developed several learning activities using the robots. The Figure for example shows the Feel
+the Wind activity, in which the learners were taught that the wind was formed by air moving from with high to low
+pressure points.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/zv6nDMQCWCo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In the Cellulo project, we also started to explore the use of haptic feedback for learners. Haptic feedback enables us to
+render forces, but also borders, angles, or points. We developed a series of haptic capabilities and small interaction
+tasks that can be included in learning activities to inform the learner [9]. We tested the haptic feedback with
+children for instance in the symmetry activity, in which the child is able to formulate hypothesis on the placement
+of the symmetrical shape and to verify their claims by feel haptically the shape on paper (left Figure). We also tested
+with some pilot with visually impaired children who were able to explore a map of their classroom using the Cellulo
+robots.
+Research Perspectives for Tangible Swarm Interaction and Haptic for Learners: We are now exploring the
+dynamics of the group of learners in manipulating the robots. The collaboration among learner is not always
+optimal, and a challenge would be to use the swarm robots to analyses and regulate the collaboration among
+learners. As these shared resource can be intelligent agents, they could rearrange themselves according to the
+collaborative state of the group.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/g_7glQmTIVo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/s3KAoQNUPZs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>CoWriter</title>
+      <link>/project/cowriter/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/cowriter/</guid>
+      <description>&lt;p&gt;In the CoWriter Project, we explore how the learning by teaching approach can be employed to motivate children to practice their handwriting skills with a small humanoid robot.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CoWriting Kazakh</title>
+      <link>/project/cowriting_kazakh/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/cowriting_kazakh/</guid>
+      <description>&lt;h1 id=&#34;project-summary&#34;&gt;Project Summary&lt;/h1&gt;
+&lt;p&gt;This research occurred in a special context where Kazakhstan’s recent decision to switch from Cyrillic to the Latin-based alphabet has resulted in challenges connected with teaching literacy, addressing a rare combination of research hypotheses and technical objectives about language learning. Teachers are not necessarily trained to teach the new alphabet, and this could result in a harder challenge for children with difficulties. Prior research studies in Human-Robot Interaction (HRI) have proposed the use of a robot to teach handwriting to children. Drawing on the Kazakhstani case, our study takes an interdisciplinary approach by bringing together smart solutions from robotics, computer vision areas and educational frameworks, language and cognitive studies that will benefit diverse groups of stakeholders.&lt;/p&gt;
+&lt;p&gt;Relatively little is known about the transfer of writing skills across scripts and it is extremely difficult to isolate the role of motor skills in this transfer, as compared to other cognitive and linguistic skills. Since handwriting combines visual, language, and motor dimensions, neuroimaging does not provide a clear account of cerebral substrates of handwriting.  A recent change of policy in Kazakhstan gave us an opportunity to measure transfer, as the Latin-based Kazakh alphabet has not yet been introduced. With the aim to understand if the script change of the Kazakh language from Cyrillic to Latin would have an effect on handwriting performance of young children and potentially increase the number of children with learning disabilities such as dyslexia and dysgraphia, we investigated the transfer of handwriting skills (from Cyrillic to Latin) in primary school children. To this end, we conducted an analysis of children’s handwriting dynamic data in both scripts (acquired from 200 children aged 6-11 years old who were asked to write a short text on a digital tablet using its stylus) in order to identify if the number of years spent practicing Cyrillic has an effect on the quality of handwriting in the Latin alphabet. The results showed that some of the differences between the two scripts were constant across all grades. These differences thus reflect the intrinsic differences in the handwriting dynamics between the two alphabets. For instance, several features related to the pen pressure on the tablet are quite different.  Other features, however, revealed decreasing differences between the two scripts across grades. While we found that the quality of Cyrillic writing increased from grades 1 to 4, due to increased practice, we also found that the quality of the Latin writing increased as well, despite the fact that all of the pupils had the same absence of experience in writing in Latin. We can therefore interpret this improvement in Latin script as an indicator of the transfer of fine motor control skills from Cyrillic to Latin. This result is especially surprising given that one could instead hypothesize a negative transfer, i.e., that the finger controls automated for one alphabet would interfere with those required by the other alphabet.&lt;/p&gt;
+&lt;h2 id=&#34;deliverables&#34;&gt;Deliverables&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;We proposed the first dataset for handwriting recognition of Cyrillic-based languages such as Kazakh and Russian, which is appropriate for the use by machine learning approaches. It contains 121,234 samples of 42 Cyrillic letters. The performance of Cyrillic-MNIST is evaluated using standard deep learning approaches and is compared to the Extended MNIST (EMNIST) dataset. The dataset is available at &lt;a href=&#34;https://github.com/bolattleubayev/cmnist&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/bolattleubayev/cmnist&lt;/a&gt;. This work is under review in Frontiers in Big Data journal. It was conducted in Kazakhstan.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We implemented an autonomous social robot that would assist and motivate children in transition from the old Cyrillic alphabet to a new Latin alphabet. The hardware components of the system include a humanoid NAO robot and a tablet with a stylus. The software components of the CoWriting Kazakh system include: a) handwriting recognition of Cyrillic languages trained on over 120,000 samples of the Cyrillic-MNIST dataset; b) Learning by Demonstration (LbD) in robot font to dynamically adapt to each child&amp;rsquo;s individual handwriting style where trajectories of human handwriting are collected in real time; c) Latin-to-Latin Learning by Teaching (LbT): a humanoid robot plays a unique social role and asks for help to learn Kazakh language but since it cannot read Cyrillic script, a child becomes robot&amp;rsquo;s teacher who is committed to try her best to write the words in Latin so that the robot can read and learn Kazakh. Such an approach allows us to keep a child engaged in the learning process that we utilized in the experiment with 67 children. The system was submitted as a demonstration paper titled “CoWriting Kazakh: Learning a new script with a robot - Demonstration”. This demonstration got the “Best Demonstration” award at the prestigious HRI 2020 conference. This work was conducted in Kazakhstan.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Find Your Voice</title>
+      <link>/project/fyv/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/fyv/</guid>
+      <description>&lt;p&gt;Many children struggle to find their voice in social situations. They may be shy, suffer from social anxiety, not speak the native language as their first language, be new to a culture (migrants), or have a special need involving communication impairments (e.g., autism, speech, and hearing) [1]. Their voices often go unheard as they find it hard to contribute to conversations and group work, in both face to face and online settings, which puts them at risk for poor socio-emotional and achievement outcomes.&lt;br&gt;
+Various interventions have been proposed in an effort to help these children integrate better into social settings, including ice-breaking activities, support groups, [2][3]. Another promising alternative is to teach children how to interpret and use humor effectively to facilitate social interaction [4]. Having a sense of humour might help children to reduce stress [5] and ease social interactions, enabling them to overcome their social inhibitions and make friends more easily. Also, humour could promotes children’s language, literacy, and inference skills, since understanding jokes require a mastery of language ambiguity, and comprehension [6].
+One manner to use humor effectively is by ‘joke telling’. A joke is the shortest clearly-structured conversation one can have with one or more peers. Telling jokes can help children improve their confidence, socialization, [4], literacy [8], and cultural learning [7]. For example, a child could start a ‘joke’ that implies a question. He/she knows the answer, but not his/her peers. Then, he/she has the advantage of knowing what the answer is. This helps him/her to gain confidence. In terms of literacy, telling a joke requires the reinterpretation of the syntax underlying the question, then, understanding the ambiguity in a joke might help them in the comprehension of language [8]. Regarding socialization, this dynamic allows children to take part in role-taking, and understanding what other people needs to know to get it. Also, it can create a positive environment where children can laugh together and share their understanding. In terms of learning, a jokes encapsulate cultural assumptions, for example, differences between pronunciation, a dual meaning of a word, and the structural and ambiguity of sentences [7].  The question this raises is: how can we help children from all walks of life learn the art of telling jokes and importantly feel comfortable, and in doing so, increase their confidence, social skills and even literacy?
+To help children develop the ability to tell jokes with their peers, we propose leveraging a new interactive technology – voice assistant robots (e.g., Alexa), which have become increasingly affordable and commonplace in homes. These robots, which are portable and have lifelike voices, can model how to tell a joke and using voice recognition software, respond to the jokes that children tell. Children thus have unlimited opportunities for scaffolded practice and can receive timely feedback in a non-threatening environment before telling their jokes to family and friends. In addition to the accessibility and human-like verbal responses of voice assistant robots, robots can be customized to tell jokes that are appropriate for each child’s age, language, and culture. The goal of our project therefore is to enable children to improve their ‘joke telling’ skills by learning the intonation, timing, through interacting with a virtual assistants such as Alexa.
+Our research project will explore the feasibility of coding Alexa and other voice assistants to be able to respond and engage with children telling a diversity of jokes. Several aspects need to be taken into account when delivering a joke that children can imitate and practice with. We will look into how the timing and intonation will need to be evaluated from the audio recording in order to provide an adaptive feedback to the child training to deliver jokes. This feedback could be from both sides, the voice assistant robot helping the child in how telling jokes, or the child helping the assistant to improve how telling jokes. The final goal is, once the child has learnt how to tell jokes, to understand when and how will he/she be able to share the joke with their peers, and how long might this process take and how would we be able to tell they have become more confident.
+Finally, an engaging joke-telling learning scenario will need to be designed in order to train children for a long-term impact. Our project will also consider how this might materialize.  In the future, virtual assistants will be able to be designed to give encouraging feedback to the child as they interact with it. This could be verbal, visual or both. This feedback could encourage children for finding their voice. Based on the initial findings from the pilot project  we would like to develop a more extensive project proposal with the goal of investigating how to develop new interventions using the next generation of interactive robots, such as Olly, whose developers, we are also collaborating with (&lt;a href=&#34;https://heyolly.com/%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://heyolly.com/)&lt;/a&gt;, that have more scope for providing customized feedback can be used.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robots for Learning (R4L)</title>
+      <link>/project/robots4learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/robots4learning/</guid>
+      <description>&lt;p&gt;With the increasing number of engineering jobs, politics have more recently turned towards introduction of
+engineering subjects in early stages of curricula. More and more countries have started to introduce programming
+(and even robotics) to young children. However, this constitutes a real challenge for the teaching
+professionals, who are not trained for that, and are often skeptical to use new technologies in classrooms.
+Hence, the challenge is to introduce robots as tools to be used not only in programming or robotics
+based courses, but in the whole curricula in order to make them attractive to teachers as a pedagogical
+tool.
+”Educational robotics” does not really constitute a research community per say. On one hand, there are scholars
+working on ”how to teach robotics” using robotics platforms such as Thymio and Mindstorms. Some scholars
+perform research in this domain (for example, measuring which learning activities produce faster learning), but
+their numbers are scarce, they typically meet in half-day workshops before ed’tech conferences (CSCL, AI&amp;amp;Ed, ….).
+On the other hand, one finds scholars who mainly do research on HRI and consider education as an interesting
+place for testing child-robot interactions.
+I launched in 2016 a series of workshops to build a Robots for Learning (R4L) research community. The first event
+was a workshop, along with the RoMan 2016 conference. The event gathered 30 participants from all around the
+world. The second event was a workshop along the HRI 2017 conference in Vienna, Austria, with 60 participants
+and 10 presentations. This fall, we hosted the first stand alone event, in Switzerland, for which we invited main
+actors of research in HRI for Learning. A new workshop is planned for HRI 2018. These workshops aim to
+mix scientists from field of robotics with those from digital education and learning technologies (See
+&lt;a href=&#34;https://robot4learning.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://robot4learning.github.io/&lt;/a&gt; ).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CAIO</title>
+      <link>/project/caio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/caio/</guid>
+      <description>&lt;p&gt;One of my interests is to make robots able to autonomously sustain interactions with users, and in order to do
+so, they have to be able to reason about the users’ and their environment. During my PhD, I have
+been working on a Cognitive Architecture able to reason on Emotion, named CAIO (Cognitive and
+Affective Interaction-Oriented) Architecture [3, 4]. This architecture, based on symbolic reasoning,
+showed promising results in modeling cognitive processes and specifically allowing decision making
+based on emotions. As shown in the figure, this architecture works as a two loops process, similar to the Dual-Process Theory - a deliberative loop generating intentions and a sensorimotor loop handling
+reflexes.&lt;/p&gt;
+&lt;p&gt;More recently, we have been working on second order reasoning in the context of the
+CoWriter project [5]. In the CoWriter project, the child’s teaches a Nao robot how to write. We use the
+learning by teaching paradigm to enhance motivation and engagement. In a collaborative learning task
+between a robot and a child, the idea is to model the child’s understanding and the child’s believes of the
+understanding of the co-learner robot. This way the robot could detect misunderstandings in view to
+correct them; or the robot could even create misunderstandings to enhance learning (by fostering
+questioning).
+Since my arrival on the CoWriter project, we initiated a project on diagnosis of dysgraphia using data collected
+via a graphic tablet (Wacom). Our first results using RNN are very promising (a patent and a journal paper have
+been submitted). This work will later on be integrated in the CoWriter handwriting activities to adapt the learning
+path according to the diagnosis and the learner’s handwriting difficulties.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

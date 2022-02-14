@@ -1,0 +1,816 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.1.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Play with image resolution" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="/teaching/computer_vision/week1/w1_demo3_image_formation_resolution/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.e393c80ff5d97f848b0a5c93daaa3670.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_32x32_fill_box_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_180x180_fill_box_center_3.png" />
+
+  <link rel="canonical" href="/teaching/computer_vision/week1/w1_demo3_image_formation_resolution/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="" />
+  <meta property="og:url" content="/teaching/computer_vision/week1/w1_demo3_image_formation_resolution/" />
+  <meta property="og:title" content="Demo 3 Resolution | " />
+  <meta property="og:description" content="Play with image resolution" /><meta property="og:image" content="/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png" />
+    <meta property="twitter:image" content="/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2020-01-03T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2020-01-03T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Demo 3 Resolution | </title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="c0365827f01d2baa3c9fe18935ba2ce0" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.6edaf3b475ce43de30d98828aea698be.js"></script>
+
+  
+
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"></a>
+    </div>
+    
+
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <div class="container-fluid docs">
+  <div class="row">
+
+    <div class="col-xl-2 col-lg-2 d-none d-xl-block d-lg-block empty">
+    </div>
+
+    <div class="col-2 col-xl-2 col-lg-2 d-none d-lg-block docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#resize-image">Resize Image</a></li>
+  </ul>
+</nav>
+    </div>
+
+    <main class="col-xl-8 col-lg-8 docs-content" role="main">
+        <article class="article">
+        
+
+
+
+
+
+
+
+
+
+<div class="article-header">
+  
+  
+    <img src="/img/teaching/computer_vision/week1/demo3/minion.jpg" class="article-banner" alt="">
+  
+
+  
+</div>
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Demo 3 Resolution</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jan 3, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+        <div class="article-container">
+          <div class="article-style" align="justify">
+            <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> cv2
+<span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+<span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+
+
+img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#34;minion.jpg&#34;</span>,<span style="color:#ae81ff">0</span>) <span style="color:#75715e"># read as a grayscale image</span>
+print(img<span style="color:#f92672">.</span>shape)
+plt<span style="color:#f92672">.</span>imshow(img)
+plt<span style="color:#f92672">.</span>show()
+</code></pre></div><pre><code>(532, 800)
+</code></pre>
+<p><img src="/img/teaching/computer_vision/week1/demo3/output_1_1.png" alt="png"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">plt<span style="color:#f92672">.</span>imshow(img, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>, vmin<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, vmax<span style="color:#f92672">=</span><span style="color:#ae81ff">255</span>)
+plt<span style="color:#f92672">.</span>show()
+</code></pre></div><p><img src="/img/teaching/computer_vision/week1/demo3/output_2_0.png" alt="png"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">cv2<span style="color:#f92672">.</span>imshow(<span style="color:#e6db74">&#39;Grayscale Image&#39;</span>, img)
+cv2<span style="color:#f92672">.</span>waitKey(<span style="color:#ae81ff">0</span>) <span style="color:#75715e"># press any key</span>
+cv2<span style="color:#f92672">.</span>destroyAllWindows()
+
+</code></pre></div><h2 id="resize-image">Resize Image</h2>
+<p>Let&rsquo;s play with the resolution of this image and try to resize it.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">cv2<span style="color:#f92672">.</span>resize<span style="color:#960050;background-color:#1e0010">?</span>
+</code></pre></div><pre><code>[1;31mDocstring:[0m
+resize(src, dsize[, dst[, fx[, fy[, interpolation]]]]) -&gt; dst
+.   @brief Resizes an image.
+.   
+.   The function resize resizes the image src down to or up to the specified size. Note that the
+.   initial dst type or size are not taken into account. Instead, the size and type are derived from
+.   the `src`,`dsize`,`fx`, and `fy`. If you want to resize src so that it fits the pre-created dst,
+.   you may call the function as follows:
+.   @code
+.   // explicitly specify dsize=dst.size(); fx and fy will be computed from that.
+.   resize(src, dst, dst.size(), 0, 0, interpolation);
+.   @endcode
+.   If you want to decimate the image by factor of 2 in each direction, you can call the function this
+.   way:
+.   @code
+.   // specify fx and fy and let the function compute the destination image size.
+.   resize(src, dst, Size(), 0.5, 0.5, interpolation);
+.   @endcode
+.   To shrink an image, it will generally look best with #INTER_AREA interpolation, whereas to
+.   enlarge an image, it will generally look best with c#INTER_CUBIC (slow) or #INTER_LINEAR
+.   (faster but still looks OK).
+.   
+.   @param src input image.
+.   @param dst output image; it has the size dsize (when it is non-zero) or the size computed from
+.   src.size(), fx, and fy; the type of dst is the same as of src.
+.   @param dsize output image size; if it equals zero, it is computed as:
+.   \f[\texttt{dsize = Size(round(fx*src.cols), round(fy*src.rows))}\f]
+.   Either dsize or both fx and fy must be non-zero.
+.   @param fx scale factor along the horizontal axis; when it equals 0, it is computed as
+.   \f[\texttt{(double)dsize.width/src.cols}\f]
+.   @param fy scale factor along the vertical axis; when it equals 0, it is computed as
+.   \f[\texttt{(double)dsize.height/src.rows}\f]
+.   @param interpolation interpolation method, see #InterpolationFlags
+.   
+.   @sa  warpAffine, warpPerspective, remap
+[1;31mType:[0m      builtin_function_or_method
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">half <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>resize(img, <span style="color:#66d9ef">None</span>, fx<span style="color:#f92672">=</span><span style="color:#ae81ff">0.5</span>, fy<span style="color:#f92672">=</span><span style="color:#ae81ff">0.5</span>)
+print(half<span style="color:#f92672">.</span>shape)
+plt<span style="color:#f92672">.</span>imshow(half,  cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>, vmin<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, vmax<span style="color:#f92672">=</span><span style="color:#ae81ff">255</span>)
+plt<span style="color:#f92672">.</span>show()
+</code></pre></div><pre><code>(266, 400)
+</code></pre>
+<p><img src="/img/teaching/computer_vision/week1/demo3/output_6_1.png" alt="png"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># if you run this cell several times, you will see the resolution decreasing very fast.</span>
+half <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>resize(half, <span style="color:#66d9ef">None</span>, fx<span style="color:#f92672">=</span><span style="color:#ae81ff">0.5</span>, fy<span style="color:#f92672">=</span><span style="color:#ae81ff">0.5</span>)
+print(half<span style="color:#f92672">.</span>shape)
+plt<span style="color:#f92672">.</span>imshow(half,  cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>, vmin<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, vmax<span style="color:#f92672">=</span><span style="color:#ae81ff">255</span>)
+plt<span style="color:#f92672">.</span>show()
+
+</code></pre></div><pre><code>(133, 200)
+</code></pre>
+<p><img src="/img/teaching/computer_vision/week1/demo3/output_7_1.png" alt="png"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">half<span style="color:#f92672">.</span>shape
+</code></pre></div><pre><code>(133, 200)
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">half<span style="color:#f92672">.</span>size
+</code></pre></div><pre><code>26600
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">half<span style="color:#f92672">.</span>dtype
+</code></pre></div>
+          </div>
+          
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/opencv/">opencv</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu142c057fb446f5a95dbefb6abc21270c_21825_270x270_fill_q75_box_center.jpg" alt=""></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/"></a></h5>
+      <h6 class="card-subtitle">Senior Lecturer and ARC DECRA Fellow</h6>
+      <p class="card-text">My research interests include human-robot interaction, human-compter interaction and intelligent and autonomous systems.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/wafajohal" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=GR9bAl0AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/wafajohal" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        </article>
+    </main>
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/en/js/wowchemy.min.206d44ff04f4ee6ccd6509e65d075497.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

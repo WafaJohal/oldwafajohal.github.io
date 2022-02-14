@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cowriting-kazakh | </title>
+    <link>/tags/cowriting-kazakh/</link>
+      <atom:link href="/tags/cowriting-kazakh/index.xml" rel="self" type="application/rss+xml" />
+    <description>cowriting-kazakh</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Sat, 30 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <title>cowriting-kazakh</title>
+      <link>/tags/cowriting-kazakh/</link>
+    </image>
+    
+    <item>
+      <title>[HRI2020 Paper Accepted!] on Transposing CoWriter to Learning the New Kazakh Alphabet</title>
+      <link>/post/hri2020_accepted/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/post/hri2020_accepted/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

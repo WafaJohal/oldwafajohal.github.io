@@ -1,0 +1,839 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.1.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Show first Opencv commands" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="/teaching/computer_vision/week1/w1_demo1_image_formation_opencvbasics/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.e393c80ff5d97f848b0a5c93daaa3670.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_32x32_fill_box_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_180x180_fill_box_center_3.png" />
+
+  <link rel="canonical" href="/teaching/computer_vision/week1/w1_demo1_image_formation_opencvbasics/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="" />
+  <meta property="og:url" content="/teaching/computer_vision/week1/w1_demo1_image_formation_opencvbasics/" />
+  <meta property="og:title" content="Demo 1 OpenCV Basics | " />
+  <meta property="og:description" content="Show first Opencv commands" /><meta property="og:image" content="/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png" />
+    <meta property="twitter:image" content="/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2020-01-01T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2020-01-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Demo 1 OpenCV Basics | </title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="e28900ad11d91b4cebaa06261c7aa5aa" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.6edaf3b475ce43de30d98828aea698be.js"></script>
+
+  
+
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"></a>
+    </div>
+    
+
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      <form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <div class="d-flex">
+      <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
+        
+          week1
+        
+      </span>
+      <span><i class="fas fa-chevron-down"></i></span>
+    </div>
+  </button>
+
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  
+  
+  
+  
+
+  
+  
+    
+
+    
+      
+
+      <ul class="nav docs-sidenav">
+        <li><a href="/teaching/"><i class="fas fa-arrow-left pr-1"></i>Teachings</a></li>
+      </ul>
+
+      
+      
+        
+          
+        
+      
+
+
+  
+    
+    
+    
+    
+      
+    
+    
+
+    
+      <div class="docs-toc-item">
+        <a class="docs-toc-link " href="/teaching/computer_vision/">👁️ Course on Computer Vision</a>
+    
+      
+        <ul class="nav docs-sidenav">
+      
+
+
+  
+    
+    
+    
+    
+      
+    
+    
+
+    
+      <div class="docs-toc-item">
+        <a class="docs-toc-link " href="/teaching/computer_vision/week1/">week1</a>
+    
+      
+        <ul class="nav docs-sidenav">
+      
+
+
+  <li class="active"><a href="/teaching/computer_vision/week1/w1_demo1_image_formation_opencvbasics/">Demo 1 OpenCV Basics</a></li>
+
+
+
+  <li class=""><a href="/teaching/computer_vision/week1/w1_demo2_image_formation_colorspaces/">Demo 2 Color Spaces</a></li>
+
+
+
+  <li class=""><a href="/teaching/computer_vision/week1/w1_demo3_image_formation_resolution/">Demo 3 Resolution</a></li>
+
+      
+        </ul>
+      
+    
+
+    
+      </div>
+    
+
+
+
+  
+    
+    
+    
+    
+      
+    
+    
+
+    
+      <div class="docs-toc-item">
+        <a class="docs-toc-link " href="/teaching/computer_vision/week2/">week2</a>
+    
+      
+        <ul class="nav docs-sidenav">
+      
+
+
+  <li class=""><a href="/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/">Demo Gaussian Blur</a></li>
+
+
+
+  <li class=""><a href="/teaching/computer_vision/week2/w2_-demo_image_processing_bitplanes/">Demo Bit-Planes</a></li>
+
+
+
+  <li class=""><a href="/teaching/computer_vision/week2/w2_-demo_image_processing_fourier_smoothing/">Demo Fourier Transform and Frequency filtering</a></li>
+
+      
+        </ul>
+      
+    
+
+    
+      </div>
+    
+
+      
+        </ul>
+      
+    
+
+    
+      </div>
+    
+
+    
+  
+</nav>
+
+    </div>
+
+    
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      
+
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents"></nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          
+
+          <h1>Demo 1 OpenCV Basics</h1>
+
+          <div class="article-style">
+            <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np 
+<span style="color:#f92672">import</span> cv2
+<span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># read an image</span>
+img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#39;test1.jpg&#39;</span>,<span style="color:#ae81ff">1</span>)
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">cv2<span style="color:#f92672">.</span>imshow(<span style="color:#e6db74">&#39;image&#39;</span>,img)
+cv2<span style="color:#f92672">.</span>waitKey(<span style="color:#ae81ff">0</span>)
+cv2<span style="color:#f92672">.</span>destroyAllWindows()
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># print image dimension</span>
+print(img<span style="color:#f92672">.</span>shape)
+</code></pre></div><pre><code>(225, 225, 3)
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># print a pixel value</span>
+px <span style="color:#f92672">=</span> img[<span style="color:#ae81ff">100</span>,<span style="color:#ae81ff">100</span>]
+print(px)
+</code></pre></div><pre><code>[  8 150 255]
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># get an ROI region</span>
+roi <span style="color:#f92672">=</span> img[<span style="color:#ae81ff">100</span>:<span style="color:#ae81ff">120</span>, <span style="color:#ae81ff">100</span>:<span style="color:#ae81ff">120</span>]
+<span style="color:#75715e"># replace another region in the image with the selected ROI</span>
+img[<span style="color:#ae81ff">180</span>:<span style="color:#ae81ff">200</span>, <span style="color:#ae81ff">180</span>:<span style="color:#ae81ff">200</span>] <span style="color:#f92672">=</span> roi
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># display the modified image</span>
+cv2<span style="color:#f92672">.</span>imshow(<span style="color:#e6db74">&#39;image2&#39;</span>,img)
+cv2<span style="color:#f92672">.</span>waitKey(<span style="color:#ae81ff">0</span>)
+cv2<span style="color:#f92672">.</span>destroyAllWindows()
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># write the image output into a new file</span>
+cv2<span style="color:#f92672">.</span>imwrite(<span style="color:#e6db74">&#39;res_1.png&#39;</span>,img)
+</code></pre></div><pre><code>True
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">plt<span style="color:#f92672">.</span>imshow(img)
+</code></pre></div><pre><code>&lt;matplotlib.image.AxesImage at 0x28e7f6ba550&gt;
+</code></pre>
+<p><img src="/img/teaching/computer_vision/week1/demo1/output_9_1.png" alt="png"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#convert BGR to RGB</span>
+rgb_img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2RGB)
+plt<span style="color:#f92672">.</span>imshow(rgb_img)
+</code></pre></div><pre><code>&lt;matplotlib.image.AxesImage at 0x28e7f7680b8&gt;
+</code></pre>
+<p><img src="/img/teaching/computer_vision/week1/demo1/output_10_1.png" alt="png"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">## to look at the documentation of a function inside your notebook use a &#39;?&#39;</span>
+cv2<span style="color:#f92672">.</span>cvtColor<span style="color:#960050;background-color:#1e0010">?</span>
+</code></pre></div><pre><code>cvtColor(src, code[, dst[, dstCn]]) -&gt; dst
+.   @brief Converts an image from one color space to another.
+.   
+.   The function converts an input image from one color space to another. In case of a transformation
+.   to-from RGB color space, the order of the channels should be specified explicitly (RGB or BGR). Note
+.   that the default color format in OpenCV is often referred to as RGB but it is actually BGR (the
+.   bytes are reversed). So the first byte in a standard (24-bit) color image will be an 8-bit Blue
+.   component, the second byte will be Green, and the third byte will be Red. The fourth, fifth, and
+.   sixth bytes would then be the second pixel (Blue, then Green, then Red), and so on.
+.   
+.   The conventional ranges for R, G, and B channel values are:
+.   -   0 to 255 for CV_8U images
+.   -   0 to 65535 for CV_16U images
+.   -   0 to 1 for CV_32F images
+.   
+.   In case of linear transformations, the range does not matter. But in case of a non-linear
+.   transformation, an input RGB image should be normalized to the proper value range to get the correct
+.   results, for example, for RGB \f$\rightarrow\f$ L\*u\*v\* transformation. For example, if you have a
+.   32-bit floating-point image directly converted from an 8-bit image without any scaling, then it will
+.   have the 0..255 value range instead of 0..1 assumed by the function. So, before calling #cvtColor ,
+.   you need first to scale the image down:
+.   @code
+.   img *= 1./255;
+.   cvtColor(img, img, COLOR_BGR2Luv);
+.   @endcode
+.   If you use #cvtColor with 8-bit images, the conversion will have some information lost. For many
+.   applications, this will not be noticeable but it is recommended to use 32-bit images in applications
+.   that need the full range of colors or that convert an image before an operation and then convert
+.   back.
+.   
+.   If conversion adds the alpha channel, its value will set to the maximum of corresponding channel
+.   range: 255 for CV_8U, 65535 for CV_16U, 1 for CV_32F.
+.   
+.   @param src input image: 8-bit unsigned, 16-bit unsigned ( CV_16UC... ), or single-precision
+.   floating-point.
+.   @param dst output image of the same size and depth as src.
+.   @param code color space conversion code (see #ColorConversionCodes).
+.   @param dstCn number of channels in the destination image; if the parameter is 0, the number of the
+.   channels is derived automatically from src and code.
+.   
+.   @see @ref imgproc_color_conversions
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+</code></pre></div>
+          </div>
+
+          
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/opencv/">opencv</a>
+  
+</div>
+
+
+
+          
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/teaching/computer_vision/week1/w1_demo2_image_formation_colorspaces/" rel="prev">Demo 2 Color Spaces</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Jan 1, 2020</p>
+
+          
+
+
+
+          
+
+
+
+
+          
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+
+    
+
+    
+    
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js" integrity="sha512-I7w3ZdSFzw5j3jU3ZkNikBNeIrl3i+hEuEdwNmqUJvwNcaBUNcijnP2gd9DtGlgVYDplfjGoD8vTNsID+lCjqg==" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/en/js/wowchemy.min.206d44ff04f4ee6ccd6509e65d075497.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

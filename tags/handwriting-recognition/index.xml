@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>handwriting recognition | </title>
+    <link>/tags/handwriting-recognition/</link>
+      <atom:link href="/tags/handwriting-recognition/index.xml" rel="self" type="application/rss+xml" />
+    <description>handwriting recognition</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <title>handwriting recognition</title>
+      <link>/tags/handwriting-recognition/</link>
+    </image>
+    
+    <item>
+      <title>CoWriting Kazakh: Learning a New Script with a Robot - Demonstration</title>
+      <link>/publication/bolat-hri-2020-demo/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/bolat-hri-2020-demo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

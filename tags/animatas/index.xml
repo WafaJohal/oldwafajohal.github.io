@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>animatas | </title>
+    <link>/tags/animatas/</link>
+      <atom:link href="/tags/animatas/index.xml" rel="self" type="application/rss+xml" />
+    <description>animatas</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <title>animatas</title>
+      <link>/tags/animatas/</link>
+    </image>
+    
+    <item>
+      <title>TIP: Tangible e-Ink Paper Manipulatives for Classroom Orchestration</title>
+      <link>/talk/ozchi2019/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/talk/ozchi2019/</guid>
+      <description>&lt;p&gt;Presented our work on the design of tangible devices for classroom orchestration.&lt;/p&gt;
+&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vSAbsZww1VUF4gDexQLD7Goez5ApAkyU85mnNXrNaPgeiHIzSs9Aeo1RNkZWp3WaAK-aT4gjm0zMDID/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>UC San Diego, California, USA, November 2019</title>
+      <link>/talk/ucsandiego_hrimini2019/</link>
+      <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/talk/ucsandiego_hrimini2019/</guid>
+      <description>&lt;p&gt;I gave a short talk at the HRI Mini symposium on Orchestration of Robot Populated Classrooms, a recent work started with &lt;a href=&#34;/authors/sina-shahmoradi/&#34;&gt;Sina Shahmoradi&lt;/a&gt;, &lt;a href=&#34;/authors/jauwairia-nasir/&#34;&gt;Jauwairia Nasir&lt;/a&gt; and &lt;a href=&#34;/authors/utku-norman/&#34;&gt;Utku Norman&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vTnhl9vGI8PfwTmAdzq8uh9axoV-atvvN87Xrlt4_ctt5YNDIO-mZbe4O9McfIyGlaQ2Vierw7k9tXO/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Animatas</title>
+      <link>/project/animatas/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/animatas/</guid>
+      <description>&lt;p&gt;Animatas is a H2020 MCS International Training Network involving 8 insitutions from Europe and several international partners (amoong which UNSW).
+The goal of the project is to investigate social learning and embodiement of autonomous agents in learning contexts.&lt;/p&gt;
+&lt;p&gt;Three aspects are investigated at EPFL with some collaborators:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Modelling Engagement in Collaborative Learning Scenario&lt;/strong&gt; - Jauwairia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;How can we build a group model of engagement? Can we quantify engagement with regard to learning and find the optimal engagement for the group of learners?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mutual Understanding in Learner-Robot Interaction&lt;/strong&gt; - Utku&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Can we build an agent able to detect mis-understanding? to repair them or create them (for the sake of learning)?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Orchestration of Robot Populated Classroom&lt;/strong&gt; - Sina&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;How to enable teachers to manage and monitor their classroom during robotics practical?
+What are the advantages and drawbacks of robots in the classroom in terms of teacher&amp;rsquo;s orchestration?&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

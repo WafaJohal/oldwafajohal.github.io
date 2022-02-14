@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>augmented-reality | </title>
+    <link>/tags/augmented-reality/</link>
+      <atom:link href="/tags/augmented-reality/index.xml" rel="self" type="application/rss+xml" />
+    <description>augmented-reality</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <title>augmented-reality</title>
+      <link>/tags/augmented-reality/</link>
+    </image>
+    
+    <item>
+      <title>Augmented Robotics for Learners: A Case Study on Optics</title>
+      <link>/publication/johal-augmented-2019/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/johal-augmented-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I Spy - An AR Game with a Robot in Home Environment</title>
+      <link>/prospective/undergrad/ispy_hololens_2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/prospective/undergrad/ispy_hololens_2021/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;In the context of the (HURL project)[https://wafa.johal.org/project/hurl/], we investigate various ways to enable novice users to train robots to perform everyday life tasks. In particular, we employ gamification and Augmented Reality (AR) to make the training more engaging for the human trainer.&lt;/p&gt;
+&lt;p&gt;In this project, your goal will be to implement a game &amp;ldquo;I spy&amp;rdquo; to be played with a robot in a home environment. For this game, we would like to use AR with the Hololens 2&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;p&gt;During this project, the student will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn about Hololens and Augmented Reality development&lt;/li&gt;
+&lt;li&gt;Develop a game such as &amp;ldquo;I spy&amp;rdquo; using object recognition models (such as YOLO) for both the human and robot to play&lt;/li&gt;
+&lt;li&gt;Evaluate the game in the robotics lab at UNSW&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;Augmented Reality, Object Recognition, Machine Learning, Human-Robot Interaction&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites-or-willing-to-learn&#34;&gt;Prerequisites or willing to learn&lt;/h2&gt;
+&lt;p&gt;Skills: C#, Python, Git
+D or above in a machine learning or AI course&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/AlturosDestinations/Alturos.Yolo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/AlturosDestinations/Alturos.Yolo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;HURL project: &lt;a href=&#34;https://wafa.johal.org/project/hurl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wafa.johal.org/project/hurl/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/doughtmw/YoloDetectionHoloLens-Unity&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/doughtmw/YoloDetectionHoloLens-Unity&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TeleOp Game - Explore Gamification of Robot Teleoperation</title>
+      <link>/prospective/undergrad/cleanup_2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/prospective/undergrad/cleanup_2021/</guid>
+      <description>&lt;h1 id=&#34;context&#34;&gt;Context:&lt;/h1&gt;
+&lt;p&gt;Service robots are becoming more common in households. Tasks that they may be assigned include vacuuming the floor or grabbing objects from the top shelf. Augmented reality (AR) is one of the many interfaces the robot and the human user may communicate through. During teleoperation or robot training, human disengagement can be an issue (the task demonstrated by the human often repetitive).&lt;/p&gt;
+&lt;p&gt;As a preliminary step, we aim to explore how gamification can affect human engagement in an AR game setting where the objective of the game is to complete a common household task (such as clearing the table). The AR application will be developed for the Microsoft HoloLens 2 headset. The game can be thought of as encouraging the user to complete the task.&lt;/p&gt;
+&lt;p&gt;The student will in particular explore how game mechanics and appealing visuals could be inserted through AR to engage the user in repetitive tasks.&lt;/p&gt;
+&lt;h1 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Design the game&lt;/li&gt;
+&lt;li&gt;Implement teleoperation module for the Kinova Gen 3 Robot.&lt;/li&gt;
+&lt;li&gt;Implement gamification elements&lt;/li&gt;
+&lt;li&gt;Evaluate the impact of the gamification elements via a user study&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;topics&#34;&gt;Topics:&lt;/h1&gt;
+&lt;p&gt;Augmented Reality, Games, Gamification, Robot Teleoperation&lt;/p&gt;
+&lt;h1 id=&#34;prerequisites-and-skills-demonstrated-or-willing-to-learn&#34;&gt;Prerequisites and Skills (demonstrated or willing to learn):&lt;/h1&gt;
+&lt;p&gt;Python, C#, Unity Framework, ROS (Robotics OS)
+Game Design, Computer Vision&lt;/p&gt;
+&lt;h1 id=&#34;references&#34;&gt;References:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://cs.brown.edu/people/er35/publications/testing.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://cs.brown.edu/people/er35/publications/testing.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/8673306/?casa_token=YjUuijSVKagAAAAA:_SEgCzetsb-CGXU9TLM_3D62yvn8cTyTiMooaiVSbsw2Jm1jj-kgb4QYCOFKc7vCPQTekd_pQWU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ieeexplore.ieee.org/abstract/document/8673306/?casa_token=YjUuijSVKagAAAAA:_SEgCzetsb-CGXU9TLM_3D62yvn8cTyTiMooaiVSbsw2Jm1jj-kgb4QYCOFKc7vCPQTekd_pQWU&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/abs/10.1145/3171221.3171251?casa_token=n9ai5qrDzZcAAAAA:Zr_zUFNrar-Zdidk2cMwzWcySh1SeEAIYtagwLHgZFyuze_lbn9cm0ybobYFGQYit6VQYa7rn_KssFA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dl.acm.org/doi/abs/10.1145/3171221.3171251?casa_token=n9ai5qrDzZcAAAAA:Zr_zUFNrar-Zdidk2cMwzWcySh1SeEAIYtagwLHgZFyuze_lbn9cm0ybobYFGQYit6VQYa7rn_KssFA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

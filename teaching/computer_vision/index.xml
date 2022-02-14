@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>👁️ Course on Computer Vision | </title>
+    <link>/teaching/computer_vision/</link>
+      <atom:link href="/teaching/computer_vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>👁️ Course on Computer Vision</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Thu, 09 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <title>👁️ Course on Computer Vision</title>
+      <link>/teaching/computer_vision/</link>
+    </image>
+    
+  </channel>
+</rss>
