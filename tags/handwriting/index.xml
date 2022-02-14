@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>handwriting | </title>
-    <link>/tags/handwriting/</link>
-      <atom:link href="/tags/handwriting/index.xml" rel="self" type="application/rss+xml" />
+    <title>handwriting | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/handwriting/</link>
+      <atom:link href="https://wafajohal.github.io/tags/handwriting/index.xml" rel="self" type="application/rss+xml" />
     <description>handwriting</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>handwriting</title>
-      <link>/tags/handwriting/</link>
+      <link>https://wafajohal.github.io/tags/handwriting/</link>
     </image>
     
     <item>
       <title>Iterative Design and Evaluation of a Tangible Robot-Assisted Handwriting Activity for Special Education</title>
-      <link>/publication/guneysu-ozgur-iterative-2020/</link>
+      <link>https://wafajohal.github.io/publication/guneysu-ozgur-iterative-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/guneysu-ozgur-iterative-2020/</guid>
+      <guid>https://wafajohal.github.io/publication/guneysu-ozgur-iterative-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[HRI2020 Paper Accepted!] on Transposing CoWriter to Learning the New Kazakh Alphabet</title>
-      <link>/post/hri2020_accepted/</link>
+      <link>https://wafajohal.github.io/post/hri2020_accepted/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/post/hri2020_accepted/</guid>
+      <guid>https://wafajohal.github.io/post/hri2020_accepted/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CoWriter</title>
-      <link>/project/cowriter/</link>
+      <link>https://wafajohal.github.io/project/cowriter/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/cowriter/</guid>
+      <guid>https://wafajohal.github.io/project/cowriter/</guid>
       <description>&lt;p&gt;In the CoWriter Project, we explore how the learning by teaching approach can be employed to motivate children to practice their handwriting skills with a small humanoid robot.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>CoWriting Kazakh</title>
-      <link>/project/cowriting_kazakh/</link>
+      <link>https://wafajohal.github.io/project/cowriting_kazakh/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/cowriting_kazakh/</guid>
+      <guid>https://wafajohal.github.io/project/cowriting_kazakh/</guid>
       <description>&lt;h1 id=&#34;project-summary&#34;&gt;Project Summary&lt;/h1&gt;
 &lt;p&gt;This research occurred in a special context where Kazakhstan’s recent decision to switch from Cyrillic to the Latin-based alphabet has resulted in challenges connected with teaching literacy, addressing a rare combination of research hypotheses and technical objectives about language learning. Teachers are not necessarily trained to teach the new alphabet, and this could result in a harder challenge for children with difficulties. Prior research studies in Human-Robot Interaction (HRI) have proposed the use of a robot to teach handwriting to children. Drawing on the Kazakhstani case, our study takes an interdisciplinary approach by bringing together smart solutions from robotics, computer vision areas and educational frameworks, language and cognitive studies that will benefit diverse groups of stakeholders.&lt;/p&gt;
 &lt;p&gt;Relatively little is known about the transfer of writing skills across scripts and it is extremely difficult to isolate the role of motor skills in this transfer, as compared to other cognitive and linguistic skills. Since handwriting combines visual, language, and motor dimensions, neuroimaging does not provide a clear account of cerebral substrates of handwriting.  A recent change of policy in Kazakhstan gave us an opportunity to measure transfer, as the Latin-based Kazakh alphabet has not yet been introduced. With the aim to understand if the script change of the Kazakh language from Cyrillic to Latin would have an effect on handwriting performance of young children and potentially increase the number of children with learning disabilities such as dyslexia and dysgraphia, we investigated the transfer of handwriting skills (from Cyrillic to Latin) in primary school children. To this end, we conducted an analysis of children’s handwriting dynamic data in both scripts (acquired from 200 children aged 6-11 years old who were asked to write a short text on a digital tablet using its stylus) in order to identify if the number of years spent practicing Cyrillic has an effect on the quality of handwriting in the Latin alphabet. The results showed that some of the differences between the two scripts were constant across all grades. These differences thus reflect the intrinsic differences in the handwriting dynamics between the two alphabets. For instance, several features related to the pen pressure on the tablet are quite different.  Other features, however, revealed decreasing differences between the two scripts across grades. While we found that the quality of Cyrillic writing increased from grades 1 to 4, due to increased practice, we also found that the quality of the Latin writing increased as well, despite the fact that all of the pupils had the same absence of experience in writing in Latin. We can therefore interpret this improvement in Latin script as an indicator of the transfer of fine motor control skills from Cyrillic to Latin. This result is especially surprising given that one could instead hypothesize a negative transfer, i.e., that the finger controls automated for one alphabet would interfere with those required by the other alphabet.&lt;/p&gt;
@@ -59,9 +59,9 @@
     
     <item>
       <title>Robot Writing</title>
-      <link>/prospective/undergrad/writing_2020/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/writing_2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/writing_2020/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/writing_2020/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Handwriting is one of the most important motor skill we learn as human. Children with handwriting difficulties can find their academic impacted and often succeed less at school.&lt;/p&gt;
 &lt;p&gt;In this project we propose to explore new methods for a robot to write using a pen. The project will use the Fetch Robot and aim to evaluate how a robot could learn handwriting trajectories using human demonstrations.&lt;/p&gt;

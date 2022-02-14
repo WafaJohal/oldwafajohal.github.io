@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>learning | </title>
-    <link>/tags/learning/</link>
-      <atom:link href="/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <title>learning | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/learning/</link>
+      <atom:link href="https://wafajohal.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     <description>learning</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>learning</title>
-      <link>/tags/learning/</link>
+      <link>https://wafajohal.github.io/tags/learning/</link>
     </image>
     
     <item>
       <title>HURL</title>
-      <link>/project/hurl/</link>
+      <link>https://wafajohal.github.io/project/hurl/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/project/hurl/</guid>
+      <guid>https://wafajohal.github.io/project/hurl/</guid>
       <description>&lt;p&gt;Robots are foreseen to be used in a variety of home contexts and interacting with novice users, such as assisting the dependent elderly in daily housework (i.e., caring and unpacking groceries, fetching, and pouring a glass of water, etc). Enabling robots to adapt to their environment through learning context specific tasks would be necessary for them to be used adequately by non-programming users.&lt;/p&gt;
 &lt;p&gt;Several methods have been proposed to teach new skills to robots while keeping the human in the loop. Among these methods, the Reinforcement Learning (“RL”) approach is the most common one. However, the literature reports several issues with including human trainers in RL scenarios. Significant research reports a positive bias in RL rewards, and that human-generated reward signals change as the learning progress being inconsistent over time (the trainer adapts her strategy). This can be explained by the difficulty for human trainers to teach basic procedural motions. They generally tend to exaggerate their demonstrations or be more kind with time.&lt;/p&gt;
 &lt;p&gt;In education, a good instructor maintains a mental model of the learner’s state (what has been learned and what needs clarification). This helps the teacher to appropriately structure the upcoming learning tasks with timely feedback and guidance. The learner can help the instructor by expressing their internal state via communicative acts that reveal their understanding, confusion, and attention. Robot’s learning parameters, however, can be overwhelming for a novice user and may increase the human workload (by increasing inaccurate feedbacks, and hence decreasing the robot’s learning). The challenge lies on training humans to be efficient trainers and enabling them to plan, assess and manage the robot’s learning.&lt;/p&gt;
@@ -28,17 +28,17 @@
     
     <item>
       <title>\&#34;If You&#39;ve Gone Straight, Now, You Must Turn Left\&#34; - Exploring the Use of a Tangible Interface in a Collaborative Treasure Hunt for People with Visual Impairments</title>
-      <link>/publication/chibaudel-2020/</link>
+      <link>https://wafajohal.github.io/publication/chibaudel-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/chibaudel-2020/</guid>
+      <guid>https://wafajohal.github.io/publication/chibaudel-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Swarm Robots in Education: A Review of Challenges and Opportunities</title>
-      <link>/publication/johal-2020-swarm/</link>
+      <link>https://wafajohal.github.io/publication/johal-2020-swarm/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2020-swarm/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2020-swarm/</guid>
       <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vQZcoqR-wwo6cZBj55T4ZyLd5FPTBXon6Hsljqr3ytAA5nFJ7LSmlpq-O3_SVFwPVqqwO64yi3mk2eI/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;

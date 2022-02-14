@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>navigation | </title>
-    <link>/tags/navigation/</link>
-      <atom:link href="/tags/navigation/index.xml" rel="self" type="application/rss+xml" />
+    <title>navigation | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/navigation/</link>
+      <atom:link href="https://wafajohal.github.io/tags/navigation/index.xml" rel="self" type="application/rss+xml" />
     <description>navigation</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>navigation</title>
-      <link>/tags/navigation/</link>
+      <link>https://wafajohal.github.io/tags/navigation/</link>
     </image>
     
     <item>
       <title>Join the Group</title>
-      <link>/project/join_the_group/</link>
+      <link>https://wafajohal.github.io/project/join_the_group/</link>
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/project/join_the_group/</guid>
+      <guid>https://wafajohal.github.io/project/join_the_group/</guid>
       <description>&lt;p&gt;Enabling robots to navigate in indoors environments in a safe and socially acceptable manner around groups of humans is still an open research area. Socially aware navigation considers the multi-modal assessment of the group dynamics, group formation inferring, path planning, real-time path adaptation, and human-robot communication.
 Up to now the research in the field has considered a couple of classical scenarios such as crossing a group in a corridor or passing a door. Limitations in terms of lack of realistic datasets is often mentioned in the field. In this research project, we will aim to design several scenarios involving groups of humans in realistic settings. Our work will focus on three main tasks for the robot: 1) approach and join a group, 2) passing by a group and 3) greeting a group. A first step of the project will be to \textbf{record a novel dataset} with rich interactions between the humans (H-H scenarios) and between humans and a teleoperated robot (H-R scenarios). The dataset will be collected at the HRI facility allowing multimodal synchronous recording. After that, a \textbf{new model for path planning} will be developed. For the model, we will explore rule-based constraints (i.e. not passing between two persons speaking together) and learned constrained using the dataset recorded to infer implicit social norms. Finally, the \textbf{model will be tested} empirically with new users in which the robot will have to take real-time path planning decisions.&lt;/p&gt;
 &lt;h2 id=&#34;call-for-participation-to-experiment&#34;&gt;Call for participation to experiment&lt;/h2&gt;

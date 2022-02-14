@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>reasoning | </title>
-    <link>/tags/reasoning/</link>
-      <atom:link href="/tags/reasoning/index.xml" rel="self" type="application/rss+xml" />
+    <title>reasoning | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/reasoning/</link>
+      <atom:link href="https://wafajohal.github.io/tags/reasoning/index.xml" rel="self" type="application/rss+xml" />
     <description>reasoning</description>
     <generator>Wowchemy (https://wowchemy.com)</generator>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>reasoning</title>
-      <link>/tags/reasoning/</link>
+      <link>https://wafajohal.github.io/tags/reasoning/</link>
     </image>
     
     <item>
       <title>CAIO</title>
-      <link>/project/caio/</link>
+      <link>https://wafajohal.github.io/project/caio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/caio/</guid>
+      <guid>https://wafajohal.github.io/project/caio/</guid>
       <description>&lt;p&gt;One of my interests is to make robots able to autonomously sustain interactions with users, and in order to do
 so, they have to be able to reason about the users’ and their environment. During my PhD, I have
 been working on a Cognitive Architecture able to reason on Emotion, named CAIO (Cognitive and

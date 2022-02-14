@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>swarm | </title>
-    <link>/tags/swarm/</link>
-      <atom:link href="/tags/swarm/index.xml" rel="self" type="application/rss+xml" />
+    <title>swarm | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/swarm/</link>
+      <atom:link href="https://wafajohal.github.io/tags/swarm/index.xml" rel="self" type="application/rss+xml" />
     <description>swarm</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>swarm</title>
-      <link>/tags/swarm/</link>
+      <link>https://wafajohal.github.io/tags/swarm/</link>
     </image>
     
     <item>
       <title>Cellulo</title>
-      <link>/project/cellulo/</link>
+      <link>https://wafajohal.github.io/project/cellulo/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/cellulo/</guid>
+      <guid>https://wafajohal.github.io/project/cellulo/</guid>
       <description>&lt;p&gt;With the Cellulo project [6], a part of the Transversal Educational Activities of the NCCR Robotics, we introduced a
 new robotic platform which is small and easily deployable. A dotted pattern printed on regular paper enables the
 Cellulo robots with absolute localization with a precision of 270 microns [7]. The robots also have a new
@@ -62,10 +62,10 @@ collaborative state of the group.&lt;/p&gt;
     
     <item>
       <title>Tangible Human Swarm Interaction</title>
-      <link>/prospective/undergrad/h-swarm_2020/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/h-swarm_2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/h-swarm_2020/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/student-projects/swarm.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+      <guid>https://wafajohal.github.io/prospective/undergrad/h-swarm_2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/student-projects/swarm.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;context&#34;&gt;Context:&lt;/h2&gt;
 &lt;p&gt;Visuo-Motor coordination problems can impair children in  their academic achievements and in their everyday life.
 Gross visuo-motor skills, in particular, are required in a range of social and educational activities that contribute to children&amp;rsquo;s physical and cognitive development such as playing a musical instrument, ball-based sports or dancing.

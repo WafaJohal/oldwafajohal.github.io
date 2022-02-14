@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>moca | </title>
-    <link>/tags/moca/</link>
-      <atom:link href="/tags/moca/index.xml" rel="self" type="application/rss+xml" />
+    <title>moca | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/moca/</link>
+      <atom:link href="https://wafajohal.github.io/tags/moca/index.xml" rel="self" type="application/rss+xml" />
     <description>moca</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>moca</title>
-      <link>/tags/moca/</link>
+      <link>https://wafajohal.github.io/tags/moca/</link>
     </image>
     
     <item>
       <title>Behavioural Styles</title>
-      <link>/project/stylebot/</link>
+      <link>https://wafajohal.github.io/project/stylebot/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/stylebot/</guid>
+      <guid>https://wafajohal.github.io/project/stylebot/</guid>
       <description>&lt;p&gt;I have been developing a model of the so called behavioral styles. These styles act like a filter over
 communicative gestures to transpose a way of performing an action. We used multiple platforms (Nao – humanoid,
 and Reeti – facial expression) to test this rendering on facial and bodily communication [14]. We showed
@@ -45,9 +45,9 @@ robot.&lt;/p&gt;
     
     <item>
       <title>Behavioural Styles</title>
-      <link>/project/under_grad_past_projects/curriculum_analysis/</link>
+      <link>https://wafajohal.github.io/project/under_grad_past_projects/curriculum_analysis/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/under_grad_past_projects/curriculum_analysis/</guid>
+      <guid>https://wafajohal.github.io/project/under_grad_past_projects/curriculum_analysis/</guid>
       <description>&lt;p&gt;I have been developing a model of the so called behavioral styles. These styles act like a filter over
 communicative gestures to transpose a way of performing an action. We used multiple platforms (Nao – humanoid,
 and Reeti – facial expression) to test this rendering on facial and bodily communication [14]. We showed

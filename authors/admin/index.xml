@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>/authors/admin/</link>
-      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    <description></description>
+    <title>Wafa Johal</title>
+    <link>https://wafajohal.github.io/authors/admin/</link>
+      <atom:link href="https://wafajohal.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wafa Johal</description>
     <generator>Wowchemy (https://wowchemy.com)</generator>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
-      <title></title>
-      <link>/authors/admin/</link>
+      <url>https://wafajohal.github.io/authors/admin/avatar_hu142c057fb446f5a95dbefb6abc21270c_21825_270x270_fill_q75_box_center.jpg</url>
+      <title>Wafa Johal</title>
+      <link>https://wafajohal.github.io/authors/admin/</link>
     </image>
     
   </channel>

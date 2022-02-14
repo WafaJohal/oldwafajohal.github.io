@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tangible | </title>
-    <link>/tags/tangible/</link>
-      <atom:link href="/tags/tangible/index.xml" rel="self" type="application/rss+xml" />
+    <title>tangible | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/tangible/</link>
+      <atom:link href="https://wafajohal.github.io/tags/tangible/index.xml" rel="self" type="application/rss+xml" />
     <description>tangible</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>tangible</title>
-      <link>/tags/tangible/</link>
+      <link>https://wafajohal.github.io/tags/tangible/</link>
     </image>
     
     <item>
       <title>Using Tabletop Robots to promote Inclusive Classroom Experiences</title>
-      <link>/publication/neto-using-2020/</link>
+      <link>https://wafajohal.github.io/publication/neto-using-2020/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/neto-using-2020/</guid>
+      <guid>https://wafajohal.github.io/publication/neto-using-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tangible Human Swarm Interaction</title>
-      <link>/prospective/undergrad/h-swarm_2020/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/h-swarm_2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/h-swarm_2020/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/student-projects/swarm.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+      <guid>https://wafajohal.github.io/prospective/undergrad/h-swarm_2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/student-projects/swarm.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;context&#34;&gt;Context:&lt;/h2&gt;
 &lt;p&gt;Visuo-Motor coordination problems can impair children in  their academic achievements and in their everyday life.
 Gross visuo-motor skills, in particular, are required in a range of social and educational activities that contribute to children&amp;rsquo;s physical and cognitive development such as playing a musical instrument, ball-based sports or dancing.
@@ -53,10 +53,10 @@ In this project, we aim to design new forms of interaction with a swarm for enha
     
     <item>
       <title>Tangible Robots for Collaborative Online Learning</title>
-      <link>/prospective/undergrad/tangible_online/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/tangible_online/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/tangible_online/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/cellulo.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+      <guid>https://wafajohal.github.io/prospective/undergrad/tangible_online/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/cellulo.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;context&#34;&gt;Context:&lt;/h2&gt;
 &lt;p&gt;Online learning  presents several advantages: decreasing cost, allowing more flexibility and access to far away training resources. However, studies have found that it also limits communications between peers and teachers, limits physical interactions and that it requires a big commitment on the student&amp;rsquo;s part to plan and stay assiduous in their learning.&lt;/p&gt;
 &lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;

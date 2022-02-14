@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ROS | </title>
-    <link>/tags/ros/</link>
-      <atom:link href="/tags/ros/index.xml" rel="self" type="application/rss+xml" />
+    <title>ROS | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/ros/</link>
+      <atom:link href="https://wafajohal.github.io/tags/ros/index.xml" rel="self" type="application/rss+xml" />
     <description>ROS</description>
     <generator>Wowchemy (https://wowchemy.com)</generator>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>ROS</title>
-      <link>/tags/ros/</link>
+      <link>https://wafajohal.github.io/tags/ros/</link>
     </image>
     
     <item>
       <title>Robot Writing</title>
-      <link>/prospective/undergrad/writing_2020/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/writing_2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/writing_2020/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/writing_2020/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Handwriting is one of the most important motor skill we learn as human. Children with handwriting difficulties can find their academic impacted and often succeed less at school.&lt;/p&gt;
 &lt;p&gt;In this project we propose to explore new methods for a robot to write using a pen. The project will use the Fetch Robot and aim to evaluate how a robot could learn handwriting trajectories using human demonstrations.&lt;/p&gt;
@@ -41,9 +41,9 @@
     
     <item>
       <title>Voice for ROS</title>
-      <link>/prospective/undergrad/voice-robot/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/voice-robot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/voice-robot/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/voice-robot/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Natural language is an important part of communication since it offers an intuitive and efficient way of conveying ideas to another individual. Enabling robots to efficiently use language is essential for human-robot collaboration. In this project, we aim to develop an interface between a dialog manager (i.e. DialogFlow) and ROS (Robotics Operating System). By doing this, we will be able to use the powerful dialogue systems in human-robot interaction scenario.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://miro.medium.com/max/1066/1*OCuPx7AmWofWptQdPN-TPA.png&#34; alt=&#34;robot-va&#34;&gt;&lt;/p&gt;

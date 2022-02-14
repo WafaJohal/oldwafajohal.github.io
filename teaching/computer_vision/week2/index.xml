@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Week2 - Image Processing | </title>
-    <link>/teaching/computer_vision/week2/</link>
-      <atom:link href="/teaching/computer_vision/week2/index.xml" rel="self" type="application/rss+xml" />
+    <title>Week2 - Image Processing | Wafa Johal</title>
+    <link>https://wafajohal.github.io/teaching/computer_vision/week2/</link>
+      <atom:link href="https://wafajohal.github.io/teaching/computer_vision/week2/index.xml" rel="self" type="application/rss+xml" />
     <description>Week2 - Image Processing</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Thu, 09 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>Week2 - Image Processing</title>
-      <link>/teaching/computer_vision/week2/</link>
+      <link>https://wafajohal.github.io/teaching/computer_vision/week2/</link>
     </image>
     
     <item>
       <title>Demo Gaussian Blur</title>
-      <link>/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/</link>
+      <link>https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/</guid>
+      <guid>https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; cv2
 &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; np
 &lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; matplotlib &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pyplot &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; plt
@@ -26,13 +26,13 @@ img &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(img)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.image.AxesImage at 0x1de43671b70&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/gaussian_blur/output_1_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/gaussian_blur/output_1_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#Gaussian filtering&lt;/span&gt;
 blur &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;GaussianBlur(img,(&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;),&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(blur)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.image.AxesImage at 0x1de437332e8&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/gaussian_blur/output_2_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/gaussian_blur/output_2_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;getGaussianKernel&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;?&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;[1;31mDocstring:[0m
 getGaussianKernel(ksize, sigma[, ktype]) -&amp;gt; retval
@@ -75,7 +75,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
  [0.03751576 0.04431963 0.04685151 0.04431963 0.03751576]
  [0.0317564  0.03751576 0.03965895 0.03751576 0.0317564 ]]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/gaussian_blur/output_4_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/gaussian_blur/output_4_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;blur2 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;filter2D(img,&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,GM)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#show original and filtered images&lt;/span&gt;
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;figure(figsize&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;))
@@ -86,16 +86,16 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;xticks([]), plt&lt;sp
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;subplot(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;),plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(blur2),plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Blurred 2&amp;#39;&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;xticks([]), plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;yticks([])
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/gaussian_blur/output_6_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/gaussian_blur/output_6_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Demo Bit-Planes</title>
-      <link>/teaching/computer_vision/week2/w2_-demo_image_processing_bitplanes/</link>
+      <link>https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_bitplanes/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/teaching/computer_vision/week2/w2_-demo_image_processing_bitplanes/</guid>
+      <guid>https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_bitplanes/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; cv2
 &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; np
 &lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; matplotlib &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pyplot &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; plt
@@ -105,7 +105,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;figure(figsize&lt;spa
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(img,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gray&amp;#39;&lt;/span&gt;)
 
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/bitplanes/output_2_0.svg&#34; alt=&#34;svg&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/bitplanes/output_2_0.svg&#34; alt=&#34;svg&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;out &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;figure(figsize&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;))
 &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; k &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;):
@@ -120,21 +120,21 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;figure(figsize&lt;spa
     plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;xticks([]), plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;yticks([])
 
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/bitplanes/output_3_0.svg&#34; alt=&#34;svg&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/bitplanes/output_3_0.svg&#34; alt=&#34;svg&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;ms_planes &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; out[&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;out[&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;out[&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;]
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(ms_planes,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gray&amp;#39;&lt;/span&gt;),plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; plane 5-7&amp;#34;&lt;/span&gt;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;(&amp;lt;matplotlib.image.AxesImage at 0x243a2f83be0&amp;gt;, Text(0.5, 1.0, &#39; plane 5-7&#39;))
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/bitplanes/output_4_1.svg&#34; alt=&#34;svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/bitplanes/output_4_1.svg&#34; alt=&#34;svg&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Demo Fourier Transform and Frequency filtering</title>
-      <link>/teaching/computer_vision/week2/w2_-demo_image_processing_fourier_smoothing/</link>
+      <link>https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_fourier_smoothing/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/teaching/computer_vision/week2/w2_-demo_image_processing_fourier_smoothing/</guid>
+      <guid>https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_fourier_smoothing/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; cv2
 &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; np
 &lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; matplotlib &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pyplot &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; plt
@@ -151,7 +151,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(img, cmap &lt;
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;subplot(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;hist(img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;flatten())
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_2_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_2_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# create the centering matrix&lt;/span&gt;
 centering_m &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;full((img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;] , img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape[&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;]), &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
 
@@ -166,7 +166,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;subplot(&lt;span styl
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;hist(centering_m&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;flat)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_3_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_3_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;centered_img &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; img &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;centering_m
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;figure(figsize&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;))
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;subplot(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
@@ -174,7 +174,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(centered_img, 
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;subplot(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;hist(centered_img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;flatten())
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_4_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_4_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# compute the 2D FFT&lt;/span&gt;
 dft &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;  np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;fft&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;fft2(centered_img)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;figure(figsize&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;))
@@ -182,12 +182,12 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(np&lt;span sty
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.image.AxesImage at 0x1dfe72c33c8&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_5_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_5_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;distance&lt;/span&gt;(point1,point2):
     &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;sqrt((point1[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;point2[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;])&lt;span style=&#34;color:#f92672&#34;&gt;**&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; (point1[&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;point2[&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;])&lt;span style=&#34;color:#f92672&#34;&gt;**&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;filters&#34;&gt;Filters&lt;/h2&gt;
 &lt;h2 id=&#34;ideal-lowpass-filter&#34;&gt;Ideal LowPass Filter&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/equations/idealLP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/equations/idealLP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;idealFilterLP&lt;/span&gt;(D0,imgShape):
     base &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;zeros(imgShape[:&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;])
     rows, cols &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; imgShape[:&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;]
@@ -200,9 +200,9 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(np&lt;span sty
 
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(idealFilterLP(&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;,img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape), cmap&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gray&amp;#39;&lt;/span&gt;),plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Low Pass Filter&amp;#39;&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_9_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_9_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ideal-highpass-filter&#34;&gt;Ideal HighPass Filter&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/equations/idealHP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/equations/idealHP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;idealFilterHP&lt;/span&gt;(D0,imgShape):
     base &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ones(imgShape[:&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;])
     rows, cols &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; imgShape[:&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;]
@@ -216,9 +216,9 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(idealFilterHP(&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;,img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape), cmap&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gray&amp;#39;&lt;/span&gt;),plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;High Pass Filter&amp;#39;&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_11_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_11_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;gaussian-lowpass-filter&#34;&gt;Gaussian LowPass Filter&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/equations/gaussianLP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/equations/gaussianLP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;gaussianLP&lt;/span&gt;(D0,imgShape):
     base &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;zeros(imgShape[:&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;])
     rows, cols &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; imgShape[:&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;]
@@ -231,9 +231,9 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(gaussianLP(&lt;span style=&#34;color:#ae81ff&#34;&gt;80&lt;/span&gt;,img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape), cmap&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gray&amp;#39;&lt;/span&gt;),plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Gaussian Low Pass Filter&amp;#39;&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;xticks([]), plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;yticks([])
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_13_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_13_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;gaussian-highpass-filter&#34;&gt;Gaussian HighPass Filter&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/equations/gaussianHP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/equations/gaussianHP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;gaussianHP&lt;/span&gt;(D0,imgShape):
     base &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;zeros(imgShape[:&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;])
     rows, cols &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; imgShape[:&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;]
@@ -246,7 +246,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(gaussianHP(&lt;span style=&#34;color:#ae81ff&#34;&gt;80&lt;/span&gt;,img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape), cmap&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gray&amp;#39;&lt;/span&gt;),plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Gaussian High Pass Filter&amp;#39;&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;xticks([]), plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;yticks([])
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_15_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_15_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;apply-filter-on-dft&#34;&gt;Apply Filter on DFT&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# filter the DFT&lt;/span&gt;
 fdft &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; dft &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; idealFilterLP(&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;,img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape) &lt;span style=&#34;color:#75715e&#34;&gt;## note that we do a multiplication cause we are in the frequency domain&lt;/span&gt;
@@ -266,7 +266,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(real_centered,
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Inversed Filtered DFT&amp;#39;&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_17_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_17_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# filter the DFT&lt;/span&gt;
 fdft &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; dft &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; gaussianLP(&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;,img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape)
 
@@ -284,7 +284,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;subplot(&lt;span styl
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(real_centered, cmap &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;gray&amp;#34;&lt;/span&gt;, vmin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, vmax&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Inversed Filtered DFT&amp;#39;&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_18_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_18_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;demonstraring-that-we-can-go-back-and-forth-from-image-to-frequency-without-loss&#34;&gt;Demonstraring that we can go back and forth from image to frequency without loss&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# inverse the filtered DFT&lt;/span&gt;
 idft &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;fft&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ifft2(dft)
@@ -305,8 +305,8 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(real_centered &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; img, cmap &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;gray&amp;#34;&lt;/span&gt;, vmin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, vmax&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Difference&amp;#39;&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_20_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_20_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_20_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_20_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     

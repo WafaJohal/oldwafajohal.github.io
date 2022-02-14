@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Prospective Collaborators | </title>
-    <link>/prospective/</link>
-      <atom:link href="/prospective/index.xml" rel="self" type="application/rss+xml" />
+    <title>Prospective Collaborators | Wafa Johal</title>
+    <link>https://wafajohal.github.io/prospective/</link>
+      <atom:link href="https://wafajohal.github.io/prospective/index.xml" rel="self" type="application/rss+xml" />
     <description>Prospective Collaborators</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>Prospective Collaborators</title>
-      <link>/prospective/</link>
+      <link>https://wafajohal.github.io/prospective/</link>
     </image>
     
     <item>
       <title>Visitors and PostDoc</title>
-      <link>/prospective/visitors/</link>
+      <link>https://wafajohal.github.io/prospective/visitors/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/prospective/visitors/</guid>
+      <guid>https://wafajohal.github.io/prospective/visitors/</guid>
       <description>&lt;p&gt;Grants for postdocs&lt;/p&gt;
 &lt;p&gt;Grans for visitors:
 french
@@ -27,9 +27,9 @@ others&lt;/p&gt;
     
     <item>
       <title>PhD Positions</title>
-      <link>/prospective/phd/</link>
+      <link>https://wafajohal.github.io/prospective/phd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/phd/</guid>
+      <guid>https://wafajohal.github.io/prospective/phd/</guid>
       <description>&lt;hr&gt;
 &lt;h3 id=&#34;candidate-profile&#34;&gt;Candidate Profile&lt;/h3&gt;
 &lt;h4 id=&#34;required-skills&#34;&gt;Required Skills&lt;/h4&gt;

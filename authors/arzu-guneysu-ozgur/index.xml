@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arzu Guneysu Ozgur | Wafa Johal</title>
+    <link>https://wafajohal.github.io/authors/arzu-guneysu-ozgur/</link>
+      <atom:link href="https://wafajohal.github.io/authors/arzu-guneysu-ozgur/index.xml" rel="self" type="application/rss+xml" />
+    <description>Arzu Guneysu Ozgur</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <title>Arzu Guneysu Ozgur</title>
+      <link>https://wafajohal.github.io/authors/arzu-guneysu-ozgur/</link>
+    </image>
+    
+    <item>
+      <title>Gamified Motor Training with Tangible Robots in Older Adults: a Feasibility Study and Comparison with Young</title>
+      <link>https://wafajohal.github.io/publication/guneysu-ozgur-gamified-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/guneysu-ozgur-gamified-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iterative Design and Evaluation of a Tangible Robot-Assisted Handwriting Activity for Special Education</title>
+      <link>https://wafajohal.github.io/publication/guneysu-ozgur-iterative-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/guneysu-ozgur-iterative-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Designing Configurable Arm Rehabilitation Games: How Do Different Game Elements Affect User Motion Trajectories?</title>
+      <link>https://wafajohal.github.io/publication/ozgur-designing-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/ozgur-designing-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards an Adaptive Upper Limb Rehabilitation Game with Tangible Robots</title>
+      <link>https://wafajohal.github.io/publication/ozgur-2019-towards/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/ozgur-2019-towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Declarative Physicomimetics for Tangible Swarm Application Development</title>
+      <link>https://wafajohal.github.io/publication/ozgur-2018-declarative/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/ozgur-2018-declarative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iterative design of an upper limb rehabilitation game with tangible robots</title>
+      <link>https://wafajohal.github.io/publication/guneysu-2018-iterative/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/guneysu-2018-iterative/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

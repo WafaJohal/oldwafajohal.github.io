@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cse-honours | </title>
-    <link>/tags/cse-honours/</link>
-      <atom:link href="/tags/cse-honours/index.xml" rel="self" type="application/rss+xml" />
+    <title>cse-honours | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/cse-honours/</link>
+      <atom:link href="https://wafajohal.github.io/tags/cse-honours/index.xml" rel="self" type="application/rss+xml" />
     <description>cse-honours</description>
     <generator>Wowchemy (https://wowchemy.com)</generator>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>cse-honours</title>
-      <link>/tags/cse-honours/</link>
+      <link>https://wafajohal.github.io/tags/cse-honours/</link>
     </image>
     
     <item>
       <title>Find Your Voice: Use of Voice Assistant for Learning</title>
-      <link>/prospective/undergrad/fyv_2020/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/fyv_2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/fyv_2020/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/student-projects/fyv2020.png&#34; alt=&#34;FYV&#34;&gt;&lt;/p&gt;
+      <guid>https://wafajohal.github.io/prospective/undergrad/fyv_2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/student-projects/fyv2020.png&#34; alt=&#34;FYV&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Many children struggle to find their voice in social situations. They may be shy, suffer from social anxiety, be new to a culture (migrants) or have impairments in communication due to atypical development  (e.g., autism spectrum disorder, speech or hearing disorders).&lt;/p&gt;
 &lt;p&gt;The voices of these children often go unheard, as they find it hard to contribute to a conversation.&lt;/p&gt;
@@ -68,9 +68,9 @@
     
     <item>
       <title>Human Action Recognition from AD Movies</title>
-      <link>/prospective/undergrad/human_action_recognition/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/human_action_recognition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/human_action_recognition/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/human_action_recognition/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Action Recognition is curcial for robots to perfoma around humans.
 Indeed, robot need to asses human action and intentions in order to assist them in everyday life tasks and to collaborative efficiently.&lt;/p&gt;
@@ -108,9 +108,9 @@ This extraction tool should be fexible and allow for integration of next action.
     
     <item>
       <title>I Spy - An AR Game with a Robot in Home Environment</title>
-      <link>/prospective/undergrad/ispy_hololens_2021/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/ispy_hololens_2021/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/ispy_hololens_2021/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/ispy_hololens_2021/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;In the context of the (HURL project)[https://wafa.johal.org/project/hurl/], we investigate various ways to enable novice users to train robots to perform everyday life tasks. In particular, we employ gamification and Augmented Reality (AR) to make the training more engaging for the human trainer.&lt;/p&gt;
 &lt;p&gt;In this project, your goal will be to implement a game &amp;ldquo;I spy&amp;rdquo; to be played with a robot in a home environment. For this game, we would like to use AR with the Hololens 2&lt;/p&gt;
@@ -137,9 +137,9 @@ D or above in a machine learning or AI course&lt;/p&gt;
     
     <item>
       <title>Machine Learning for Social Interaction Modelling</title>
-      <link>/prospective/undergrad/hri-dataset-mine/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/hri-dataset-mine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/hri-dataset-mine/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/hri-dataset-mine/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;The field of social human-robot interaction is growing.
 Understanding how communication between humans (human-human) generalises during human-robot communication is crucial in building fluent and enjoyable interactions with social robots.
@@ -176,13 +176,13 @@ Everyday, more datasets that feature social interaction between humans and betwe
     
     <item>
       <title>Persuasive Robots - Exploring Behavioural Styles</title>
-      <link>/prospective/undergrad/behavioural-styles/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/behavioural-styles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/behavioural-styles/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/behavioural-styles/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Social robots are foreseen to be encountered in our everyday life, playing roles as assistant or companion (to mention a few).
 Recent studies have shown the potential harmful impacts of overtrust in social robotics [1], as robots may collect sensitive information without the user’s knowledge.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/student-projects/styles.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/student-projects/styles.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Behavioural styles  allow  robots to express themselves differently within the same context. Given a specific gesture, keyframe manipulation can be used in order to generate style-based variation to the gesture.
 Behavioural styles have been studied in the past to improve robot&amp;rsquo;s behaviour during human-robot interaction [2].&lt;/p&gt;
 &lt;p&gt;In this project, we will explore how behavioural styles can influence engagement, trust and persuasion during human-robot interaction.&lt;/p&gt;
@@ -218,9 +218,9 @@ International Journal of Social Robotics, 3(1), 41-52.&lt;/li&gt;
     
     <item>
       <title>Robot Writing</title>
-      <link>/prospective/undergrad/writing_2020/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/writing_2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/writing_2020/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/writing_2020/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Handwriting is one of the most important motor skill we learn as human. Children with handwriting difficulties can find their academic impacted and often succeed less at school.&lt;/p&gt;
 &lt;p&gt;In this project we propose to explore new methods for a robot to write using a pen. The project will use the Fetch Robot and aim to evaluate how a robot could learn handwriting trajectories using human demonstrations.&lt;/p&gt;
@@ -245,10 +245,10 @@ International Journal of Social Robotics, 3(1), 41-52.&lt;/li&gt;
     
     <item>
       <title>Tangible e-Ink Paper Interfaces for Learners</title>
-      <link>/prospective/undergrad/tip_2020/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/tip_2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/tip_2020/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/student-projects/tip.png&#34; alt=&#34;FYV&#34;&gt;&lt;/p&gt;
+      <guid>https://wafajohal.github.io/prospective/undergrad/tip_2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/student-projects/tip.png&#34; alt=&#34;FYV&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;While digital tools are more and more used in classrooms, teachers&#39; common practice remains to use photocopied paper documents to share and collect learning exercises from their students.
 With the Tangible e-Ink Paper (TIP) system, we aim to explore the use of tangible manipulatives interacting with paper sheets as a bridge between digital and paper traces of learning.
@@ -285,10 +285,10 @@ Featuring an e-Ink display, a paper-based localisation system and a wireless con
     
     <item>
       <title>Tangible Human Swarm Interaction</title>
-      <link>/prospective/undergrad/h-swarm_2020/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/h-swarm_2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/h-swarm_2020/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/student-projects/swarm.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+      <guid>https://wafajohal.github.io/prospective/undergrad/h-swarm_2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/student-projects/swarm.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;context&#34;&gt;Context:&lt;/h2&gt;
 &lt;p&gt;Visuo-Motor coordination problems can impair children in  their academic achievements and in their everyday life.
 Gross visuo-motor skills, in particular, are required in a range of social and educational activities that contribute to children&amp;rsquo;s physical and cognitive development such as playing a musical instrument, ball-based sports or dancing.
@@ -316,10 +316,10 @@ In this project, we aim to design new forms of interaction with a swarm for enha
     
     <item>
       <title>Tangible Robots for Collaborative Online Learning</title>
-      <link>/prospective/undergrad/tangible_online/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/tangible_online/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/tangible_online/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/cellulo.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+      <guid>https://wafajohal.github.io/prospective/undergrad/tangible_online/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/cellulo.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;context&#34;&gt;Context:&lt;/h2&gt;
 &lt;p&gt;Online learning  presents several advantages: decreasing cost, allowing more flexibility and access to far away training resources. However, studies have found that it also limits communications between peers and teachers, limits physical interactions and that it requires a big commitment on the student&amp;rsquo;s part to plan and stay assiduous in their learning.&lt;/p&gt;
 &lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
@@ -362,9 +362,9 @@ The project will consist in:&lt;/p&gt;
     
     <item>
       <title>TeleOp Game - Explore Gamification of Robot Teleoperation</title>
-      <link>/prospective/undergrad/cleanup_2021/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/cleanup_2021/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/cleanup_2021/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/cleanup_2021/</guid>
       <description>&lt;h1 id=&#34;context&#34;&gt;Context:&lt;/h1&gt;
 &lt;p&gt;Service robots are becoming more common in households. Tasks that they may be assigned include vacuuming the floor or grabbing objects from the top shelf. Augmented reality (AR) is one of the many interfaces the robot and the human user may communicate through. During teleoperation or robot training, human disengagement can be an issue (the task demonstrated by the human often repetitive).&lt;/p&gt;
 &lt;p&gt;As a preliminary step, we aim to explore how gamification can affect human engagement in an AR game setting where the objective of the game is to complete a common household task (such as clearing the table). The AR application will be developed for the Microsoft HoloLens 2 headset. The game can be thought of as encouraging the user to complete the task.&lt;/p&gt;
@@ -392,9 +392,9 @@ Game Design, Computer Vision&lt;/p&gt;
     
     <item>
       <title>Voice for ROS</title>
-      <link>/prospective/undergrad/voice-robot/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/voice-robot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/voice-robot/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/voice-robot/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Natural language is an important part of communication since it offers an intuitive and efficient way of conveying ideas to another individual. Enabling robots to efficiently use language is essential for human-robot collaboration. In this project, we aim to develop an interface between a dialog manager (i.e. DialogFlow) and ROS (Robotics Operating System). By doing this, we will be able to use the powerful dialogue systems in human-robot interaction scenario.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://miro.medium.com/max/1066/1*OCuPx7AmWofWptQdPN-TPA.png&#34; alt=&#34;robot-va&#34;&gt;&lt;/p&gt;

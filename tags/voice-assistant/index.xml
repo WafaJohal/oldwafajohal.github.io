@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>voice-assistant | </title>
-    <link>/tags/voice-assistant/</link>
-      <atom:link href="/tags/voice-assistant/index.xml" rel="self" type="application/rss+xml" />
+    <title>voice-assistant | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/voice-assistant/</link>
+      <atom:link href="https://wafajohal.github.io/tags/voice-assistant/index.xml" rel="self" type="application/rss+xml" />
     <description>voice-assistant</description>
     <generator>Wowchemy (https://wowchemy.com)</generator>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>voice-assistant</title>
-      <link>/tags/voice-assistant/</link>
+      <link>https://wafajohal.github.io/tags/voice-assistant/</link>
     </image>
     
     <item>
       <title>Find Your Voice: Use of Voice Assistant for Learning</title>
-      <link>/prospective/undergrad/fyv_2020/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/fyv_2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/fyv_2020/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/student-projects/fyv2020.png&#34; alt=&#34;FYV&#34;&gt;&lt;/p&gt;
+      <guid>https://wafajohal.github.io/prospective/undergrad/fyv_2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/student-projects/fyv2020.png&#34; alt=&#34;FYV&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Many children struggle to find their voice in social situations. They may be shy, suffer from social anxiety, be new to a culture (migrants) or have impairments in communication due to atypical development  (e.g., autism spectrum disorder, speech or hearing disorders).&lt;/p&gt;
 &lt;p&gt;The voices of these children often go unheard, as they find it hard to contribute to a conversation.&lt;/p&gt;
@@ -68,9 +68,9 @@
     
     <item>
       <title>Voice for ROS</title>
-      <link>/prospective/undergrad/voice-robot/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/voice-robot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/voice-robot/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/voice-robot/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Natural language is an important part of communication since it offers an intuitive and efficient way of conveying ideas to another individual. Enabling robots to efficiently use language is essential for human-robot collaboration. In this project, we aim to develop an interface between a dialog manager (i.e. DialogFlow) and ROS (Robotics Operating System). By doing this, we will be able to use the powerful dialogue systems in human-robot interaction scenario.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://miro.medium.com/max/1066/1*OCuPx7AmWofWptQdPN-TPA.png&#34; alt=&#34;robot-va&#34;&gt;&lt;/p&gt;

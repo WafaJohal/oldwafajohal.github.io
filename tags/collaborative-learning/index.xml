@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>collaborative learning | </title>
-    <link>/tags/collaborative-learning/</link>
-      <atom:link href="/tags/collaborative-learning/index.xml" rel="self" type="application/rss+xml" />
+    <title>collaborative learning | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/collaborative-learning/</link>
+      <atom:link href="https://wafajohal.github.io/tags/collaborative-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>collaborative learning</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>collaborative learning</title>
-      <link>/tags/collaborative-learning/</link>
+      <link>https://wafajohal.github.io/tags/collaborative-learning/</link>
     </image>
     
     <item>
       <title>Augmented Robotics for Learners: A Case Study on Optics</title>
-      <link>/publication/johal-augmented-2019/</link>
+      <link>https://wafajohal.github.io/publication/johal-augmented-2019/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-augmented-2019/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-augmented-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tangible Robots for Collaborative Online Learning</title>
-      <link>/prospective/undergrad/tangible_online/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/tangible_online/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/tangible_online/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/cellulo.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+      <guid>https://wafajohal.github.io/prospective/undergrad/tangible_online/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/cellulo.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;context&#34;&gt;Context:&lt;/h2&gt;
 &lt;p&gt;Online learning  presents several advantages: decreasing cost, allowing more flexibility and access to far away training resources. However, studies have found that it also limits communications between peers and teachers, limits physical interactions and that it requires a big commitment on the student&amp;rsquo;s part to plan and stay assiduous in their learning.&lt;/p&gt;
 &lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;

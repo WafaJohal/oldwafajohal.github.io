@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>experiment | </title>
-    <link>/tags/experiment/</link>
-      <atom:link href="/tags/experiment/index.xml" rel="self" type="application/rss+xml" />
+    <title>experiment | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/experiment/</link>
+      <atom:link href="https://wafajohal.github.io/tags/experiment/index.xml" rel="self" type="application/rss+xml" />
     <description>experiment</description>
     <generator>Wowchemy (https://wowchemy.com)</generator>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>experiment</title>
-      <link>/tags/experiment/</link>
+      <link>https://wafajohal.github.io/tags/experiment/</link>
     </image>
     
     <item>
       <title>Persuasive Robots - Exploring Behavioural Styles</title>
-      <link>/prospective/undergrad/behavioural-styles/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/behavioural-styles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/behavioural-styles/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/behavioural-styles/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Social robots are foreseen to be encountered in our everyday life, playing roles as assistant or companion (to mention a few).
 Recent studies have shown the potential harmful impacts of overtrust in social robotics [1], as robots may collect sensitive information without the user’s knowledge.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/student-projects/styles.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/student-projects/styles.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Behavioural styles  allow  robots to express themselves differently within the same context. Given a specific gesture, keyframe manipulation can be used in order to generate style-based variation to the gesture.
 Behavioural styles have been studied in the past to improve robot&amp;rsquo;s behaviour during human-robot interaction [2].&lt;/p&gt;
 &lt;p&gt;In this project, we will explore how behavioural styles can influence engagement, trust and persuasion during human-robot interaction.&lt;/p&gt;

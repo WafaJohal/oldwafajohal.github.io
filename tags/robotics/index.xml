@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>robotics | </title>
-    <link>/tags/robotics/</link>
-      <atom:link href="/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <title>robotics | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/robotics/</link>
+      <atom:link href="https://wafajohal.github.io/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
     <description>robotics</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>robotics</title>
-      <link>/tags/robotics/</link>
+      <link>https://wafajohal.github.io/tags/robotics/</link>
     </image>
     
     <item>
       <title>Augmented Robotics for Learners: A Case Study on Optics</title>
-      <link>/publication/johal-augmented-2019/</link>
+      <link>https://wafajohal.github.io/publication/johal-augmented-2019/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-augmented-2019/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-augmented-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Human Action Recognition from AD Movies</title>
-      <link>/prospective/undergrad/human_action_recognition/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/human_action_recognition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/human_action_recognition/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/human_action_recognition/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Action Recognition is curcial for robots to perfoma around humans.
 Indeed, robot need to asses human action and intentions in order to assist them in everyday life tasks and to collaborative efficiently.&lt;/p&gt;
@@ -62,13 +62,13 @@ This extraction tool should be fexible and allow for integration of next action.
     
     <item>
       <title>Persuasive Robots - Exploring Behavioural Styles</title>
-      <link>/prospective/undergrad/behavioural-styles/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/behavioural-styles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/behavioural-styles/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/behavioural-styles/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Social robots are foreseen to be encountered in our everyday life, playing roles as assistant or companion (to mention a few).
 Recent studies have shown the potential harmful impacts of overtrust in social robotics [1], as robots may collect sensitive information without the user’s knowledge.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/student-projects/styles.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/student-projects/styles.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Behavioural styles  allow  robots to express themselves differently within the same context. Given a specific gesture, keyframe manipulation can be used in order to generate style-based variation to the gesture.
 Behavioural styles have been studied in the past to improve robot&amp;rsquo;s behaviour during human-robot interaction [2].&lt;/p&gt;
 &lt;p&gt;In this project, we will explore how behavioural styles can influence engagement, trust and persuasion during human-robot interaction.&lt;/p&gt;
@@ -104,9 +104,9 @@ International Journal of Social Robotics, 3(1), 41-52.&lt;/li&gt;
     
     <item>
       <title>Robot Writing</title>
-      <link>/prospective/undergrad/writing_2020/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/writing_2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/writing_2020/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/writing_2020/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Handwriting is one of the most important motor skill we learn as human. Children with handwriting difficulties can find their academic impacted and often succeed less at school.&lt;/p&gt;
 &lt;p&gt;In this project we propose to explore new methods for a robot to write using a pen. The project will use the Fetch Robot and aim to evaluate how a robot could learn handwriting trajectories using human demonstrations.&lt;/p&gt;
@@ -131,9 +131,9 @@ International Journal of Social Robotics, 3(1), 41-52.&lt;/li&gt;
     
     <item>
       <title>Voice for ROS</title>
-      <link>/prospective/undergrad/voice-robot/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/voice-robot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/voice-robot/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/voice-robot/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Natural language is an important part of communication since it offers an intuitive and efficient way of conveying ideas to another individual. Enabling robots to efficiently use language is essential for human-robot collaboration. In this project, we aim to develop an interface between a dialog manager (i.e. DialogFlow) and ROS (Robotics Operating System). By doing this, we will be able to use the powerful dialogue systems in human-robot interaction scenario.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://miro.medium.com/max/1066/1*OCuPx7AmWofWptQdPN-TPA.png&#34; alt=&#34;robot-va&#34;&gt;&lt;/p&gt;

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tangible robot | </title>
-    <link>/tags/tangible-robot/</link>
-      <atom:link href="/tags/tangible-robot/index.xml" rel="self" type="application/rss+xml" />
+    <title>tangible robot | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/tangible-robot/</link>
+      <atom:link href="https://wafajohal.github.io/tags/tangible-robot/index.xml" rel="self" type="application/rss+xml" />
     <description>tangible robot</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>tangible robot</title>
-      <link>/tags/tangible-robot/</link>
+      <link>https://wafajohal.github.io/tags/tangible-robot/</link>
     </image>
     
     <item>
       <title>Cellulo</title>
-      <link>/project/cellulo/</link>
+      <link>https://wafajohal.github.io/project/cellulo/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/cellulo/</guid>
+      <guid>https://wafajohal.github.io/project/cellulo/</guid>
       <description>&lt;p&gt;With the Cellulo project [6], a part of the Transversal Educational Activities of the NCCR Robotics, we introduced a
 new robotic platform which is small and easily deployable. A dotted pattern printed on regular paper enables the
 Cellulo robots with absolute localization with a precision of 270 microns [7]. The robots also have a new

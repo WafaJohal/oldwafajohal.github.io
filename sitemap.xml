@@ -2,837 +2,1246 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/teaching/computer_vision/week1/</loc>
+    <loc>https://wafajohal.github.io/teaching/computer_vision/week1/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/teaching/computer_vision/week1/w1_demo1_image_formation_opencvbasics/</loc>
+    <loc>https://wafajohal.github.io/teaching/computer_vision/week1/w1_demo1_image_formation_opencvbasics/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/</loc>
+    <loc>https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/prospective/undergrad/</loc>
+    <loc>https://wafajohal.github.io/prospective/undergrad/</loc>
   </url><url>
-    <loc>/teaching/computer_vision/week2/</loc>
+    <loc>https://wafajohal.github.io/teaching/computer_vision/week2/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/teaching/computer_vision/week1/w1_demo2_image_formation_colorspaces/</loc>
+    <loc>https://wafajohal.github.io/teaching/computer_vision/week1/w1_demo2_image_formation_colorspaces/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://wafajohal.github.io/post/</loc>
     <lastmod>2022-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
+    <loc>https://wafajohal.github.io/</loc>
     <lastmod>2022-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/2022_women-in-ai_2022/</loc>
+    <loc>https://wafajohal.github.io/post/2022_women-in-ai_2022/</loc>
     <lastmod>2022-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/teaching/</loc>
+    <loc>https://wafajohal.github.io/teaching/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/teaching/computer_vision/</loc>
+    <loc>https://wafajohal.github.io/teaching/computer_vision/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/grow2021/</loc>
+    <loc>https://wafajohal.github.io/post/grow2021/</loc>
     <lastmod>2021-04-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/2phdoffering/</loc>
+    <loc>https://wafajohal.github.io/post/2phdoffering/</loc>
     <lastmod>2021-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/affective-computing/</loc>
+    <loc>https://wafajohal.github.io/tags/affective-computing/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/join_the_group/</loc>
+    <loc>https://wafajohal.github.io/project/join_the_group/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/navigation/</loc>
+    <loc>https://wafajohal.github.io/tags/navigation/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/</loc>
+    <loc>https://wafajohal.github.io/project/</loc>
     <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/social-robot/</loc>
+    <loc>https://wafajohal.github.io/tags/social-robot/</loc>
     <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://wafajohal.github.io/tags/</loc>
     <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
-    <loc>/tags/anthropomorphism/</loc>
+    <loc>https://wafajohal.github.io/tags/anthropomorphism/</loc>
     <lastmod>2021-01-19T16:36:09+11:00</lastmod>
   </url><url>
-    <loc>/tags/co-speech-gestures/</loc>
+    <loc>https://wafajohal.github.io/tags/co-speech-gestures/</loc>
     <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
-    <loc>/tags/gesture-generation/</loc>
+    <loc>https://wafajohal.github.io/tags/gesture-generation/</loc>
     <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
-    <loc>/tags/human-likeness/</loc>
+    <loc>https://wafajohal.github.io/tags/human-likeness/</loc>
     <lastmod>2021-01-19T16:36:09+11:00</lastmod>
   </url><url>
-    <loc>/tags/literature-review/</loc>
+    <loc>https://wafajohal.github.io/tags/literature-review/</loc>
     <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
-    <loc>/tags/nao/</loc>
+    <loc>https://wafajohal.github.io/tags/nao/</loc>
     <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
-    <loc>/tags/perception-load/</loc>
+    <loc>https://wafajohal.github.io/tags/perception-load/</loc>
     <lastmod>2021-01-19T16:36:09+11:00</lastmod>
   </url><url>
-    <loc>/tags/robot-design/</loc>
+    <loc>https://wafajohal.github.io/tags/robot-design/</loc>
     <lastmod>2021-01-19T16:36:09+11:00</lastmod>
   </url><url>
-    <loc>/tags/robot-in-education/</loc>
+    <loc>https://wafajohal.github.io/tags/robot-in-education/</loc>
     <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
-    <loc>/tags/robots-for-learning/</loc>
+    <loc>https://wafajohal.github.io/tags/robots-for-learning/</loc>
     <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
-    <loc>/tags/scoping-review/</loc>
+    <loc>https://wafajohal.github.io/tags/scoping-review/</loc>
     <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
-    <loc>/tags/survey/</loc>
+    <loc>https://wafajohal.github.io/tags/survey/</loc>
     <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
-    <loc>/publication/amirova-2021-nao/</loc>
+    <loc>https://wafajohal.github.io/publication_types/1/</loc>
     <lastmod>2021-11-26T11:04:31+11:00</lastmod>
   </url><url>
-    <loc>/categories/2/</loc>
+    <loc>https://wafajohal.github.io/publication/amirova-2021-nao/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication_types/2/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/categories/2/</loc>
     <lastmod>2021-02-28T09:32:21+11:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://wafajohal.github.io/authors/aida-amirova/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/anara-sandygulova/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/barbara-bruno/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/bolat-tleubayev/</loc>
     <lastmod>2021-02-28T09:32:21+11:00</lastmod>
   </url><url>
-    <loc>/tags/cowriting_kazakh/</loc>
+    <loc>https://wafajohal.github.io/categories/</loc>
     <lastmod>2021-02-28T09:32:21+11:00</lastmod>
   </url><url>
-    <loc>/tags/human-robot-interaction/</loc>
-    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
-  </url><url>
-    <loc>/publication/</loc>
-    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
-  </url><url>
-    <loc>/tags/robot/</loc>
-    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
-  </url><url>
-    <loc>/publication/johal-2021-r-4-l/</loc>
-    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
-  </url><url>
-    <loc>/publication/liu-2021-speech/</loc>
-    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
-  </url><url>
-    <loc>/publication/asselborn-2021-transferability/</loc>
+    <loc>https://wafajohal.github.io/authors/catherine-mcbride/</loc>
     <lastmod>2021-02-28T09:32:21+11:00</lastmod>
   </url><url>
-    <loc>/publication/ingle-2021/</loc>
+    <loc>https://wafajohal.github.io/tags/cowriting_kazakh/</loc>
+    <lastmod>2021-02-28T09:32:21+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/daisy-ingle/</loc>
     <lastmod>2021-01-19T16:36:09+11:00</lastmod>
   </url><url>
-    <loc>/post/20201215_ecan_facultyaward/</loc>
+    <loc>https://wafajohal.github.io/authors/elmira-yadollahi/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/gelareh-mohammadi/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/human-robot-interaction/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/jennifer-k.-olsen/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/mohamed-chetouani/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/nadine-marcus/</loc>
+    <lastmod>2021-01-19T16:36:09+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/nazerke-rakhymbayeva/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/pierre-dillenbourg/</loc>
+    <lastmod>2021-02-28T09:32:21+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication_types/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/robot/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2021-r-4-l/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/liu-2021-speech/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/severin-lemaignan/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/asselborn-2021-transferability/</loc>
+    <lastmod>2021-02-28T09:32:21+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/ingle-2021/</loc>
+    <lastmod>2021-01-19T16:36:09+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/thibault-asselborn/</loc>
+    <lastmod>2021-02-28T09:32:21+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/wafa-johal/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/yang-song/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/yu-liu/</loc>
+    <lastmod>2021-11-26T11:04:31+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/zhanel-zhexenova/</loc>
+    <lastmod>2021-02-28T09:32:21+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/post/20201215_ecan_facultyaward/</loc>
     <lastmod>2020-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/hurl/</loc>
+    <loc>https://wafajohal.github.io/project/hurl/</loc>
     <lastmod>2020-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/learning/</loc>
+    <loc>https://wafajohal.github.io/tags/learning/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
-    <loc>/post/decra2021/</loc>
+    <loc>https://wafajohal.github.io/post/decra2021/</loc>
     <lastmod>2020-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/obaid_hai_2020/</loc>
+    <loc>https://wafajohal.github.io/publication/obaid_hai_2020/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/drone/</loc>
+    <loc>https://wafajohal.github.io/tags/drone/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/</loc>
+    <loc>https://wafajohal.github.io/authors/mohammad-obaid/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/omar-mubin/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/talk/</loc>
     <lastmod>2020-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/2020_edudrone/</loc>
+    <loc>https://wafajohal.github.io/talk/2020_edudrone/</loc>
     <lastmod>2020-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/sydchi_accepted/</loc>
+    <loc>https://wafajohal.github.io/post/sydchi_accepted/</loc>
     <lastmod>2020-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/cellulo/</loc>
+    <loc>https://wafajohal.github.io/authors/ana-paiva/</loc>
+    <lastmod>2020-11-02T15:21:57+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/arzu-guneysu/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/tangible/</loc>
+    <loc>https://wafajohal.github.io/tags/cellulo/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/neto-using-2020/</loc>
+    <loc>https://wafajohal.github.io/authors/hugo-nicolau/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/hri2020_demo_award/</loc>
+    <loc>https://wafajohal.github.io/authors/isabel-neto/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/marta-couto/</loc>
+    <lastmod>2020-11-02T15:21:57+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/tangible/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/neto-using-2020/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/post/hri2020_demo_award/</loc>
     <lastmod>2020-05-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/teaching/computer_vision/week1/w1_demo3_image_formation_resolution/</loc>
+    <loc>https://wafajohal.github.io/teaching/computer_vision/week1/w1_demo3_image_formation_resolution/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/opencv/</loc>
+    <loc>https://wafajohal.github.io/tags/opencv/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/3d-model/</loc>
+    <loc>https://wafajohal.github.io/tags/3d-model/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
-    <loc>/tags/educational-tool/</loc>
+    <loc>https://wafajohal.github.io/tags/educational-tool/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
-    <loc>/tags/game/</loc>
+    <loc>https://wafajohal.github.io/tags/game/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
-    <loc>/tags/haptics/</loc>
+    <loc>https://wafajohal.github.io/tags/haptics/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
-    <loc>/tags/maps/</loc>
+    <loc>https://wafajohal.github.io/tags/maps/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
-    <loc>/tags/multi-robot/</loc>
+    <loc>https://wafajohal.github.io/tags/multi-robot/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
-    <loc>/tags/non-visual-interaction/</loc>
+    <loc>https://wafajohal.github.io/tags/non-visual-interaction/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
-    <loc>/tags/robots/</loc>
+    <loc>https://wafajohal.github.io/tags/robots/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
-    <loc>/tags/spatial-cognition/</loc>
+    <loc>https://wafajohal.github.io/tags/spatial-cognition/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
-    <loc>/tags/swarm-robots/</loc>
+    <loc>https://wafajohal.github.io/tags/swarm-robots/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
-    <loc>/tags/wayfinding/</loc>
+    <loc>https://wafajohal.github.io/tags/wayfinding/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
-    <loc>/publication/chibaudel-2020/</loc>
+    <loc>https://wafajohal.github.io/publication/chibaudel-2020/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
-    <loc>/publication/zhanel-2020/</loc>
+    <loc>https://wafajohal.github.io/publication/zhanel-2020/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
-    <loc>/publication/gargot-2020-acquisition/</loc>
+    <loc>https://wafajohal.github.io/publication/gargot-2020-acquisition/</loc>
     <lastmod>2020-11-02T15:21:57+11:00</lastmod>
   </url><url>
-    <loc>/tags/aging/</loc>
+    <loc>https://wafajohal.github.io/tags/aging/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/cowriter/</loc>
+    <loc>https://wafajohal.github.io/authors/aida-zhanatkyzy/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/sandygulova-hri-2020/</loc>
+    <loc>https://wafajohal.github.io/authors/aizada-turarova/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/bolat-hri-2020-demo/</loc>
-    <lastmod>2021-02-28T09:32:21+11:00</lastmod>
-  </url><url>
-    <loc>/publication/zhanel-hri-2020-video/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/teaching/computer_vision/week2/w2_-demo_image_processing_bitplanes/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/teaching/computer_vision/week2/w2_-demo_image_processing_fourier_smoothing/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/yadollahi-2020-exploring/</loc>
-    <lastmod>2020-11-02T15:21:57+11:00</lastmod>
-  </url><url>
-    <loc>/tags/gamified-activities/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/guneysu-ozgur-gamified-2020/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/handwriting/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/handwriting-recognition/</loc>
-    <lastmod>2021-02-28T09:32:21+11:00</lastmod>
-  </url><url>
-    <loc>/tags/haptic-interface/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/healthy-ageing/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/hri/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/interactive-learning-environments/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/project/irecheck/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/irecheck/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/iterative-design/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/guneysu-ozgur-iterative-2020/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/language-learning/</loc>
-    <lastmod>2021-02-28T09:32:21+11:00</lastmod>
-  </url><url>
-    <loc>/teaching/human-robot-interaction/questionnaires/questionnaires/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/motor-learning/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/occupational-thearpy/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/gargot-2020-p/</loc>
+    <loc>https://wafajohal.github.io/authors/anna-cohenmiller/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
-    <loc>/tags/questionnaire/</loc>
+    <loc>https://wafajohal.github.io/authors/arzu-guneysu-ozgur/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/r4l/</loc>
+    <loc>https://wafajohal.github.io/authors/ayberk-ozgur/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/johal-2020-research/</loc>
-    <lastmod>2020-11-02T15:21:57+11:00</lastmod>
-  </url><url>
-    <loc>/tags/robotic-exercise/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/robots-for-education/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/johal-2020-swarm/</loc>
+    <loc>https://wafajohal.github.io/authors/bernard-oriola/</loc>
     <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url><url>
-    <loc>/tags/tangible-robots/</loc>
+    <loc>https://wafajohal.github.io/authors/caroline-jolly/</loc>
+    <lastmod>2020-11-02T15:21:57+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/christophe-jouffrais/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/cowriter/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/task-performance-and-analysis/</loc>
+    <loc>https://wafajohal.github.io/publication/sandygulova-hri-2020/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/tegami/</loc>
+    <loc>https://wafajohal.github.io/publication/bolat-hri-2020-demo/</loc>
+    <lastmod>2021-02-28T09:32:21+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/zhanel-hri-2020-video/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/transfer-learning/</loc>
+    <loc>https://wafajohal.github.io/authors/d-archambault/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/d-cohen/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/david-cohen/</loc>
+    <lastmod>2020-11-02T15:21:57+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_bitplanes/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/teaching/human-robot-interaction/</loc>
+    <loc>https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_fourier_smoothing/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/animatas/</loc>
+    <loc>https://wafajohal.github.io/publication/yadollahi-2020-exploring/</loc>
+    <lastmod>2020-11-02T15:21:57+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/friedhelm-c.-hummel/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/gamified-activities/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/guneysu-ozgur-gamified-2020/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/haipeng-mi/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/handwriting/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/handwriting-recognition/</loc>
+    <lastmod>2021-02-28T09:32:21+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/haptic-interface/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/healthy-ageing/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/hri/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/hugues-pellerin/</loc>
+    <lastmod>2020-11-02T15:21:57+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/ingrid-zammouri/</loc>
+    <lastmod>2020-11-02T15:21:57+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/interactive-learning-environments/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/project/irecheck/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/irecheck/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/iterative-design/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/guneysu-ozgur-iterative-2020/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/jennifer-kaitlyn-olsen/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/kuanysh-kudaibergenov/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/language-learning/</loc>
+    <lastmod>2021-02-28T09:32:21+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/laurence-casteran/</loc>
+    <lastmod>2020-11-02T15:21:57+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/teaching/human-robot-interaction/questionnaires/questionnaires/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/m-chetouani/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/manshuk-abdikarimova/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/marc-j-m-mace/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/maximilian-jonas-wessel/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/melissa-skweres/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/motor-learning/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/nurakhmet-baimakhan/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/occupational-thearpy/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/gargot-2020-p/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/quentin-chibaudel/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/questionnaire/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/r4l/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2020-research/</loc>
+    <lastmod>2020-11-02T15:21:57+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/robotic-exercise/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/robots-for-education/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/salvatore-m.-anzalone/</loc>
+    <lastmod>2020-11-02T15:21:57+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/sm-anzalone/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2020-swarm/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/t-gargot/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/tangible-robots/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/task-performance-and-analysis/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/tegami/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/thomas-gargot/</loc>
+    <lastmod>2020-11-02T15:21:57+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/transfer-learning/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/valerie-tartas/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/w-johal/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/yu-peng/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/zhansaule-telisheva/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/teaching/human-robot-interaction/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/animatas/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/tip/</loc>
+    <loc>https://wafajohal.github.io/tags/tip/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/ozchi2019/</loc>
+    <loc>https://wafajohal.github.io/talk/ozchi2019/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/hri2020_accepted/</loc>
+    <loc>https://wafajohal.github.io/post/hri2020_accepted/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/cowriting-kazakh/</loc>
+    <loc>https://wafajohal.github.io/tags/cowriting-kazakh/</loc>
     <lastmod>2019-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/robots4learning/</loc>
+    <loc>https://wafajohal.github.io/tags/robots4learning/</loc>
     <lastmod>2019-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/ucsandiego_hrimini2019/</loc>
+    <loc>https://wafajohal.github.io/talk/ucsandiego_hrimini2019/</loc>
     <lastmod>2019-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/2020_ucsd/</loc>
+    <loc>https://wafajohal.github.io/talk/2020_ucsd/</loc>
     <lastmod>2019-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/best_reviewer_icce2019/</loc>
+    <loc>https://wafajohal.github.io/post/best_reviewer_icce2019/</loc>
     <lastmod>2019-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/roman2019/</loc>
+    <loc>https://wafajohal.github.io/post/roman2019/</loc>
     <lastmod>2019-10-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/allohaptic2020/</loc>
+    <loc>https://wafajohal.github.io/post/allohaptic2020/</loc>
     <lastmod>2019-10-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/ar-rendering/</loc>
+    <loc>https://wafajohal.github.io/authors/amaury-dame/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/ar-robotic-learning-sessions/</loc>
+    <loc>https://wafajohal.github.io/tags/ar-rendering/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/ar-system/</loc>
+    <loc>https://wafajohal.github.io/tags/ar-robotic-learning-sessions/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/augmented-reality-representations/</loc>
+    <loc>https://wafajohal.github.io/tags/ar-system/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/augmented-robotics/</loc>
+    <loc>https://wafajohal.github.io/tags/augmented-reality-representations/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/johal-augmented-2019/</loc>
+    <loc>https://wafajohal.github.io/tags/augmented-robotics/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/augmented-reality/</loc>
+    <loc>https://wafajohal.github.io/publication/johal-augmented-2019/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/collaborative-learning/</loc>
+    <loc>https://wafajohal.github.io/tags/augmented-reality/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/computer-aided-instruction/</loc>
+    <loc>https://wafajohal.github.io/tags/collaborative-learning/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/computer-science-education/</loc>
+    <loc>https://wafajohal.github.io/tags/computer-aided-instruction/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/control-group/</loc>
+    <loc>https://wafajohal.github.io/tags/computer-science-education/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/education/</loc>
+    <loc>https://wafajohal.github.io/tags/control-group/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/educational-robots/</loc>
+    <loc>https://wafajohal.github.io/tags/education/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/experimental-group/</loc>
+    <loc>https://wafajohal.github.io/tags/educational-robots/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/infrared-detectors/</loc>
+    <loc>https://wafajohal.github.io/tags/experimental-group/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/infrared-sensors/</loc>
+    <loc>https://wafajohal.github.io/authors/francesco-mondada/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/interactive-learning/</loc>
+    <loc>https://wafajohal.github.io/tags/infrared-detectors/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/interactive-systems/</loc>
+    <loc>https://wafajohal.github.io/tags/infrared-sensors/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/optics/</loc>
+    <loc>https://wafajohal.github.io/tags/interactive-learning/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/programming/</loc>
+    <loc>https://wafajohal.github.io/tags/interactive-systems/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/programming-teaching/</loc>
+    <loc>https://wafajohal.github.io/authors/olguta-robu/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/robot-platforms/</loc>
+    <loc>https://wafajohal.github.io/tags/optics/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/robotic-learning-activity/</loc>
+    <loc>https://wafajohal.github.io/tags/programming/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/robotics/</loc>
+    <loc>https://wafajohal.github.io/tags/programming-teaching/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/robotics-platforms/</loc>
+    <loc>https://wafajohal.github.io/tags/robot-platforms/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/sensor-data/</loc>
+    <loc>https://wafajohal.github.io/tags/robotic-learning-activity/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/standard-devices/</loc>
+    <loc>https://wafajohal.github.io/tags/robotics/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/teaching/</loc>
+    <loc>https://wafajohal.github.io/tags/robotics-platforms/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/thymio-robot/</loc>
+    <loc>https://wafajohal.github.io/tags/sensor-data/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/trendy-wave/</loc>
+    <loc>https://wafajohal.github.io/tags/standard-devices/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/visual-attention/</loc>
+    <loc>https://wafajohal.github.io/authors/stephane-magnenat/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/irechech-accepted/</loc>
+    <loc>https://wafajohal.github.io/tags/teaching/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/thymio-robot/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/trendy-wave/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/tags/visual-attention/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/post/irechech-accepted/</loc>
     <lastmod>2019-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/framework-hri-analysis/</loc>
+    <loc>https://wafajohal.github.io/post/framework-hri-analysis/</loc>
     <lastmod>2019-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/unsw-start/</loc>
+    <loc>https://wafajohal.github.io/post/unsw-start/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/alex-defense/</loc>
+    <loc>https://wafajohal.github.io/post/alex-defense/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/fyv-ukmeeting/</loc>
+    <loc>https://wafajohal.github.io/post/fyv-ukmeeting/</loc>
     <lastmod>2019-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/post_focustaswiss/</loc>
+    <loc>https://wafajohal.github.io/post/post_focustaswiss/</loc>
     <lastmod>2019-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/bern2019/</loc>
+    <loc>https://wafajohal.github.io/talk/bern2019/</loc>
     <lastmod>2019-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/edtech-winterschool/</loc>
+    <loc>https://wafajohal.github.io/post/edtech-winterschool/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/amld2018/</loc>
+    <loc>https://wafajohal.github.io/talk/amld2018/</loc>
     <lastmod>2019-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/astana2019/</loc>
+    <loc>https://wafajohal.github.io/talk/astana2019/</loc>
     <lastmod>2019-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/visit-cokaz/</loc>
+    <loc>https://wafajohal.github.io/post/visit-cokaz/</loc>
     <lastmod>2019-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/asselborn-2019-bridging/</loc>
+    <loc>https://wafajohal.github.io/authors/others/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/kim-cowriting-2019/</loc>
+    <loc>https://wafajohal.github.io/publication_types/0/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/ozgur-designing-2019/</loc>
+    <loc>https://wafajohal.github.io/publication_types/3/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/el-hamamsy-learning-2019/</loc>
+    <loc>https://wafajohal.github.io/authors/adil-zhaksylyk/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/johal-2019-learning/</loc>
+    <loc>https://wafajohal.github.io/authors/alex-tran/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/ozgur-2019-magnet/</loc>
+    <loc>https://wafajohal.github.io/authors/andeol-cadic-melchior/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/shahmoradi-2019-orchestration/</loc>
+    <loc>https://wafajohal.github.io/authors/anton-kim/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/asselborn-2019-reply/</loc>
+    <loc>https://wafajohal.github.io/authors/aykerk-ozgur/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/nasir-2019-robot/</loc>
+    <loc>https://wafajohal.github.io/authors/brian-scassellati/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/johal-2019-robots/</loc>
+    <loc>https://wafajohal.github.io/publication/asselborn-2019-bridging/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/yadollahi-studying-2019/</loc>
+    <loc>https://wafajohal.github.io/publication/kim-cowriting-2019/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/zolna-2019-dynamics/</loc>
+    <loc>https://wafajohal.github.io/publication/ozgur-designing-2019/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/johal-2019-tip/</loc>
+    <loc>https://wafajohal.github.io/authors/friedhelm-c-hummel/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/ozgur-2019-towards/</loc>
+    <loc>https://wafajohal.github.io/authors/hala-khodr/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/ethz2018/</loc>
+    <loc>https://wafajohal.github.io/authors/jan-de-wit/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/jauwairia-nasir/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/jennifer-k-olsen/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/joao-dias/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/konrad-zolna/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/kshitij-sharma/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/laila-el-hamamsy/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/el-hamamsy-learning-2019/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2019-learning/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/louis-p-faucon/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/lukasz-kidzinski/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/ozgur-2019-magnet/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/maximilian-j-wessel/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/meruyert-omarova/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/mirjam-de-haas/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/morgane-chevalier/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/shahmoradi-2019-orchestration/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/pablo-maceira-elvira/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/asselborn-2019-reply/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/nasir-2019-robot/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2019-robots/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/sina-shahmoradi/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/sonia-andersen/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/stian-haklev/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/yadollahi-studying-2019/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/zolna-2019-dynamics/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2019-tip/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/ozgur-2019-towards/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/utku-norman/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/talk/ethz2018/</loc>
     <lastmod>2018-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/hris2018/</loc>
+    <loc>https://wafajohal.github.io/talk/hris2018/</loc>
     <lastmod>2018-11-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/standford2018/</loc>
+    <loc>https://wafajohal.github.io/talk/standford2018/</loc>
     <lastmod>2018-11-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/talk-hris2018/</loc>
+    <loc>https://wafajohal.github.io/post/talk-hris2018/</loc>
     <lastmod>2018-11-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/entre2lac/</loc>
+    <loc>https://wafajohal.github.io/talk/entre2lac/</loc>
     <lastmod>2018-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/writingbold/</loc>
+    <loc>https://wafajohal.github.io/post/writingbold/</loc>
     <lastmod>2018-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/nccr_id2019/</loc>
+    <loc>https://wafajohal.github.io/post/nccr_id2019/</loc>
     <lastmod>2018-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/unsw2018/</loc>
+    <loc>https://wafajohal.github.io/talk/unsw2018/</loc>
     <lastmod>2018-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/rome2018/</loc>
+    <loc>https://wafajohal.github.io/talk/rome2018/</loc>
     <lastmod>2018-10-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/post_outreach/</loc>
+    <loc>https://wafajohal.github.io/post/post_outreach/</loc>
     <lastmod>2018-09-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/post_cokazakh/</loc>
+    <loc>https://wafajohal.github.io/post/post_cokazakh/</loc>
     <lastmod>2018-09-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/compthining/</loc>
+    <loc>https://wafajohal.github.io/post/compthining/</loc>
     <lastmod>2018-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/bpa_idc2018/</loc>
+    <loc>https://wafajohal.github.io/post/bpa_idc2018/</loc>
     <lastmod>2018-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/asselborn-2018-automated/</loc>
+    <loc>https://wafajohal.github.io/authors/alyssa-m-alcorn/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/asselborn-2018-bringing/</loc>
+    <loc>https://wafajohal.github.io/publication/asselborn-2018-automated/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/ozgur-2018-declarative/</loc>
+    <loc>https://wafajohal.github.io/publication/asselborn-2018-bringing/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/guneysu-2018-iterative/</loc>
+    <loc>https://wafajohal.github.io/authors/carole-adam/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/johal-2018-robots/</loc>
+    <loc>https://wafajohal.github.io/authors/chronis-kynigos/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/charisi-2018-near/</loc>
+    <loc>https://wafajohal.github.io/authors/damien-pellier/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/pellier-2018-architecture/</loc>
+    <loc>https://wafajohal.github.io/publication/ozgur-2018-declarative/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/yadollahi-2018-deictic/</loc>
+    <loc>https://wafajohal.github.io/authors/friedhelm-christoph-hummel/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/r4lhri2018cfp/</loc>
+    <loc>https://wafajohal.github.io/authors/ginevra-castellano/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/hae-won-park/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/humbert-fiorino/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/guneysu-2018-iterative/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/james-kennedy/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/khalil-mrini/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/paul-baxter/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/philippe-vuadens/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2018-robots/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/sylvie-pesty/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/charisi-2018-near/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/pellier-2018-architecture/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/vicky-charisi/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/yadollahi-2018-deictic/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/post/r4lhri2018cfp/</loc>
     <lastmod>2017-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/nccr-id2017/</loc>
+    <loc>https://wafajohal.github.io/post/nccr-id2017/</loc>
     <lastmod>2017-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/eraplus/</loc>
+    <loc>https://wafajohal.github.io/post/eraplus/</loc>
     <lastmod>2017-10-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/bphri2017/</loc>
+    <loc>https://wafajohal.github.io/post/bphri2017/</loc>
     <lastmod>2017-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/review/</loc>
+    <loc>https://wafajohal.github.io/post/review/</loc>
     <lastmod>2017-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/ozgur-2017-cellulo/</loc>
+    <loc>https://wafajohal.github.io/publication_types/4/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/jacq-2017-expressing/</loc>
+    <loc>https://wafajohal.github.io/authors/alexis-david-jacq/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/ozgur-2017-haptic/</loc>
+    <loc>https://wafajohal.github.io/publication/ozgur-2017-cellulo/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/asselborn-2017-keep/</loc>
+    <loc>https://wafajohal.github.io/publication/jacq-2017-expressing/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/ozgur-2017-windfielddemo/</loc>
+    <loc>https://wafajohal.github.io/authors/fumihide-tanaka/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/ozgur-2017-windfield/</loc>
+    <loc>https://wafajohal.github.io/publication/ozgur-2017-haptic/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/johal-2017-workshop/</loc>
+    <loc>https://wafajohal.github.io/publication/asselborn-2017-keep/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/cfpjsoro/</loc>
+    <loc>https://wafajohal.github.io/authors/lea-pereyre/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/manon-briod/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/maria-beltran/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/paul-vogt/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/sandra-okita/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/tony-belpaeme/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/ozgur-2017-windfielddemo/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/ozgur-2017-windfield/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2017-workshop/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/post/cfpjsoro/</loc>
     <lastmod>2016-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/xerox/</loc>
+    <loc>https://wafajohal.github.io/post/xerox/</loc>
     <lastmod>2016-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/xerox2016/</loc>
+    <loc>https://wafajohal.github.io/talk/xerox2016/</loc>
     <lastmod>2016-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/interviewlongshort/</loc>
+    <loc>https://wafajohal.github.io/post/interviewlongshort/</loc>
     <lastmod>2016-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/wsnewfriends2016/</loc>
+    <loc>https://wafajohal.github.io/post/wsnewfriends2016/</loc>
     <lastmod>2016-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/under_grad_past_projects/</loc>
+    <loc>https://wafajohal.github.io/project/under_grad_past_projects/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/animatas/</loc>
+    <loc>https://wafajohal.github.io/project/animatas/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/engagement/</loc>
+    <loc>https://wafajohal.github.io/project/engagement/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/stylebot/</loc>
+    <loc>https://wafajohal.github.io/project/stylebot/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/under_grad_past_projects/curriculum_analysis/</loc>
+    <loc>https://wafajohal.github.io/project/under_grad_past_projects/curriculum_analysis/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/cellulo/</loc>
+    <loc>https://wafajohal.github.io/project/cellulo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/cowriter/</loc>
+    <loc>https://wafajohal.github.io/project/cowriter/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/cowriting_kazakh/</loc>
+    <loc>https://wafajohal.github.io/project/cowriting_kazakh/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/fyv/</loc>
+    <loc>https://wafajohal.github.io/project/fyv/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/haptic/</loc>
+    <loc>https://wafajohal.github.io/tags/haptic/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/home-assistant/</loc>
+    <loc>https://wafajohal.github.io/tags/home-assistant/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/learning-companion/</loc>
+    <loc>https://wafajohal.github.io/tags/learning-companion/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/moca/</loc>
+    <loc>https://wafajohal.github.io/tags/moca/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/prospective/</loc>
+    <loc>https://wafajohal.github.io/prospective/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/robots4learning/</loc>
+    <loc>https://wafajohal.github.io/project/robots4learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/styles/</loc>
+    <loc>https://wafajohal.github.io/tags/styles/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/swarm/</loc>
+    <loc>https://wafajohal.github.io/tags/swarm/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/tangible-robot/</loc>
+    <loc>https://wafajohal.github.io/tags/tangible-robot/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/prospective/visitors/</loc>
+    <loc>https://wafajohal.github.io/prospective/visitors/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/cellulocsf2016/</loc>
+    <loc>https://wafajohal.github.io/post/cellulocsf2016/</loc>
     <lastmod>2016-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/frenchgodspeed/</loc>
+    <loc>https://wafajohal.github.io/post/frenchgodspeed/</loc>
     <lastmod>2016-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/icmi2015/</loc>
+    <loc>https://wafajohal.github.io/post/icmi2015/</loc>
     <lastmod>2016-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/visitmitprg2016/</loc>
+    <loc>https://wafajohal.github.io/post/visitmitprg2016/</loc>
     <lastmod>2016-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/mit2016/</loc>
+    <loc>https://wafajohal.github.io/talk/mit2016/</loc>
     <lastmod>2016-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/swissnex2016/</loc>
+    <loc>https://wafajohal.github.io/talk/swissnex2016/</loc>
     <lastmod>2016-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/johal-2016-child/</loc>
+    <loc>https://wafajohal.github.io/authors/alexis-jacq/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/jacq-2016-cognitive/</loc>
+    <loc>https://wafajohal.github.io/publication/johal-2016-child/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/ozgur-2016-permanent/</loc>
+    <loc>https://wafajohal.github.io/authors/claudine-combe/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/mondada-2016-r-2-t-2/</loc>
+    <loc>https://wafajohal.github.io/publication/jacq-2016-cognitive/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/adam-2016-social/</loc>
+    <loc>https://wafajohal.github.io/authors/dominique-vaufreydaz/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/vaufreydaz-2016-starting/</loc>
+    <loc>https://wafajohal.github.io/authors/evgeniia-bonnet/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/johal-2015-cognitive/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    <loc>https://wafajohal.github.io/publication/ozgur-2016-permanent/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/johal-2015-companion/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    <loc>https://wafajohal.github.io/publication/mondada-2016-r-2-t-2/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/johal-2015-non/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    <loc>https://wafajohal.github.io/authors/riaan-stopforth/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/johal-2015-robots/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    <loc>https://wafajohal.github.io/authors/shaniel-davrajh/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/ta-2015-grenoble/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+    <loc>https://wafajohal.github.io/publication/adam-2016-social/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/eclipseiot2014/</loc>
-    <lastmod>2014-04-16T00:00:00+00:00</lastmod>
+    <loc>https://wafajohal.github.io/publication/vaufreydaz-2016-starting/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/johal-2014-robot/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/johal-2014-acceptability/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/johal-2014-styles/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/johal-2014-expressing/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/johal-2014-towards/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/adam-2013-acceptabilite/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/johal-2013-modelling/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/benkaouar-2012/</loc>
+    <loc>https://wafajohal.github.io/publication_types/7/</loc>
     <lastmod>2021-04-12T15:02:19+10:00</lastmod>
   </url><url>
-    <loc>/publication/benkaouar-2012-multi/</loc>
+    <loc>https://wafajohal.github.io/publication/johal-2015-cognitive/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2015-companion/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/eric-castelli/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/gaelle-calvary/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/maxime-portaz/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2015-non/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2015-robots/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/ta-2015-grenoble/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/viet-cuong-ta/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/wafa-benkaouar-johal/</loc>
+    <lastmod>2021-04-12T15:02:19+10:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/post/eclipseiot2014/</loc>
+    <lastmod>2014-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2014-robot/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2014-acceptability/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/celine-jost/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2014-styles/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/dominique-duhaut/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2014-expressing/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2014-towards/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/adam-2013-acceptabilite/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/humbert-fiorono/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/ilef-ben-farhat/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/authors/julie-dugdale/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/johal-2013-modelling/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/benkaouar-2012/</loc>
+    <lastmod>2021-04-12T15:02:19+10:00</lastmod>
+  </url><url>
+    <loc>https://wafajohal.github.io/publication/benkaouar-2012-multi/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/admin/</loc>
+    <loc>https://wafajohal.github.io/authors/wafa-benkaouar/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/home/</loc>
+    <loc>https://wafajohal.github.io/authors/admin/</loc>
   </url><url>
-    <loc>/tags/active/</loc>
+    <loc>https://wafajohal.github.io/home/</loc>
   </url><url>
-    <loc>/tags/applied-machine-learning/</loc>
+    <loc>https://wafajohal.github.io/tags/active/</loc>
   </url><url>
-    <loc>/authors/</loc>
+    <loc>https://wafajohal.github.io/tags/applied-machine-learning/</loc>
   </url><url>
-    <loc>/project/caio/</loc>
+    <loc>https://wafajohal.github.io/project/caio/</loc>
   </url><url>
-    <loc>/tags/caio/</loc>
+    <loc>https://wafajohal.github.io/tags/caio/</loc>
   </url><url>
-    <loc>/tags/co-writer/</loc>
+    <loc>https://wafajohal.github.io/tags/co-writer/</loc>
   </url><url>
-    <loc>/tags/cse-honours/</loc>
+    <loc>https://wafajohal.github.io/tags/cse-honours/</loc>
   </url><url>
-    <loc>/tags/experiment/</loc>
+    <loc>https://wafajohal.github.io/tags/experiment/</loc>
   </url><url>
-    <loc>/prospective/undergrad/fyv_2020/</loc>
+    <loc>https://wafajohal.github.io/prospective/undergrad/fyv_2020/</loc>
   </url><url>
-    <loc>/prospective/undergrad/human_action_recognition/</loc>
+    <loc>https://wafajohal.github.io/prospective/undergrad/human_action_recognition/</loc>
   </url><url>
-    <loc>/prospective/undergrad/ispy_hololens_2021/</loc>
+    <loc>https://wafajohal.github.io/prospective/undergrad/ispy_hololens_2021/</loc>
   </url><url>
-    <loc>/prospective/undergrad/hri-dataset-mine/</loc>
+    <loc>https://wafajohal.github.io/prospective/undergrad/hri-dataset-mine/</loc>
   </url><url>
-    <loc>/tags/machine-learning/</loc>
+    <loc>https://wafajohal.github.io/tags/machine-learning/</loc>
   </url><url>
-    <loc>/prospective/undergrad/behavioural-styles/</loc>
+    <loc>https://wafajohal.github.io/prospective/undergrad/behavioural-styles/</loc>
   </url><url>
-    <loc>/prospective/phd/</loc>
+    <loc>https://wafajohal.github.io/prospective/phd/</loc>
   </url><url>
-    <loc>/tags/position/</loc>
+    <loc>https://wafajohal.github.io/tags/position/</loc>
   </url><url>
-    <loc>/tags/reasoning/</loc>
+    <loc>https://wafajohal.github.io/tags/reasoning/</loc>
   </url><url>
-    <loc>/prospective/undergrad/writing_2020/</loc>
+    <loc>https://wafajohal.github.io/prospective/undergrad/writing_2020/</loc>
   </url><url>
-    <loc>/tags/ros/</loc>
+    <loc>https://wafajohal.github.io/tags/ros/</loc>
   </url><url>
-    <loc>/tags/social-hri/</loc>
+    <loc>https://wafajohal.github.io/tags/social-hri/</loc>
   </url><url>
-    <loc>/prospective/undergrad/tip_2020/</loc>
+    <loc>https://wafajohal.github.io/prospective/undergrad/tip_2020/</loc>
   </url><url>
-    <loc>/prospective/undergrad/h-swarm_2020/</loc>
+    <loc>https://wafajohal.github.io/prospective/undergrad/h-swarm_2020/</loc>
   </url><url>
-    <loc>/prospective/undergrad/tangible_online/</loc>
+    <loc>https://wafajohal.github.io/prospective/undergrad/tangible_online/</loc>
   </url><url>
-    <loc>/tags/tangible-interfaces/</loc>
+    <loc>https://wafajohal.github.io/tags/tangible-interfaces/</loc>
   </url><url>
-    <loc>/prospective/undergrad/cleanup_2021/</loc>
+    <loc>https://wafajohal.github.io/prospective/undergrad/cleanup_2021/</loc>
   </url><url>
-    <loc>/tags/user-experiments/</loc>
+    <loc>https://wafajohal.github.io/tags/user-experiments/</loc>
   </url><url>
-    <loc>/prospective/undergrad/voice-robot/</loc>
+    <loc>https://wafajohal.github.io/prospective/undergrad/voice-robot/</loc>
   </url><url>
-    <loc>/tags/voice-assistant/</loc>
+    <loc>https://wafajohal.github.io/tags/voice-assistant/</loc>
   </url>
 </urlset>

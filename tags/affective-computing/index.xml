@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>affective computing | </title>
-    <link>/tags/affective-computing/</link>
-      <atom:link href="/tags/affective-computing/index.xml" rel="self" type="application/rss+xml" />
+    <title>affective computing | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/affective-computing/</link>
+      <atom:link href="https://wafajohal.github.io/tags/affective-computing/index.xml" rel="self" type="application/rss+xml" />
     <description>affective computing</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>affective computing</title>
-      <link>/tags/affective-computing/</link>
+      <link>https://wafajohal.github.io/tags/affective-computing/</link>
     </image>
     
     <item>
       <title>Join the Group</title>
-      <link>/project/join_the_group/</link>
+      <link>https://wafajohal.github.io/project/join_the_group/</link>
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/project/join_the_group/</guid>
+      <guid>https://wafajohal.github.io/project/join_the_group/</guid>
       <description>&lt;p&gt;Enabling robots to navigate in indoors environments in a safe and socially acceptable manner around groups of humans is still an open research area. Socially aware navigation considers the multi-modal assessment of the group dynamics, group formation inferring, path planning, real-time path adaptation, and human-robot communication.
 Up to now the research in the field has considered a couple of classical scenarios such as crossing a group in a corridor or passing a door. Limitations in terms of lack of realistic datasets is often mentioned in the field. In this research project, we will aim to design several scenarios involving groups of humans in realistic settings. Our work will focus on three main tasks for the robot: 1) approach and join a group, 2) passing by a group and 3) greeting a group. A first step of the project will be to \textbf{record a novel dataset} with rich interactions between the humans (H-H scenarios) and between humans and a teleoperated robot (H-R scenarios). The dataset will be collected at the HRI facility allowing multimodal synchronous recording. After that, a \textbf{new model for path planning} will be developed. For the model, we will explore rule-based constraints (i.e. not passing between two persons speaking together) and learned constrained using the dataset recorded to infer implicit social norms. Finally, the \textbf{model will be tested} empirically with new users in which the robot will have to take real-time path planning decisions.&lt;/p&gt;
 &lt;h2 id=&#34;call-for-participation-to-experiment&#34;&gt;Call for participation to experiment&lt;/h2&gt;
@@ -25,9 +25,9 @@ Up to now the research in the field has considered a couple of classical scenari
     
     <item>
       <title>Behavioural Analysis in HRI</title>
-      <link>/project/engagement/</link>
+      <link>https://wafajohal.github.io/project/engagement/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/engagement/</guid>
+      <guid>https://wafajohal.github.io/project/engagement/</guid>
       <description>&lt;p&gt;In the field of human-robot interaction (HRI) as in many other technical fields, an innumerable number of different
 metrics to analyze the interaction can be found in as many studies. Even-though many of these metrics are not&lt;/p&gt;
 &lt;p&gt;comparable between studies, we observe that the research community in HRI, but also in many other
@@ -54,9 +54,9 @@ to 70% training a Random Forest Model. [13]&lt;/p&gt;
     
     <item>
       <title>Find Your Voice</title>
-      <link>/project/fyv/</link>
+      <link>https://wafajohal.github.io/project/fyv/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/fyv/</guid>
+      <guid>https://wafajohal.github.io/project/fyv/</guid>
       <description>&lt;p&gt;Many children struggle to find their voice in social situations. They may be shy, suffer from social anxiety, not speak the native language as their first language, be new to a culture (migrants), or have a special need involving communication impairments (e.g., autism, speech, and hearing) [1]. Their voices often go unheard as they find it hard to contribute to conversations and group work, in both face to face and online settings, which puts them at risk for poor socio-emotional and achievement outcomes.&lt;br&gt;
 Various interventions have been proposed in an effort to help these children integrate better into social settings, including ice-breaking activities, support groups, [2][3]. Another promising alternative is to teach children how to interpret and use humor effectively to facilitate social interaction [4]. Having a sense of humour might help children to reduce stress [5] and ease social interactions, enabling them to overcome their social inhibitions and make friends more easily. Also, humour could promotes children’s language, literacy, and inference skills, since understanding jokes require a mastery of language ambiguity, and comprehension [6].
 One manner to use humor effectively is by ‘joke telling’. A joke is the shortest clearly-structured conversation one can have with one or more peers. Telling jokes can help children improve their confidence, socialization, [4], literacy [8], and cultural learning [7]. For example, a child could start a ‘joke’ that implies a question. He/she knows the answer, but not his/her peers. Then, he/she has the advantage of knowing what the answer is. This helps him/her to gain confidence. In terms of literacy, telling a joke requires the reinterpretation of the syntax underlying the question, then, understanding the ambiguity in a joke might help them in the comprehension of language [8]. Regarding socialization, this dynamic allows children to take part in role-taking, and understanding what other people needs to know to get it. Also, it can create a positive environment where children can laugh together and share their understanding. In terms of learning, a jokes encapsulate cultural assumptions, for example, differences between pronunciation, a dual meaning of a word, and the structural and ambiguity of sentences [7].  The question this raises is: how can we help children from all walks of life learn the art of telling jokes and importantly feel comfortable, and in doing so, increase their confidence, social skills and even literacy?
@@ -68,9 +68,9 @@ Finally, an engaging joke-telling learning scenario will need to be designed in 
     
     <item>
       <title>Machine Learning for Social Interaction Modelling</title>
-      <link>/prospective/undergrad/hri-dataset-mine/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/hri-dataset-mine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/hri-dataset-mine/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/hri-dataset-mine/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;The field of social human-robot interaction is growing.
 Understanding how communication between humans (human-human) generalises during human-robot communication is crucial in building fluent and enjoyable interactions with social robots.

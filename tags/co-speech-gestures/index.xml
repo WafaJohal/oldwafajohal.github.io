@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>&#34;co-speech gestures&#34; | </title>
-    <link>/tags/co-speech-gestures/</link>
-      <atom:link href="/tags/co-speech-gestures/index.xml" rel="self" type="application/rss+xml" />
+    <title>&#34;co-speech gestures&#34; | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/co-speech-gestures/</link>
+      <atom:link href="https://wafajohal.github.io/tags/co-speech-gestures/index.xml" rel="self" type="application/rss+xml" />
     <description>&#34;co-speech gestures&#34;</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>&#34;co-speech gestures&#34;</title>
-      <link>/tags/co-speech-gestures/</link>
+      <link>https://wafajohal.github.io/tags/co-speech-gestures/</link>
     </image>
     
     <item>
       <title>Speech-Based Gesture Generation for Robots and Embodied Agents: A Scoping Review</title>
-      <link>/publication/liu-2021-speech/</link>
+      <link>https://wafajohal.github.io/publication/liu-2021-speech/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/liu-2021-speech/</guid>
+      <guid>https://wafajohal.github.io/publication/liu-2021-speech/</guid>
       <description></description>
     </item>
     

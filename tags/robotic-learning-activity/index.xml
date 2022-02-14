@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>robotic learning activity | </title>
-    <link>/tags/robotic-learning-activity/</link>
-      <atom:link href="/tags/robotic-learning-activity/index.xml" rel="self" type="application/rss+xml" />
+    <title>robotic learning activity | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/robotic-learning-activity/</link>
+      <atom:link href="https://wafajohal.github.io/tags/robotic-learning-activity/index.xml" rel="self" type="application/rss+xml" />
     <description>robotic learning activity</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>robotic learning activity</title>
-      <link>/tags/robotic-learning-activity/</link>
+      <link>https://wafajohal.github.io/tags/robotic-learning-activity/</link>
     </image>
     
     <item>
       <title>Augmented Robotics for Learners: A Case Study on Optics</title>
-      <link>/publication/johal-augmented-2019/</link>
+      <link>https://wafajohal.github.io/publication/johal-augmented-2019/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-augmented-2019/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-augmented-2019/</guid>
       <description></description>
     </item>
     

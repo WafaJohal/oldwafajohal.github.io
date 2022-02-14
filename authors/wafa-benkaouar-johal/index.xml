@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wafa Benkaouar Johal | Wafa Johal</title>
+    <link>https://wafajohal.github.io/authors/wafa-benkaouar-johal/</link>
+      <atom:link href="https://wafajohal.github.io/authors/wafa-benkaouar-johal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wafa Benkaouar Johal</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <title>Wafa Benkaouar Johal</title>
+      <link>https://wafajohal.github.io/authors/wafa-benkaouar-johal/</link>
+    </image>
+    
+    <item>
+      <title>Companion Robots Behaving with Style: Towards Plasticity in Social Human-Robot Interaction</title>
+      <link>https://wafajohal.github.io/publication/johal-2015-companion/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/johal-2015-companion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detection of non-verbal communication cues using multi-modal sensors : engagement detection </title>
+      <link>https://wafajohal.github.io/publication/benkaouar-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/benkaouar-2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

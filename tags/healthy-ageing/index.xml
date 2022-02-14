@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Healthy Ageing | </title>
-    <link>/tags/healthy-ageing/</link>
-      <atom:link href="/tags/healthy-ageing/index.xml" rel="self" type="application/rss+xml" />
+    <title>Healthy Ageing | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/healthy-ageing/</link>
+      <atom:link href="https://wafajohal.github.io/tags/healthy-ageing/index.xml" rel="self" type="application/rss+xml" />
     <description>Healthy Ageing</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>Healthy Ageing</title>
-      <link>/tags/healthy-ageing/</link>
+      <link>https://wafajohal.github.io/tags/healthy-ageing/</link>
     </image>
     
     <item>
       <title>Gamified Motor Training with Tangible Robots in Older Adults: a Feasibility Study and Comparison with Young</title>
-      <link>/publication/guneysu-ozgur-gamified-2020/</link>
+      <link>https://wafajohal.github.io/publication/guneysu-ozgur-gamified-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/guneysu-ozgur-gamified-2020/</guid>
+      <guid>https://wafajohal.github.io/publication/guneysu-ozgur-gamified-2020/</guid>
       <description></description>
     </item>
     

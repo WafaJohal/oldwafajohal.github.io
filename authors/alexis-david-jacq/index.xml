@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexis David Jacq | Wafa Johal</title>
+    <link>https://wafajohal.github.io/authors/alexis-david-jacq/</link>
+      <atom:link href="https://wafajohal.github.io/authors/alexis-david-jacq/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alexis David Jacq</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <title>Alexis David Jacq</title>
+      <link>https://wafajohal.github.io/authors/alexis-david-jacq/</link>
+    </image>
+    
+    <item>
+      <title>Expressing Motivations By Facilitating Other’s Inverse Reinforcement Learning</title>
+      <link>https://wafajohal.github.io/publication/jacq-2017-expressing/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/jacq-2017-expressing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

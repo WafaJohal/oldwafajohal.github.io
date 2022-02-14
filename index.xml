@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description></description>
+    <title>Wafa Johal</title>
+    <link>https://wafajohal.github.io/</link>
+      <atom:link href="https://wafajohal.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wafa Johal</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Thu, 03 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
-      <title></title>
-      <link>/</link>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <title>Wafa Johal</title>
+      <link>https://wafajohal.github.io/</link>
     </image>
     
     <item>
       <title>Demo 1 OpenCV Basics</title>
-      <link>/teaching/computer_vision/week1/w1_demo1_image_formation_opencvbasics/</link>
+      <link>https://wafajohal.github.io/teaching/computer_vision/week1/w1_demo1_image_formation_opencvbasics/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/teaching/computer_vision/week1/w1_demo1_image_formation_opencvbasics/</guid>
+      <guid>https://wafajohal.github.io/teaching/computer_vision/week1/w1_demo1_image_formation_opencvbasics/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; np 
 &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; cv2
 &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.pyplot &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; plt
@@ -49,13 +49,13 @@ cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imwrite(&lt;span styl
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(img)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.image.AxesImage at 0x28e7f6ba550&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo1/output_9_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo1/output_9_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#convert BGR to RGB&lt;/span&gt;
 rgb_img &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor(img, cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;COLOR_BGR2RGB)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(rgb_img)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.image.AxesImage at 0x28e7f7680b8&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo1/output_10_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo1/output_10_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## to look at the documentation of a function inside your notebook use a &amp;#39;?&amp;#39;&lt;/span&gt;
 cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;?&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;cvtColor(src, code[, dst[, dstCn]]) -&amp;gt; dst
@@ -106,9 +106,9 @@ cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor&lt;span styl
     
     <item>
       <title>Demo Gaussian Blur</title>
-      <link>/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/</link>
+      <link>https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/</guid>
+      <guid>https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_gaussianblur/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; cv2
 &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; np
 &lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; matplotlib &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pyplot &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; plt
@@ -118,13 +118,13 @@ img &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(img)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.image.AxesImage at 0x1de43671b70&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/gaussian_blur/output_1_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/gaussian_blur/output_1_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#Gaussian filtering&lt;/span&gt;
 blur &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;GaussianBlur(img,(&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;),&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(blur)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.image.AxesImage at 0x1de437332e8&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/gaussian_blur/output_2_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/gaussian_blur/output_2_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;getGaussianKernel&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;?&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;[1;31mDocstring:[0m
 getGaussianKernel(ksize, sigma[, ktype]) -&amp;gt; retval
@@ -167,7 +167,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
  [0.03751576 0.04431963 0.04685151 0.04431963 0.03751576]
  [0.0317564  0.03751576 0.03965895 0.03751576 0.0317564 ]]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/gaussian_blur/output_4_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/gaussian_blur/output_4_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;blur2 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;filter2D(img,&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,GM)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#show original and filtered images&lt;/span&gt;
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;figure(figsize&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;))
@@ -178,16 +178,16 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;xticks([]), plt&lt;sp
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;subplot(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;),plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(blur2),plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Blurred 2&amp;#39;&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;xticks([]), plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;yticks([])
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/gaussian_blur/output_6_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/gaussian_blur/output_6_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Demo 2 Color Spaces</title>
-      <link>/teaching/computer_vision/week1/w1_demo2_image_formation_colorspaces/</link>
+      <link>https://wafajohal.github.io/teaching/computer_vision/week1/w1_demo2_image_formation_colorspaces/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/teaching/computer_vision/week1/w1_demo2_image_formation_colorspaces/</guid>
+      <guid>https://wafajohal.github.io/teaching/computer_vision/week1/w1_demo2_image_formation_colorspaces/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; cv2
 &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.pyplot &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; plt
 &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; np
@@ -200,7 +200,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(img)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;(743, 1280, 3)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo2/output_1_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_1_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Documentation on &lt;a href=&#34;https://docs.opencv.org/3.4/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;imread&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Bookmark this &lt;a href=&#34;https://docs.opencv.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://docs.opencv.org/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;__version__
@@ -213,9 +213,9 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(RGB_im)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;(743, 1280, 3)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo2/output_5_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_5_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;rgb-channel-decomposition&#34;&gt;RGB Channel Decomposition&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/ColorSpaces/RGB.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/ColorSpaces/RGB.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; RGB_im&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;copy()
 &lt;span style=&#34;color:#75715e&#34;&gt;# (x,y,nb_channels = 3  [R, G, B])&lt;/span&gt;
 &lt;span style=&#34;color:#75715e&#34;&gt;# set green and red channels to 0&lt;/span&gt;
@@ -246,12 +246,12 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(b)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo2/output_7_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo2/output_7_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo2/output_7_2.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo2/output_7_3.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_7_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_7_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_7_2.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_7_3.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;hsv&#34;&gt;HSV&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/ColorSpaces/HSV.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/ColorSpaces/HSV.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;imgHSV &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor(img, cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;COLOR_BGR2HSV)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;h &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; imgHSV&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;copy()
 &lt;span style=&#34;color:#75715e&#34;&gt;# set S and V channels to 255&lt;/span&gt;
@@ -284,12 +284,12 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(v_RGB)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo2/output_10_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo2/output_10_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo2/output_10_2.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo2/output_10_3.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_10_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_10_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_10_2.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_10_3.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;lab&#34;&gt;LAB&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/ColorSpaces/Lab.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/ColorSpaces/Lab.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;imgLAB &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor(img, cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;COLOR_BGR2LAB)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.colors &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; clr &lt;span style=&#34;color:#75715e&#34;&gt;# this library is used to create the color maps for matplotlib &lt;/span&gt;
 
@@ -330,10 +330,10 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 cmap_b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; clr&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;LinearSegmentedColormap&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;from_list(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;custom blue&amp;#39;&lt;/span&gt;, [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Yellow&amp;#39;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Gray&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Blue&amp;#39;&lt;/span&gt;], N&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(b_GRAY, cmap&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;cmap_b)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo2/output_13_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo2/output_13_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo2/output_13_2.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo2/output_13_3.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_13_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_13_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_13_2.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo2/output_13_3.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;ycrcb&#34;&gt;YCrCb&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;imgYCrCb &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;cvtColor(img, cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;COLOR_BGR2YCrCb)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your turn! &lt;/span&gt;
@@ -343,9 +343,9 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
     
     <item>
       <title>Women in AI co-chair at AJCAI</title>
-      <link>/post/2022_women-in-ai_2022/</link>
+      <link>https://wafajohal.github.io/post/2022_women-in-ai_2022/</link>
       <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>/post/2022_women-in-ai_2022/</guid>
+      <guid>https://wafajohal.github.io/post/2022_women-in-ai_2022/</guid>
       <description>&lt;p&gt;For the first time ever, the Australasian Joint Conference in Artificial Intelligence had two Women-in-AI chairs.
 Mary-Anne Williams, General Chair of the 2021 edition of the conference contacted me and Prof. Sue Keay to take this new role of Women in AI co-chairs for the conference.&lt;/p&gt;
 &lt;p&gt;Since there had never been WAI chairs, the floor was open for us to propose any activities.
@@ -357,9 +357,9 @@ Unofrtunately the conference moved online. We pivoted by running the Panel discu
     
     <item>
       <title>🏆 GROW Faculty Engineering Grant - Awarded!</title>
-      <link>/post/grow2021/</link>
+      <link>https://wafajohal.github.io/post/grow2021/</link>
       <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/post/grow2021/</guid>
+      <guid>https://wafajohal.github.io/post/grow2021/</guid>
       <description>&lt;p&gt;I have been awarded 20,000AUD by the Faculty of Engineering to start a new prject called GIRL &amp;ldquo;Gamified and Interactive Robot Learning&amp;rdquo;.
 I really look forward to starting to work on this.&lt;/p&gt;
 </description>
@@ -367,9 +367,9 @@ I really look forward to starting to work on this.&lt;/p&gt;
     
     <item>
       <title>📣 2 PhD Positions in Human-Robot Interaction 🤖</title>
-      <link>/post/2phdoffering/</link>
+      <link>https://wafajohal.github.io/post/2phdoffering/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>/post/2phdoffering/</guid>
+      <guid>https://wafajohal.github.io/post/2phdoffering/</guid>
       <description>&lt;h2 id=&#34;faculty-of-engineering-school-of-computer-science-and-engineering-unsw-sydney&#34;&gt;Faculty of Engineering, School of Computer Science and Engineering, UNSW Sydney&lt;/h2&gt;
 &lt;h3 id=&#34;start-date-fall-2021&#34;&gt;Start Date: Fall, 2021&lt;/h3&gt;
 &lt;h3 id=&#34;area-of-research-human-robot-interaction&#34;&gt;Area of Research Human-Robot Interaction.&lt;/h3&gt;
@@ -404,9 +404,9 @@ Your application should include:&lt;/p&gt;
     
     <item>
       <title>Join the Group</title>
-      <link>/project/join_the_group/</link>
+      <link>https://wafajohal.github.io/project/join_the_group/</link>
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/project/join_the_group/</guid>
+      <guid>https://wafajohal.github.io/project/join_the_group/</guid>
       <description>&lt;p&gt;Enabling robots to navigate in indoors environments in a safe and socially acceptable manner around groups of humans is still an open research area. Socially aware navigation considers the multi-modal assessment of the group dynamics, group formation inferring, path planning, real-time path adaptation, and human-robot communication.
 Up to now the research in the field has considered a couple of classical scenarios such as crossing a group in a corridor or passing a door. Limitations in terms of lack of realistic datasets is often mentioned in the field. In this research project, we will aim to design several scenarios involving groups of humans in realistic settings. Our work will focus on three main tasks for the robot: 1) approach and join a group, 2) passing by a group and 3) greeting a group. A first step of the project will be to \textbf{record a novel dataset} with rich interactions between the humans (H-H scenarios) and between humans and a teleoperated robot (H-R scenarios). The dataset will be collected at the HRI facility allowing multimodal synchronous recording. After that, a \textbf{new model for path planning} will be developed. For the model, we will explore rule-based constraints (i.e. not passing between two persons speaking together) and learned constrained using the dataset recorded to infer implicit social norms. Finally, the \textbf{model will be tested} empirically with new users in which the robot will have to take real-time path planning decisions.&lt;/p&gt;
 &lt;h2 id=&#34;call-for-participation-to-experiment&#34;&gt;Call for participation to experiment&lt;/h2&gt;
@@ -415,50 +415,50 @@ Up to now the research in the field has considered a couple of classical scenari
     
     <item>
       <title>10 Years of Human-NAO Interaction Research: A Scoping Review</title>
-      <link>/publication/amirova-2021-nao/</link>
+      <link>https://wafajohal.github.io/publication/amirova-2021-nao/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/amirova-2021-nao/</guid>
+      <guid>https://wafajohal.github.io/publication/amirova-2021-nao/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robots for Learning - Learner-Centred Design</title>
-      <link>/publication/johal-2021-r-4-l/</link>
+      <link>https://wafajohal.github.io/publication/johal-2021-r-4-l/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2021-r-4-l/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2021-r-4-l/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Speech-Based Gesture Generation for Robots and Embodied Agents: A Scoping Review</title>
-      <link>/publication/liu-2021-speech/</link>
+      <link>https://wafajohal.github.io/publication/liu-2021-speech/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/liu-2021-speech/</guid>
+      <guid>https://wafajohal.github.io/publication/liu-2021-speech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The transferability of handwriting skills: from the Cyrillic to the Latin alphabet</title>
-      <link>/publication/asselborn-2021-transferability/</link>
+      <link>https://wafajohal.github.io/publication/asselborn-2021-transferability/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/asselborn-2021-transferability/</guid>
+      <guid>https://wafajohal.github.io/publication/asselborn-2021-transferability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Valley of non-Distraction: Effect of Robot&#39;s Human-likeness on Perception Load</title>
-      <link>/publication/ingle-2021/</link>
+      <link>https://wafajohal.github.io/publication/ingle-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/ingle-2021/</guid>
-      <description>&lt;a href=&#34;/files/papers/LBR_HRI2021_Anthropo_Load.pdf&#34; target=&#34;_blank&#34;&gt; PDF &lt;/a&gt;
+      <guid>https://wafajohal.github.io/publication/ingle-2021/</guid>
+      <description>&lt;a href=&#34;https://wafajohal.github.io/files/papers/LBR_HRI2021_Anthropo_Load.pdf&#34; target=&#34;_blank&#34;&gt; PDF &lt;/a&gt;
 </description>
     </item>
     
     <item>
       <title>🏆 Faculty Engineering Award for our ECAN crew!</title>
-      <link>/post/20201215_ecan_facultyaward/</link>
+      <link>https://wafajohal.github.io/post/20201215_ecan_facultyaward/</link>
       <pubDate>Fri, 25 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/post/20201215_ecan_facultyaward/</guid>
+      <guid>https://wafajohal.github.io/post/20201215_ecan_facultyaward/</guid>
       <description>&lt;p&gt;Our Early Career Academic Network Committee,  &lt;a href=&#34;https://research.unsw.edu.au/ecan-engineering&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eng.  ECAN&lt;/a&gt;, received the Faculty Award of Equity and Diversity from the Dean of the Faculty of Engineering, Prof. Stephen Foster.&lt;/p&gt;
 &lt;p&gt;I am delighted to be part of such a vibrant team, working together to make ECAs shine!&lt;/p&gt;
 </description>
@@ -466,9 +466,9 @@ Up to now the research in the field has considered a couple of classical scenari
     
     <item>
       <title>HURL</title>
-      <link>/project/hurl/</link>
+      <link>https://wafajohal.github.io/project/hurl/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/project/hurl/</guid>
+      <guid>https://wafajohal.github.io/project/hurl/</guid>
       <description>&lt;p&gt;Robots are foreseen to be used in a variety of home contexts and interacting with novice users, such as assisting the dependent elderly in daily housework (i.e., caring and unpacking groceries, fetching, and pouring a glass of water, etc). Enabling robots to adapt to their environment through learning context specific tasks would be necessary for them to be used adequately by non-programming users.&lt;/p&gt;
 &lt;p&gt;Several methods have been proposed to teach new skills to robots while keeping the human in the loop. Among these methods, the Reinforcement Learning (“RL”) approach is the most common one. However, the literature reports several issues with including human trainers in RL scenarios. Significant research reports a positive bias in RL rewards, and that human-generated reward signals change as the learning progress being inconsistent over time (the trainer adapts her strategy). This can be explained by the difficulty for human trainers to teach basic procedural motions. They generally tend to exaggerate their demonstrations or be more kind with time.&lt;/p&gt;
 &lt;p&gt;In education, a good instructor maintains a mental model of the learner’s state (what has been learned and what needs clarification). This helps the teacher to appropriately structure the upcoming learning tasks with timely feedback and guidance. The learner can help the instructor by expressing their internal state via communicative acts that reveal their understanding, confusion, and attention. Robot’s learning parameters, however, can be overwhelming for a novice user and may increase the human workload (by increasing inaccurate feedbacks, and hence decreasing the robot’s learning). The challenge lies on training humans to be efficient trainers and enabling them to plan, assess and manage the robot’s learning.&lt;/p&gt;
@@ -480,20 +480,20 @@ Up to now the research in the field has considered a couple of classical scenari
     
     <item>
       <title>🏆 I was awarded with an ARC DECRA fellowship!</title>
-      <link>/post/decra2021/</link>
+      <link>https://wafajohal.github.io/post/decra2021/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/post/decra2021/</guid>
+      <guid>https://wafajohal.github.io/post/decra2021/</guid>
       <description>&lt;p&gt;About a year after landing foot in Australia, I have been awarded with a Discovery Early Career Research Award (DECRA) by the Asutralian Research Council (acceptance 16%).&lt;/p&gt;
-&lt;p&gt;The project I proposed is inline with my vision to build co-learning system in which robots can teach novices some skills (see &lt;a href=&#34;/project/cowriter/&#34;&gt;CoWriter Project&lt;/a&gt;) but also learn from human trainers. 
-To find out more about the project see the page: &lt;a href=&#34;/project/hurl/&#34;&gt;HURL&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The project I proposed is inline with my vision to build co-learning system in which robots can teach novices some skills (see &lt;a href=&#34;https://wafajohal.github.io/project/cowriter/&#34;&gt;CoWriter Project&lt;/a&gt;) but also learn from human trainers. 
+To find out more about the project see the page: &lt;a href=&#34;https://wafajohal.github.io/project/hurl/&#34;&gt;HURL&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Domestic Drones: Context of Use in Research Literature</title>
-      <link>/publication/obaid_hai_2020/</link>
+      <link>https://wafajohal.github.io/publication/obaid_hai_2020/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/obaid_hai_2020/</guid>
+      <guid>https://wafajohal.github.io/publication/obaid_hai_2020/</guid>
       <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vSn43ovcyD-23eboGn2c_2ss1gy5gCN2pac5N6QUUsxH10Br3WYeTBmYBvNqDZTS8sam8XaoxpIbHjB/pub?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -502,9 +502,9 @@ To find out more about the project see the page: &lt;a href=&#34;/project/hurl/&
     
     <item>
       <title>Social (Flying) Robots for Education. September 2020.</title>
-      <link>/talk/2020_edudrone/</link>
+      <link>https://wafajohal.github.io/talk/2020_edudrone/</link>
       <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/talk/2020_edudrone/</guid>
+      <guid>https://wafajohal.github.io/talk/2020_edudrone/</guid>
       <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vQ01VhR7_mmKu26bLyZNljEbgiYHXJ4EB_2piY3gJ8QdbbtSwmPaZ2FkO4JiLnfnw/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -513,9 +513,9 @@ To find out more about the project see the page: &lt;a href=&#34;/project/hurl/&
     
     <item>
       <title>The SydCHI Local Chapter just got accepted</title>
-      <link>/post/sydchi_accepted/</link>
+      <link>https://wafajohal.github.io/post/sydchi_accepted/</link>
       <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/post/sydchi_accepted/</guid>
+      <guid>https://wafajohal.github.io/post/sydchi_accepted/</guid>
       <description>&lt;p&gt;Super excited about the new SydCHI local chapter.
 Stay tune!&lt;/p&gt;
 </description>
@@ -523,17 +523,17 @@ Stay tune!&lt;/p&gt;
     
     <item>
       <title>Using Tabletop Robots to promote Inclusive Classroom Experiences</title>
-      <link>/publication/neto-using-2020/</link>
+      <link>https://wafajohal.github.io/publication/neto-using-2020/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/neto-using-2020/</guid>
+      <guid>https://wafajohal.github.io/publication/neto-using-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>🏆 Best Demo Award at HRI 2020!</title>
-      <link>/post/hri2020_demo_award/</link>
+      <link>https://wafajohal.github.io/post/hri2020_demo_award/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
-      <guid>/post/hri2020_demo_award/</guid>
+      <guid>https://wafajohal.github.io/post/hri2020_demo_award/</guid>
       <description>&lt;p&gt;Our international team received the best demo award at @HRI2020 @dillenbo @AnaraSandy! #SNSF #CoKaz
 &lt;a href=&#34;http://humanrobotinteraction.org/2020/best-paper-awards/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://humanrobotinteraction.org/2020/best-paper-awards/&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -541,9 +541,9 @@ Stay tune!&lt;/p&gt;
     
     <item>
       <title>Demo 3 Resolution</title>
-      <link>/teaching/computer_vision/week1/w1_demo3_image_formation_resolution/</link>
+      <link>https://wafajohal.github.io/teaching/computer_vision/week1/w1_demo3_image_formation_resolution/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/teaching/computer_vision/week1/w1_demo3_image_formation_resolution/</guid>
+      <guid>https://wafajohal.github.io/teaching/computer_vision/week1/w1_demo3_image_formation_resolution/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; cv2
 &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.pyplot &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; plt
 &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; np
@@ -555,10 +555,10 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(img)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;(532, 800)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo3/output_1_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo3/output_1_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(img, cmap&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gray&amp;#39;&lt;/span&gt;, vmin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, vmax&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo3/output_2_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo3/output_2_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Grayscale Image&amp;#39;&lt;/span&gt;, img)
 cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;waitKey(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;) &lt;span style=&#34;color:#75715e&#34;&gt;# press any key&lt;/span&gt;
 cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;destroyAllWindows()
@@ -609,7 +609,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(half,  cmap&lt
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;(266, 400)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo3/output_6_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo3/output_6_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# if you run this cell several times, you will see the resolution decreasing very fast.&lt;/span&gt;
 half &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cv2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;resize(half, &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;, fx&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.5&lt;/span&gt;, fy&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.5&lt;/span&gt;)
 print(half&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape)
@@ -618,7 +618,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;(133, 200)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week1/demo3/output_7_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week1/demo3/output_7_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;half&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;(133, 200)
 &lt;/code&gt;&lt;/pre&gt;
@@ -631,57 +631,57 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
     
     <item>
       <title>\&#34;If You&#39;ve Gone Straight, Now, You Must Turn Left\&#34; - Exploring the Use of a Tangible Interface in a Collaborative Treasure Hunt for People with Visual Impairments</title>
-      <link>/publication/chibaudel-2020/</link>
+      <link>https://wafajohal.github.io/publication/chibaudel-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/chibaudel-2020/</guid>
+      <guid>https://wafajohal.github.io/publication/chibaudel-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Comparison of Social Robot to Tablet and Teacher in a New Script Learning Context</title>
-      <link>/publication/zhanel-2020/</link>
+      <link>https://wafajohal.github.io/publication/zhanel-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/zhanel-2020/</guid>
+      <guid>https://wafajohal.github.io/publication/zhanel-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Acquisition of handwriting in children with and without dysgraphia: A computational approach</title>
-      <link>/publication/gargot-2020-acquisition/</link>
+      <link>https://wafajohal.github.io/publication/gargot-2020-acquisition/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/gargot-2020-acquisition/</guid>
+      <guid>https://wafajohal.github.io/publication/gargot-2020-acquisition/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CoWriting Kazakh: Learning a New Script with a Robot</title>
-      <link>/publication/sandygulova-hri-2020/</link>
+      <link>https://wafajohal.github.io/publication/sandygulova-hri-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/sandygulova-hri-2020/</guid>
+      <guid>https://wafajohal.github.io/publication/sandygulova-hri-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CoWriting Kazakh: Learning a New Script with a Robot - Demonstration</title>
-      <link>/publication/bolat-hri-2020-demo/</link>
+      <link>https://wafajohal.github.io/publication/bolat-hri-2020-demo/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/bolat-hri-2020-demo/</guid>
+      <guid>https://wafajohal.github.io/publication/bolat-hri-2020-demo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CoWriting Kazakh: Learning a New Script with a Robot - Video </title>
-      <link>/publication/zhanel-hri-2020-video/</link>
+      <link>https://wafajohal.github.io/publication/zhanel-hri-2020-video/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/zhanel-hri-2020-video/</guid>
+      <guid>https://wafajohal.github.io/publication/zhanel-hri-2020-video/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demo Bit-Planes</title>
-      <link>/teaching/computer_vision/week2/w2_-demo_image_processing_bitplanes/</link>
+      <link>https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_bitplanes/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/teaching/computer_vision/week2/w2_-demo_image_processing_bitplanes/</guid>
+      <guid>https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_bitplanes/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; cv2
 &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; np
 &lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; matplotlib &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pyplot &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; plt
@@ -691,7 +691,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;figure(figsize&lt;spa
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(img,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gray&amp;#39;&lt;/span&gt;)
 
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/bitplanes/output_2_0.svg&#34; alt=&#34;svg&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/bitplanes/output_2_0.svg&#34; alt=&#34;svg&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;out &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;figure(figsize&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;))
 &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; k &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;):
@@ -706,21 +706,21 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;figure(figsize&lt;spa
     plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;xticks([]), plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;yticks([])
 
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/bitplanes/output_3_0.svg&#34; alt=&#34;svg&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/bitplanes/output_3_0.svg&#34; alt=&#34;svg&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;ms_planes &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; out[&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;out[&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;out[&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;]
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(ms_planes,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gray&amp;#39;&lt;/span&gt;),plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; plane 5-7&amp;#34;&lt;/span&gt;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;(&amp;lt;matplotlib.image.AxesImage at 0x243a2f83be0&amp;gt;, Text(0.5, 1.0, &#39; plane 5-7&#39;))
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/bitplanes/output_4_1.svg&#34; alt=&#34;svg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/bitplanes/output_4_1.svg&#34; alt=&#34;svg&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Demo Fourier Transform and Frequency filtering</title>
-      <link>/teaching/computer_vision/week2/w2_-demo_image_processing_fourier_smoothing/</link>
+      <link>https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_fourier_smoothing/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/teaching/computer_vision/week2/w2_-demo_image_processing_fourier_smoothing/</guid>
+      <guid>https://wafajohal.github.io/teaching/computer_vision/week2/w2_-demo_image_processing_fourier_smoothing/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; cv2
 &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; np
 &lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; matplotlib &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pyplot &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; plt
@@ -737,7 +737,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(img, cmap &lt;
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;subplot(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;hist(img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;flatten())
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_2_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_2_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# create the centering matrix&lt;/span&gt;
 centering_m &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;full((img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;] , img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape[&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;]), &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
 
@@ -752,7 +752,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;subplot(&lt;span styl
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;hist(centering_m&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;flat)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_3_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_3_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;centered_img &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; img &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;centering_m
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;figure(figsize&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;))
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;subplot(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
@@ -760,7 +760,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(centered_img, 
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;subplot(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;hist(centered_img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;flatten())
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_4_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_4_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# compute the 2D FFT&lt;/span&gt;
 dft &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;  np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;fft&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;fft2(centered_img)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;figure(figsize&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;))
@@ -768,12 +768,12 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(np&lt;span sty
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.image.AxesImage at 0x1dfe72c33c8&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_5_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_5_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;distance&lt;/span&gt;(point1,point2):
     &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;sqrt((point1[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;point2[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;])&lt;span style=&#34;color:#f92672&#34;&gt;**&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; (point1[&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;point2[&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;])&lt;span style=&#34;color:#f92672&#34;&gt;**&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;filters&#34;&gt;Filters&lt;/h2&gt;
 &lt;h2 id=&#34;ideal-lowpass-filter&#34;&gt;Ideal LowPass Filter&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/equations/idealLP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/equations/idealLP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;idealFilterLP&lt;/span&gt;(D0,imgShape):
     base &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;zeros(imgShape[:&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;])
     rows, cols &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; imgShape[:&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;]
@@ -786,9 +786,9 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(np&lt;span sty
 
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(idealFilterLP(&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;,img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape), cmap&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gray&amp;#39;&lt;/span&gt;),plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Low Pass Filter&amp;#39;&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_9_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_9_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ideal-highpass-filter&#34;&gt;Ideal HighPass Filter&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/equations/idealHP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/equations/idealHP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;idealFilterHP&lt;/span&gt;(D0,imgShape):
     base &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ones(imgShape[:&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;])
     rows, cols &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; imgShape[:&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;]
@@ -802,9 +802,9 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(idealFilterHP(&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;,img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape), cmap&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gray&amp;#39;&lt;/span&gt;),plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;High Pass Filter&amp;#39;&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_11_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_11_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;gaussian-lowpass-filter&#34;&gt;Gaussian LowPass Filter&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/equations/gaussianLP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/equations/gaussianLP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;gaussianLP&lt;/span&gt;(D0,imgShape):
     base &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;zeros(imgShape[:&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;])
     rows, cols &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; imgShape[:&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;]
@@ -817,9 +817,9 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(gaussianLP(&lt;span style=&#34;color:#ae81ff&#34;&gt;80&lt;/span&gt;,img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape), cmap&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gray&amp;#39;&lt;/span&gt;),plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Gaussian Low Pass Filter&amp;#39;&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;xticks([]), plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;yticks([])
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_13_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_13_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;gaussian-highpass-filter&#34;&gt;Gaussian HighPass Filter&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/equations/gaussianHP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/equations/gaussianHP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;gaussianHP&lt;/span&gt;(D0,imgShape):
     base &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;zeros(imgShape[:&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;])
     rows, cols &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; imgShape[:&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;]
@@ -832,7 +832,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(gaussianHP(&lt;span style=&#34;color:#ae81ff&#34;&gt;80&lt;/span&gt;,img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape), cmap&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;gray&amp;#39;&lt;/span&gt;),plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Gaussian High Pass Filter&amp;#39;&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;xticks([]), plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;yticks([])
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_15_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_15_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;apply-filter-on-dft&#34;&gt;Apply Filter on DFT&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# filter the DFT&lt;/span&gt;
 fdft &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; dft &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; idealFilterLP(&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;,img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape) &lt;span style=&#34;color:#75715e&#34;&gt;## note that we do a multiplication cause we are in the frequency domain&lt;/span&gt;
@@ -852,7 +852,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(real_centered,
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Inversed Filtered DFT&amp;#39;&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_17_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_17_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# filter the DFT&lt;/span&gt;
 fdft &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; dft &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; gaussianLP(&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;,img&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape)
 
@@ -870,7 +870,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;subplot(&lt;span styl
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(real_centered, cmap &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;gray&amp;#34;&lt;/span&gt;, vmin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, vmax&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Inversed Filtered DFT&amp;#39;&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_18_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_18_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;demonstraring-that-we-can-go-back-and-forth-from-image-to-frequency-without-loss&#34;&gt;Demonstraring that we can go back and forth from image to frequency without loss&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# inverse the filtered DFT&lt;/span&gt;
 idft &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;fft&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ifft2(dft)
@@ -891,32 +891,32 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(real_centered &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; img, cmap &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;gray&amp;#34;&lt;/span&gt;, vmin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, vmax&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Difference&amp;#39;&lt;/span&gt;)
 plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_20_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/teaching/computer_vision/week2/fourier/output_20_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_20_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/teaching/computer_vision/week2/fourier/output_20_1.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Exploring the Role of Perspective Taking in Educational Child-Robot Interaction</title>
-      <link>/publication/yadollahi-2020-exploring/</link>
+      <link>https://wafajohal.github.io/publication/yadollahi-2020-exploring/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/yadollahi-2020-exploring/</guid>
+      <guid>https://wafajohal.github.io/publication/yadollahi-2020-exploring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gamified Motor Training with Tangible Robots in Older Adults: a Feasibility Study and Comparison with Young</title>
-      <link>/publication/guneysu-ozgur-gamified-2020/</link>
+      <link>https://wafajohal.github.io/publication/guneysu-ozgur-gamified-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/guneysu-ozgur-gamified-2020/</guid>
+      <guid>https://wafajohal.github.io/publication/guneysu-ozgur-gamified-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iReCheck</title>
-      <link>/project/irecheck/</link>
+      <link>https://wafajohal.github.io/project/irecheck/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/project/irecheck/</guid>
+      <guid>https://wafajohal.github.io/project/irecheck/</guid>
       <description>&lt;p&gt;Nearly 8% of children between 4 and 12 are dysgraphic or encounter serious difficulties in learning handwriting. Dysgraphia, just like dyslexia, can seriously impair the everyday school life of children and have damageable impact on their academic achievements. The detection of such difficulties should be done as soon as possible to minimize its effect on the child’s school performances. And an adaptive remediation should be provided. The CHILI Lab at EPFL showed how a robotic co-learner agent could have positive effects on the child&amp;rsquo;s motivation to practice handwriting. However, motivation is only one aspect that needs to be taken into account in order to provide a long-term adaptive training experience for children learning how to write.&lt;/p&gt;
 &lt;p&gt;In the iReCHeCk project, we propose a finer characterization of handwriting, as a multimodal activity, taking into account the body posture to capture important features in the handwriting process. We will develop engaging training activities with a robot to monitor the learning status of the child, allowing therapists to evaluate progresses, while adapting the robot&amp;rsquo;s attitude and the training task to the needs of the learner. Our goal being to touch a wide range of handwriting learners, these activities will be tested on two populations: Typically Developed Children that are learning how to write at school; Children with Neuro-Developmental Disorders, presenting handwriting difficulties along with other disorders (i.e. attentional, autistic).&lt;/p&gt;
 </description>
@@ -924,41 +924,41 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
     
     <item>
       <title>Iterative Design and Evaluation of a Tangible Robot-Assisted Handwriting Activity for Special Education</title>
-      <link>/publication/guneysu-ozgur-iterative-2020/</link>
+      <link>https://wafajohal.github.io/publication/guneysu-ozgur-iterative-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/guneysu-ozgur-iterative-2020/</guid>
+      <guid>https://wafajohal.github.io/publication/guneysu-ozgur-iterative-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>List of Typical Questionnaires used in HRI</title>
-      <link>/teaching/human-robot-interaction/questionnaires/questionnaires/</link>
+      <link>https://wafajohal.github.io/teaching/human-robot-interaction/questionnaires/questionnaires/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/teaching/human-robot-interaction/questionnaires/questionnaires/</guid>
+      <guid>https://wafajohal.github.io/teaching/human-robot-interaction/questionnaires/questionnaires/</guid>
       <description></description>
     </item>
     
     <item>
       <title>P. 114 Automatic assessment of motors impairments in autism spectrum disorders: a systematic review</title>
-      <link>/publication/gargot-2020-p/</link>
+      <link>https://wafajohal.github.io/publication/gargot-2020-p/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/gargot-2020-p/</guid>
+      <guid>https://wafajohal.github.io/publication/gargot-2020-p/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Research Trends in Social Robots for Learning</title>
-      <link>/publication/johal-2020-research/</link>
+      <link>https://wafajohal.github.io/publication/johal-2020-research/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2020-research/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2020-research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Swarm Robots in Education: A Review of Challenges and Opportunities</title>
-      <link>/publication/johal-2020-swarm/</link>
+      <link>https://wafajohal.github.io/publication/johal-2020-swarm/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2020-swarm/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2020-swarm/</guid>
       <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vQZcoqR-wwo6cZBj55T4ZyLd5FPTBXon6Hsljqr3ytAA5nFJ7LSmlpq-O3_SVFwPVqqwO64yi3mk2eI/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -967,9 +967,9 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
     
     <item>
       <title>TIP: Tangible e-Ink Paper Manipulatives for Classroom Orchestration</title>
-      <link>/talk/ozchi2019/</link>
+      <link>https://wafajohal.github.io/talk/ozchi2019/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/ozchi2019/</guid>
+      <guid>https://wafajohal.github.io/talk/ozchi2019/</guid>
       <description>&lt;p&gt;Presented our work on the design of tangible devices for classroom orchestration.&lt;/p&gt;
 &lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vSAbsZww1VUF4gDexQLD7Goez5ApAkyU85mnNXrNaPgeiHIzSs9Aeo1RNkZWp3WaAK-aT4gjm0zMDID/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
@@ -979,18 +979,18 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
     
     <item>
       <title>[HRI2020 Paper Accepted!] on Transposing CoWriter to Learning the New Kazakh Alphabet</title>
-      <link>/post/hri2020_accepted/</link>
+      <link>https://wafajohal.github.io/post/hri2020_accepted/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/post/hri2020_accepted/</guid>
+      <guid>https://wafajohal.github.io/post/hri2020_accepted/</guid>
       <description></description>
     </item>
     
     <item>
       <title>UC San Diego, California, USA, November 2019</title>
-      <link>/talk/ucsandiego_hrimini2019/</link>
+      <link>https://wafajohal.github.io/talk/ucsandiego_hrimini2019/</link>
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/ucsandiego_hrimini2019/</guid>
-      <description>&lt;p&gt;I gave a short talk at the HRI Mini symposium on Orchestration of Robot Populated Classrooms, a recent work started with &lt;a href=&#34;/authors/sina-shahmoradi/&#34;&gt;Sina Shahmoradi&lt;/a&gt;, &lt;a href=&#34;/authors/jauwairia-nasir/&#34;&gt;Jauwairia Nasir&lt;/a&gt; and &lt;a href=&#34;/authors/utku-norman/&#34;&gt;Utku Norman&lt;/a&gt;&lt;/p&gt;
+      <guid>https://wafajohal.github.io/talk/ucsandiego_hrimini2019/</guid>
+      <description>&lt;p&gt;I gave a short talk at the HRI Mini symposium on Orchestration of Robot Populated Classrooms, a recent work started with &lt;a href=&#34;https://wafajohal.github.io/authors/sina-shahmoradi/&#34;&gt;Sina Shahmoradi&lt;/a&gt;, &lt;a href=&#34;https://wafajohal.github.io/authors/jauwairia-nasir/&#34;&gt;Jauwairia Nasir&lt;/a&gt; and &lt;a href=&#34;https://wafajohal.github.io/authors/utku-norman/&#34;&gt;Utku Norman&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vTnhl9vGI8PfwTmAdzq8uh9axoV-atvvN87Xrlt4_ctt5YNDIO-mZbe4O9McfIyGlaQ2Vierw7k9tXO/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -999,17 +999,17 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
     
     <item>
       <title>Orchestration of robot-populated classrooms. UC Sand Diego, California, USA. November 2019.</title>
-      <link>/talk/2020_ucsd/</link>
+      <link>https://wafajohal.github.io/talk/2020_ucsd/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/2020_ucsd/</guid>
+      <guid>https://wafajohal.github.io/talk/2020_ucsd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Best Reviewer Award for ICCE</title>
-      <link>/post/best_reviewer_icce2019/</link>
+      <link>https://wafajohal.github.io/post/best_reviewer_icce2019/</link>
       <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/post/best_reviewer_icce2019/</guid>
+      <guid>https://wafajohal.github.io/post/best_reviewer_icce2019/</guid>
       <description>&lt;p&gt;I am hounoured that the 27th International Conference on Computers in Education awarded me with the Best Reviewer Award.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://ilt.nutn.edu.tw/icce2019/04_Best%20Reviewer%20Award.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://ilt.nutn.edu.tw/icce2019/04_Best%20Reviewer%20Award.html&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -1017,9 +1017,9 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
     
     <item>
       <title>4 Full Papers Presented @RoMan 2019, New Delhi!</title>
-      <link>/post/roman2019/</link>
+      <link>https://wafajohal.github.io/post/roman2019/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/post/roman2019/</guid>
+      <guid>https://wafajohal.github.io/post/roman2019/</guid>
       <description>&lt;p&gt;I was very glad to meet my colleagues and friends at RoMan.
 We presented four papers and enjoyed a day off in Jaipur.&lt;/p&gt;
 </description>
@@ -1027,26 +1027,26 @@ We presented four papers and enjoyed a day off in Jaipur.&lt;/p&gt;
     
     <item>
       <title>Paper accepted! Allohaptic</title>
-      <link>/post/allohaptic2020/</link>
+      <link>https://wafajohal.github.io/post/allohaptic2020/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/post/allohaptic2020/</guid>
+      <guid>https://wafajohal.github.io/post/allohaptic2020/</guid>
       <description>&lt;p&gt;I was very glad to meet my colleagues and friends virtually at RoMan2020.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Augmented Robotics for Learners: A Case Study on Optics</title>
-      <link>/publication/johal-augmented-2019/</link>
+      <link>https://wafajohal.github.io/publication/johal-augmented-2019/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-augmented-2019/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-augmented-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The iReCheck project accepted!</title>
-      <link>/post/irechech-accepted/</link>
+      <link>https://wafajohal.github.io/post/irechech-accepted/</link>
       <pubDate>Sun, 15 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/post/irechech-accepted/</guid>
+      <guid>https://wafajohal.github.io/post/irechech-accepted/</guid>
       <description>&lt;p&gt;The iReCheck project submitted last April will be funded by the French ANR and the Swiss NSF.
 The goal of the project is to explore the learning by teaching sceanrio proposed in the cowriter project in with both performance and social adaptation, and with TD learners and learners with NDD.
 The project brings educational expertise of the EPFL team with the NDD expertise of the French partners to build a system that can suit all types of learners.&lt;/p&gt;
@@ -1055,9 +1055,9 @@ The project brings educational expertise of the EPFL team with the NDD expertise
     
     <item>
       <title>Bridging multi-level time scales for HRI analysis</title>
-      <link>/post/framework-hri-analysis/</link>
+      <link>https://wafajohal.github.io/post/framework-hri-analysis/</link>
       <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/post/framework-hri-analysis/</guid>
+      <guid>https://wafajohal.github.io/post/framework-hri-analysis/</guid>
       <description>&lt;p&gt;You collected Gigabits of multi-modal data from an #HRI experiment? Check out our new paper on THRI proposing an analysis framework based on Newells&#39; time scales. w T. Asselborn, K. Sharma &amp;amp;&lt;br&gt;
 @dillenbo
 &lt;a href=&#34;https://dl.acm.org/citation.cfm?id=3338809&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dl.acm.org/citation.cfm?id=3338809&lt;/a&gt; #HRI2020 #humanrobotinteraction&lt;/p&gt;
@@ -1066,18 +1066,18 @@ The project brings educational expertise of the EPFL team with the NDD expertise
     
     <item>
       <title>First day at UNSW as Lecturer (Assistant Prof)</title>
-      <link>/post/unsw-start/</link>
+      <link>https://wafajohal.github.io/post/unsw-start/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/post/unsw-start/</guid>
+      <guid>https://wafajohal.github.io/post/unsw-start/</guid>
       <description>&lt;p&gt;Officially starting at  @UNSWEngineering today. Looking forward to this exciting adventure! Stay tuned, Phd job offers coming soon.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Alex&#39;s Bachelor Design Presentation</title>
-      <link>/post/alex-defense/</link>
+      <link>https://wafajohal.github.io/post/alex-defense/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/post/alex-defense/</guid>
+      <guid>https://wafajohal.github.io/post/alex-defense/</guid>
       <description>&lt;p&gt;Super excited about the presentation of my first design intern.
 It&amp;rsquo;s been a fruitful experience to work with him this past few months.
 Bravo Alex! #epfl #ecal&lt;/p&gt;
@@ -1086,9 +1086,9 @@ Bravo Alex! #epfl #ecal&lt;/p&gt;
     
     <item>
       <title>London/Brighton UK, One week workshop, Find you Voice project</title>
-      <link>/post/fyv-ukmeeting/</link>
+      <link>https://wafajohal.github.io/post/fyv-ukmeeting/</link>
       <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
-      <guid>/post/fyv-ukmeeting/</guid>
+      <guid>https://wafajohal.github.io/post/fyv-ukmeeting/</guid>
       <description>&lt;p&gt;The Find your Voice project (seed project, funded by the Jacobs Foundation and the SRCD) aims to investigate the potential use of voice assistant/robot to train children on joke telling to improve their self-confidence and language literacy.&lt;/p&gt;
 &lt;p&gt;A whole week workshop ehlp us to clearly set objectives for the first part of teh project.
 We conducted a small literature review and discussed the mini projects to be conducted by Mai 2020.&lt;/p&gt;
@@ -1099,9 +1099,9 @@ We conducted a small literature review and discussed the mini projects to be con
     
     <item>
       <title>Expert for the Focus group on Robots in Education</title>
-      <link>/post/post_focustaswiss/</link>
+      <link>https://wafajohal.github.io/post/post_focustaswiss/</link>
       <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
-      <guid>/post/post_focustaswiss/</guid>
+      <guid>https://wafajohal.github.io/post/post_focustaswiss/</guid>
       <description>&lt;p&gt;The TA Swiss (Swiss Technology Assessment Foundation) invited me to praticipate to a focus group about robotics as an expert in robots for education.
 I was glad to present an overview of ther research of robotics in education.
 The day ended with a very interesting panl in which many asptects such as ethics, and regulations were discussed.&lt;/p&gt;
@@ -1113,9 +1113,9 @@ The day ended with a very interesting panl in which many asptects such as ethics
     
     <item>
       <title>TA-Swiss, Bern, Switzerland Mai 2019</title>
-      <link>/talk/bern2019/</link>
+      <link>https://wafajohal.github.io/talk/bern2019/</link>
       <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/bern2019/</guid>
+      <guid>https://wafajohal.github.io/talk/bern2019/</guid>
       <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vRdyAjthe6r9UgIUV1ig1vq9VZbIbOjUhSN5NqQrMmRp9sf6PqwX_NMmNesdaFDAgriEpn9z0D0IgVV/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -1124,9 +1124,9 @@ The day ended with a very interesting panl in which many asptects such as ethics
     
     <item>
       <title>Organising a Winter School on Developing Technologies in Educational Settings</title>
-      <link>/post/edtech-winterschool/</link>
+      <link>https://wafajohal.github.io/post/edtech-winterschool/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/edtech-winterschool/</guid>
+      <guid>https://wafajohal.github.io/post/edtech-winterschool/</guid>
       <description>&lt;p&gt;22 participants attended the 4 days training event at EPFL on Developing Technologies in Educational Settings.
 The winter school recieved the support of the NCCR Robotcs and the Animatas H2020 EU project.
 We had invited great speakers and got excellent feedback from the participants.
@@ -1138,25 +1138,25 @@ I specially wanted to thank Florence Colomb, Dr. Jennifer Olsen, Prof. Pierre Di
     
     <item>
       <title>Applied Machine Learning Days, Lausanne Switzerland, January 2019</title>
-      <link>/talk/amld2018/</link>
+      <link>https://wafajohal.github.io/talk/amld2018/</link>
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/amld2018/</guid>
+      <guid>https://wafajohal.github.io/talk/amld2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Astana, Kazakhstan, January 2019</title>
-      <link>/talk/astana2019/</link>
+      <link>https://wafajohal.github.io/talk/astana2019/</link>
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/astana2019/</guid>
+      <guid>https://wafajohal.github.io/talk/astana2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>✈️ 🇰🇿  Astana! Visiting our partner for the CoWriting Kazakh project</title>
-      <link>/post/visit-cokaz/</link>
+      <link>https://wafajohal.github.io/post/visit-cokaz/</link>
       <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/post/visit-cokaz/</guid>
+      <guid>https://wafajohal.github.io/post/visit-cokaz/</guid>
       <description>&lt;p&gt;Thibault Assselborn and I travelled to Astana, Kazakhstan to install CoWriter with Anara.
 We discussed learning sceanrios to help Kazakh students learn the new Latin Kazakh alphabet.&lt;/p&gt;
 &lt;p&gt;It was definitly a fruitful visit, but the weather was not ideal for us to sightsee (-40°C).&lt;/p&gt;
@@ -1165,17 +1165,17 @@ We discussed learning sceanrios to help Kazakh students learn the new Latin Kaza
     
     <item>
       <title>Bridging Multilevel Time Scales in HRI: An Analysis Framework</title>
-      <link>/publication/asselborn-2019-bridging/</link>
+      <link>https://wafajohal.github.io/publication/asselborn-2019-bridging/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/asselborn-2019-bridging/</guid>
+      <guid>https://wafajohal.github.io/publication/asselborn-2019-bridging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CoWriting Kazakh: Transitioning to a New Latin Script using Social Robots</title>
-      <link>/publication/kim-cowriting-2019/</link>
+      <link>https://wafajohal.github.io/publication/kim-cowriting-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/kim-cowriting-2019/</guid>
+      <guid>https://wafajohal.github.io/publication/kim-cowriting-2019/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/CmRBnVcBluo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1186,25 +1186,25 @@ We discussed learning sceanrios to help Kazakh students learn the new Latin Kaza
     
     <item>
       <title>Designing Configurable Arm Rehabilitation Games: How Do Different Game Elements Affect User Motion Trajectories?</title>
-      <link>/publication/ozgur-designing-2019/</link>
+      <link>https://wafajohal.github.io/publication/ozgur-designing-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/ozgur-designing-2019/</guid>
+      <guid>https://wafajohal.github.io/publication/ozgur-designing-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning By Collaborative Teaching: An Engaging Multi-Party CoWriter Activity</title>
-      <link>/publication/el-hamamsy-learning-2019/</link>
+      <link>https://wafajohal.github.io/publication/el-hamamsy-learning-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/el-hamamsy-learning-2019/</guid>
+      <guid>https://wafajohal.github.io/publication/el-hamamsy-learning-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Symmetry with Tangible Robots</title>
-      <link>/publication/johal-2019-learning/</link>
+      <link>https://wafajohal.github.io/publication/johal-2019-learning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2019-learning/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2019-learning/</guid>
       <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vS7LTYFCBHDmQzuvNjSAjuOjZKcJchxHyecVMc4wkikeL7Z3ffiHfuzX9SQChHHBhLl_nmRUE5hLR3F/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -1213,65 +1213,65 @@ We discussed learning sceanrios to help Kazakh students learn the new Latin Kaza
     
     <item>
       <title>Magnet-assisted ball drive</title>
-      <link>/publication/ozgur-2019-magnet/</link>
+      <link>https://wafajohal.github.io/publication/ozgur-2019-magnet/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/ozgur-2019-magnet/</guid>
+      <guid>https://wafajohal.github.io/publication/ozgur-2019-magnet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Orchestration of Robotic Activities in Classrooms: Challenges and Opportunities</title>
-      <link>/publication/shahmoradi-2019-orchestration/</link>
+      <link>https://wafajohal.github.io/publication/shahmoradi-2019-orchestration/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/shahmoradi-2019-orchestration/</guid>
+      <guid>https://wafajohal.github.io/publication/shahmoradi-2019-orchestration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reply: Limitations in the creation of an automatic diagnosis tool for dysgraphia</title>
-      <link>/publication/asselborn-2019-reply/</link>
+      <link>https://wafajohal.github.io/publication/asselborn-2019-reply/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/asselborn-2019-reply/</guid>
+      <guid>https://wafajohal.github.io/publication/asselborn-2019-reply/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robot Analytics: What Do Human-Robot Interaction Traces Tell Us About Learning?</title>
-      <link>/publication/nasir-2019-robot/</link>
+      <link>https://wafajohal.github.io/publication/nasir-2019-robot/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/nasir-2019-robot/</guid>
+      <guid>https://wafajohal.github.io/publication/nasir-2019-robot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robots for Learning-R4L: Adaptive Learning</title>
-      <link>/publication/johal-2019-robots/</link>
+      <link>https://wafajohal.github.io/publication/johal-2019-robots/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2019-robots/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2019-robots/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Studying the Effect of Robot Frustration on Children&#39;s Change of Perspective</title>
-      <link>/publication/yadollahi-studying-2019/</link>
+      <link>https://wafajohal.github.io/publication/yadollahi-studying-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/yadollahi-studying-2019/</guid>
+      <guid>https://wafajohal.github.io/publication/yadollahi-studying-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Dynamics of Handwriting Improves the Automated Diagnosis of Dysgraphia</title>
-      <link>/publication/zolna-2019-dynamics/</link>
+      <link>https://wafajohal.github.io/publication/zolna-2019-dynamics/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/zolna-2019-dynamics/</guid>
+      <guid>https://wafajohal.github.io/publication/zolna-2019-dynamics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TIP: Tangible e-Ink Paper Manipulatives for Classroom Orchestration</title>
-      <link>/publication/johal-2019-tip/</link>
+      <link>https://wafajohal.github.io/publication/johal-2019-tip/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2019-tip/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2019-tip/</guid>
       <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vSAbsZww1VUF4gDexQLD7Goez5ApAkyU85mnNXrNaPgeiHIzSs9Aeo1RNkZWp3WaAK-aT4gjm0zMDID/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -1280,42 +1280,42 @@ We discussed learning sceanrios to help Kazakh students learn the new Latin Kaza
     
     <item>
       <title>Towards an Adaptive Upper Limb Rehabilitation Game with Tangible Robots</title>
-      <link>/publication/ozgur-2019-towards/</link>
+      <link>https://wafajohal.github.io/publication/ozgur-2019-towards/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/ozgur-2019-towards/</guid>
+      <guid>https://wafajohal.github.io/publication/ozgur-2019-towards/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ETH, Zurich, Switzerland, December 2018</title>
-      <link>/talk/ethz2018/</link>
+      <link>https://wafajohal.github.io/talk/ethz2018/</link>
       <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/talk/ethz2018/</guid>
+      <guid>https://wafajohal.github.io/talk/ethz2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Human-Robot Interaction Mini Symposium,  Standford, November 2018</title>
-      <link>/talk/hris2018/</link>
+      <link>https://wafajohal.github.io/talk/hris2018/</link>
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/talk/hris2018/</guid>
+      <guid>https://wafajohal.github.io/talk/hris2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Standford, November 2018</title>
-      <link>/talk/standford2018/</link>
+      <link>https://wafajohal.github.io/talk/standford2018/</link>
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/talk/standford2018/</guid>
+      <guid>https://wafajohal.github.io/talk/standford2018/</guid>
       <description>&lt;p&gt;Visiting Lukasc Kidnzinski at Stanford, I gave a talk on our paper on diagnosis of disgraphia using RF applied to a series of novel features based on pen&amp;rsquo;s postion, pressure and tilt.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Talk at the HRI 2018 Mini Symposium, Standford CA</title>
-      <link>/post/talk-hris2018/</link>
+      <link>https://wafajohal.github.io/post/talk-hris2018/</link>
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/post/talk-hris2018/</guid>
+      <guid>https://wafajohal.github.io/post/talk-hris2018/</guid>
       <description>&lt;p&gt;Teaching children to write using robots with haptic feedback.
 I gave a small talk on our IDC paper [?] using the Cellulo robots for a handwriting activity.&lt;/p&gt;
 </description>
@@ -1323,26 +1323,26 @@ I gave a small talk on our IDC paper [?] using the Cellulo robots for a handwrit
     
     <item>
       <title>Teacher symposium on Computational Thinking, Yverdon-les-Bains, Switzerland, November 2018</title>
-      <link>/talk/entre2lac/</link>
+      <link>https://wafajohal.github.io/talk/entre2lac/</link>
       <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/talk/entre2lac/</guid>
+      <guid>https://wafajohal.github.io/talk/entre2lac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bold Blog Article on R4L is out</title>
-      <link>/post/writingbold/</link>
+      <link>https://wafajohal.github.io/post/writingbold/</link>
       <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/post/writingbold/</guid>
+      <guid>https://wafajohal.github.io/post/writingbold/</guid>
       <description>&lt;p&gt;Pierre Dillenbour and I wonder &amp;ldquo;What are robots doing in schools?&amp;rdquo; in a blog post on Bold : &lt;a href=&#34;https://bold.expert/what-are-robots-doing-in-schools/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bold.expert/what-are-robots-doing-in-schools/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Demos at NCCR Robotics Industry Days</title>
-      <link>/post/nccr_id2019/</link>
+      <link>https://wafajohal.github.io/post/nccr_id2019/</link>
       <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/post/nccr_id2019/</guid>
+      <guid>https://wafajohal.github.io/post/nccr_id2019/</guid>
       <description>&lt;p&gt;The CHILI Lab presented several demo at the Swiss Converntion Center.
 Always a great opportunity to meet with colleagues from the NCCR and robotics actor of the reagion.&lt;/p&gt;
 </description>
@@ -1350,25 +1350,25 @@ Always a great opportunity to meet with colleagues from the NCCR and robotics ac
     
     <item>
       <title>UNSW, November 2018</title>
-      <link>/talk/unsw2018/</link>
+      <link>https://wafajohal.github.io/talk/unsw2018/</link>
       <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/talk/unsw2018/</guid>
+      <guid>https://wafajohal.github.io/talk/unsw2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Workshop on Swarm Robotics, Rome, October 2018</title>
-      <link>/talk/rome2018/</link>
+      <link>https://wafajohal.github.io/talk/rome2018/</link>
       <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/talk/rome2018/</guid>
+      <guid>https://wafajohal.github.io/talk/rome2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Outreach activities</title>
-      <link>/post/post_outreach/</link>
+      <link>https://wafajohal.github.io/post/post_outreach/</link>
       <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/post/post_outreach/</guid>
+      <guid>https://wafajohal.github.io/post/post_outreach/</guid>
       <description>&lt;p&gt;This last weekend, we had a booth at the Robotic Showcase of the EPFL Drone Days. In the summer, we received 80 young girls who were doing a coding camp on campus for demos at the CHILI Lab. I also participate to other outreach activities with the NCCR Robotics (Swiss Industry Days) or with the Service for Promoting Sciences – SPS at EPFL by being interviewed by small girls on my job as researcher in robotics.&lt;/p&gt;
 &lt;p&gt;During these events we could present some learning activities that we developed for children and explain our research goals. This kind of events are very tiring, people come and go and are often impatient to test. It can occur during the weekend and we can often feel that we could be working on something more valuable for our research instead and it is a waste of time. But I do think that these events help us as researchers. First, it shows the face of scientists to the public, they can talk to us. As a scientist you also hear the concerns that people have with some of your work and it is interesting to try to reassure the public and take into account these ethical concerns. Robotics has had a bad image in the society these past decades, as the 4th industrial revolution announces that many people will loose their jobs. I personally work on assistive robotics and I want to show the public that robots could be beneficial for their life or for society and that we are researching for what applications they can be an added value. You also want to show the limits of AI and Robotics system. We sometimes make our work sound fantastic when writing papers (the limitation section being a small paragraph at the end of the paper), but when running experiments / demo in the wild, you see the limits of autonomous systems and you show the public that you still need a human to be around to interact with the robots. I also helps me to network. I often do user studies and need to find participants for it. I have presented a recruitment sheet during this kind of events and collected contact of people willing to participate to my next experiment. At least once during the showcase, you will meet this guy (more often a guy but could be a woman) that will want to debate with you. This guy is often affiliated to the field, he knows about cs and robotics, he is retired and thinks that we are now going too far. I usually take my time with these people, try to show and explain that we are doing to research and testing new things, that there is a lot of room for improvement, and that I appreciate his feedback. A lot of people think like him and it is interesting as a scientist and developer to build your argumentation for this kind of debate.&lt;/p&gt;
 </description>
@@ -1376,18 +1376,18 @@ Always a great opportunity to meet with colleagues from the NCCR and robotics ac
     
     <item>
       <title>Project CoWriting Kazakh Accepted!</title>
-      <link>/post/post_cokazakh/</link>
+      <link>https://wafajohal.github.io/post/post_cokazakh/</link>
       <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/post/post_cokazakh/</guid>
+      <guid>https://wafajohal.github.io/post/post_cokazakh/</guid>
       <description>&lt;p&gt;We got a new grant for travel mainly that will enable me to collaborate more with Anara Sandygulova from Nazarbayev University. As Kazakhstan is planning to move from Cyrillic to Roman alphabet, we are planning to use the Cowriter setup to motivate children to learn the new alphabet. This work will also continue our work on dysgraphia by collecting handwriting data samples from children in the two alphabet. The goal will be to discover features that are independent of the alphabet to characterize handwriting skills. Excited for my first visit to Kazakhstan. 🙂&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Working on a Computational Thinking application</title>
-      <link>/post/compthining/</link>
+      <link>https://wafajohal.github.io/post/compthining/</link>
       <pubDate>Sat, 04 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/post/compthining/</guid>
+      <guid>https://wafajohal.github.io/post/compthining/</guid>
       <description>&lt;p&gt;Computational Thinking, Kezako? Computational Thinking such a buzz word these days. I got more and more interested by CT when I saw that there was so much debate on its definition and utility to be taught in school. I recently submitted a proposal to get funding for a project dealing with CT but I will not say much more now as it is being reviewed. In July, we received the visit of my good friend Anara from Kazakhstan, who stayed at the lab for a month; just enough to design an experiment and start the development. To get some inspiration we browsed and got some great ideas from the CSunplugged website : &lt;a href=&#34;https://csunplugged.org/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://csunplugged.org/en/&lt;/a&gt; We chose to work on Sorting Networks.&lt;/p&gt;
 &lt;p&gt;If you are an CS engineer you are very familiar with the classical sorting algorithms such as Insertion Sort, Quick Sort and Bubble Sort (Obama’s favorite) but maybe less familiar with the Sorting Networks. Sorting is everywhere and you use sorting machines all the time, each time you do a Google search, as Google is sorting the search results for you to get the most relevant one on the top of the list. This sorting by relevance can be done in multiple ways. Sorting Networks is one of the ways that as the advantage of allowing for parallel processing of the sorting task. In sorting networks, the only operation applied is comparison. Each thread compares elements of the network two by two and tag them as the higher or lower element of the two. Sorting networks can hence be applied to any kind of element as long as they can be compared (numbers, letters, etc). Another advantage of Sorting Networks is that the number of operation (and hence the execution time of the sorting) can be calculated from the just knowing the number of elements to be sorted (the shape of the network is determined at that time also).&lt;/p&gt;
 </description>
@@ -1395,9 +1395,9 @@ Always a great opportunity to meet with colleagues from the NCCR and robotics ac
     
     <item>
       <title>Honorable Mention Award at IDC2018!</title>
-      <link>/post/bpa_idc2018/</link>
+      <link>https://wafajohal.github.io/post/bpa_idc2018/</link>
       <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>/post/bpa_idc2018/</guid>
+      <guid>https://wafajohal.github.io/post/bpa_idc2018/</guid>
       <description>&lt;p&gt;Awarded in #IDC2018 for our study on Deictic Gestures in a Reading Learning by Teaching scenario with a Nao. Checkout the paper &lt;a href=&#34;https://dl.acm.org/citation.cfm?id=3202743&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dl.acm.org/citation.cfm?id=3202743&lt;/a&gt; . Bravo
 @ElmiraYadollahi
 Ana Paiva and
@@ -1409,73 +1409,73 @@ Ana Paiva and
     
     <item>
       <title>Automated human-level diagnosis of dysgraphia using a consumer tablet</title>
-      <link>/publication/asselborn-2018-automated/</link>
+      <link>https://wafajohal.github.io/publication/asselborn-2018-automated/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/asselborn-2018-automated/</guid>
+      <guid>https://wafajohal.github.io/publication/asselborn-2018-automated/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bringing letters to life: handwriting with haptic-enabled tangible robots</title>
-      <link>/publication/asselborn-2018-bringing/</link>
+      <link>https://wafajohal.github.io/publication/asselborn-2018-bringing/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/asselborn-2018-bringing/</guid>
+      <guid>https://wafajohal.github.io/publication/asselborn-2018-bringing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Declarative Physicomimetics for Tangible Swarm Application Development</title>
-      <link>/publication/ozgur-2018-declarative/</link>
+      <link>https://wafajohal.github.io/publication/ozgur-2018-declarative/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/ozgur-2018-declarative/</guid>
+      <guid>https://wafajohal.github.io/publication/ozgur-2018-declarative/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Iterative design of an upper limb rehabilitation game with tangible robots</title>
-      <link>/publication/guneysu-2018-iterative/</link>
+      <link>https://wafajohal.github.io/publication/guneysu-2018-iterative/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/guneysu-2018-iterative/</guid>
+      <guid>https://wafajohal.github.io/publication/guneysu-2018-iterative/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robots for Learning-R4L: Inclusive Learning</title>
-      <link>/publication/johal-2018-robots/</link>
+      <link>https://wafajohal.github.io/publication/johal-2018-robots/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2018-robots/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2018-robots/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The near future of children&#39;s robotics</title>
-      <link>/publication/charisi-2018-near/</link>
+      <link>https://wafajohal.github.io/publication/charisi-2018-near/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/charisi-2018-near/</guid>
+      <guid>https://wafajohal.github.io/publication/charisi-2018-near/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Une architecture cognitive et affective orientée interaction</title>
-      <link>/publication/pellier-2018-architecture/</link>
+      <link>https://wafajohal.github.io/publication/pellier-2018-architecture/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/pellier-2018-architecture/</guid>
+      <guid>https://wafajohal.github.io/publication/pellier-2018-architecture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>When deictic gestures in a robot can harm child-robot collaboration</title>
-      <link>/publication/yadollahi-2018-deictic/</link>
+      <link>https://wafajohal.github.io/publication/yadollahi-2018-deictic/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/yadollahi-2018-deictic/</guid>
+      <guid>https://wafajohal.github.io/publication/yadollahi-2018-deictic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>New CFP Robots for Inclusive Learning @HRI2018</title>
-      <link>/post/r4lhri2018cfp/</link>
+      <link>https://wafajohal.github.io/post/r4lhri2018cfp/</link>
       <pubDate>Mon, 25 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>/post/r4lhri2018cfp/</guid>
+      <guid>https://wafajohal.github.io/post/r4lhri2018cfp/</guid>
       <description>&lt;p&gt;The 4th Workshop on Robots for Learning will focus on Inclusive Learning trying to address how robots&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;could benefit to learners with special needs or disabilities,&lt;/li&gt;
@@ -1488,9 +1488,9 @@ Ana Paiva and
     
     <item>
       <title>Swiss NCCR Robotics Industry Days</title>
-      <link>/post/nccr-id2017/</link>
+      <link>https://wafajohal.github.io/post/nccr-id2017/</link>
       <pubDate>Mon, 25 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>/post/nccr-id2017/</guid>
+      <guid>https://wafajohal.github.io/post/nccr-id2017/</guid>
       <description>&lt;p&gt;We presented our robotics projects and had some demos for industrial and academics partners.
 It is always the best place to network with great actors of robotics in Switzerland.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.youtube.com/watch?v=zv6nDMQCWCo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.youtube.com/watch?v=zv6nDMQCWCo&lt;/a&gt;&lt;/p&gt;
@@ -1499,18 +1499,18 @@ It is always the best place to network with great actors of robotics in Switzerl
     
     <item>
       <title>ERA.Net Plus RUS – Robotics Panelist</title>
-      <link>/post/eraplus/</link>
+      <link>https://wafajohal.github.io/post/eraplus/</link>
       <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>/post/eraplus/</guid>
+      <guid>https://wafajohal.github.io/post/eraplus/</guid>
       <description>&lt;p&gt;It was a real adventure to travel to Moldavia for this panel meeting for which I was invited, as a HRI specialist, to review russo-european projects.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Best Paper Award @HRI2017!</title>
-      <link>/post/bphri2017/</link>
+      <link>https://wafajohal.github.io/post/bphri2017/</link>
       <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>/post/bphri2017/</guid>
+      <guid>https://wafajohal.github.io/post/bphri2017/</guid>
       <description>&lt;p&gt;Our paper on the Cellulo project got the Best Paper Award in Vienna at the HRI2017!
 We had another study paper and a demo paper at HRI this year with this same project. 🙂&lt;/p&gt;
 </description>
@@ -1518,74 +1518,74 @@ We had another study paper and a demo paper at HRI this year with this same proj
     
     <item>
       <title>Reviewing ...</title>
-      <link>/post/review/</link>
+      <link>https://wafajohal.github.io/post/review/</link>
       <pubDate>Tue, 17 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/post/review/</guid>
+      <guid>https://wafajohal.github.io/post/review/</guid>
       <description>&lt;p&gt;Currently or done reveiwing papers  for CHI2017, HRI2017, CSCW2017, IJSORO, Transaction on Learning Technologies and the Journal of Child Computer Interaction&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Cellulo: Versatile handheld robots for education</title>
-      <link>/publication/ozgur-2017-cellulo/</link>
+      <link>https://wafajohal.github.io/publication/ozgur-2017-cellulo/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/ozgur-2017-cellulo/</guid>
+      <guid>https://wafajohal.github.io/publication/ozgur-2017-cellulo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Expressing Motivations By Facilitating Other’s Inverse Reinforcement Learning</title>
-      <link>/publication/jacq-2017-expressing/</link>
+      <link>https://wafajohal.github.io/publication/jacq-2017-expressing/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/jacq-2017-expressing/</guid>
+      <guid>https://wafajohal.github.io/publication/jacq-2017-expressing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Haptic-enabled handheld mobile robots: Design and analysis</title>
-      <link>/publication/ozgur-2017-haptic/</link>
+      <link>https://wafajohal.github.io/publication/ozgur-2017-haptic/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/ozgur-2017-haptic/</guid>
+      <guid>https://wafajohal.github.io/publication/ozgur-2017-haptic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Keep on moving! Exploring anthropomorphic effects of motion during idle moments</title>
-      <link>/publication/asselborn-2017-keep/</link>
+      <link>https://wafajohal.github.io/publication/asselborn-2017-keep/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/asselborn-2017-keep/</guid>
+      <guid>https://wafajohal.github.io/publication/asselborn-2017-keep/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windfield: demonstrating wind meteorology with handheld haptic robots</title>
-      <link>/publication/ozgur-2017-windfielddemo/</link>
+      <link>https://wafajohal.github.io/publication/ozgur-2017-windfielddemo/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/ozgur-2017-windfielddemo/</guid>
+      <guid>https://wafajohal.github.io/publication/ozgur-2017-windfielddemo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windfield: learning wind meteorology with handheld haptic robots</title>
-      <link>/publication/ozgur-2017-windfield/</link>
+      <link>https://wafajohal.github.io/publication/ozgur-2017-windfield/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/ozgur-2017-windfield/</guid>
+      <guid>https://wafajohal.github.io/publication/ozgur-2017-windfield/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Workshop on Robots for Learning: R4L</title>
-      <link>/publication/johal-2017-workshop/</link>
+      <link>https://wafajohal.github.io/publication/johal-2017-workshop/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2017-workshop/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2017-workshop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CfP Special Issue in JSORO on Robots for Learning</title>
-      <link>/post/cfpjsoro/</link>
+      <link>https://wafajohal.github.io/post/cfpjsoro/</link>
       <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
-      <guid>/post/cfpjsoro/</guid>
+      <guid>https://wafajohal.github.io/post/cfpjsoro/</guid>
       <description>&lt;p&gt;I am happy to announce that we are launching a special issue on Robots for Learning in the Springer International Journal of Social Robotics.
 &lt;a href=&#34;http://r4l.epfl.ch/IJSORO&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://r4l.epfl.ch/IJSORO&lt;/a&gt;
 #R4L #robots4learning&lt;/p&gt;
@@ -1594,9 +1594,9 @@ We had another study paper and a demo paper at HRI this year with this same proj
     
     <item>
       <title>Talk @Xerox R&amp;D, Grenoble</title>
-      <link>/post/xerox/</link>
+      <link>https://wafajohal.github.io/post/xerox/</link>
       <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
-      <guid>/post/xerox/</guid>
+      <guid>https://wafajohal.github.io/post/xerox/</guid>
       <description>&lt;p&gt;Today, I gave a seminar at Xerox R&amp;amp;D in a lovely manor near Grenoble.
 Glad to see people interested to port their NLP and ML algorithms to robots.&lt;/p&gt;
 </description>
@@ -1604,17 +1604,17 @@ Glad to see people interested to port their NLP and ML algorithms to robots.&lt;
     
     <item>
       <title>Xerox Europe R-D Grenoble, France, December 2016</title>
-      <link>/talk/xerox2016/</link>
+      <link>https://wafajohal.github.io/talk/xerox2016/</link>
       <pubDate>Wed, 14 Dec 2016 00:00:00 +0000</pubDate>
-      <guid>/talk/xerox2016/</guid>
+      <guid>https://wafajohal.github.io/talk/xerox2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interviewed by The Long and Short</title>
-      <link>/post/interviewlongshort/</link>
+      <link>https://wafajohal.github.io/post/interviewlongshort/</link>
       <pubDate>Thu, 11 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>/post/interviewlongshort/</guid>
+      <guid>https://wafajohal.github.io/post/interviewlongshort/</guid>
       <description>&lt;p&gt;Interviewed on our Educational Robotics Projects at CHILI/EPFL:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://thelongandshort.org/machines/could-robots-teach-our-children&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://thelongandshort.org/machines/could-robots-teach-our-children&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -1622,18 +1622,18 @@ Glad to see people interested to port their NLP and ML algorithms to robots.&lt;
     
     <item>
       <title>Workshop on Social Robots in Education @NewFriends 2016</title>
-      <link>/post/wsnewfriends2016/</link>
+      <link>https://wafajohal.github.io/post/wsnewfriends2016/</link>
       <pubDate>Thu, 11 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>/post/wsnewfriends2016/</guid>
+      <guid>https://wafajohal.github.io/post/wsnewfriends2016/</guid>
       <description>&lt;p&gt;I am co-organizing a workshop on Social Robots in Education. For more info : &lt;a href=&#34;https://socialrobotsineducation.wordpress.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://socialrobotsineducation.wordpress.com/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Animatas</title>
-      <link>/project/animatas/</link>
+      <link>https://wafajohal.github.io/project/animatas/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/animatas/</guid>
+      <guid>https://wafajohal.github.io/project/animatas/</guid>
       <description>&lt;p&gt;Animatas is a H2020 MCS International Training Network involving 8 insitutions from Europe and several international partners (amoong which UNSW).
 The goal of the project is to investigate social learning and embodiement of autonomous agents in learning contexts.&lt;/p&gt;
 &lt;p&gt;Three aspects are investigated at EPFL with some collaborators:&lt;/p&gt;
@@ -1655,9 +1655,9 @@ What are the advantages and drawbacks of robots in the classroom in terms of tea
     
     <item>
       <title>Behavioural Analysis in HRI</title>
-      <link>/project/engagement/</link>
+      <link>https://wafajohal.github.io/project/engagement/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/engagement/</guid>
+      <guid>https://wafajohal.github.io/project/engagement/</guid>
       <description>&lt;p&gt;In the field of human-robot interaction (HRI) as in many other technical fields, an innumerable number of different
 metrics to analyze the interaction can be found in as many studies. Even-though many of these metrics are not&lt;/p&gt;
 &lt;p&gt;comparable between studies, we observe that the research community in HRI, but also in many other
@@ -1684,9 +1684,9 @@ to 70% training a Random Forest Model. [13]&lt;/p&gt;
     
     <item>
       <title>Behavioural Styles</title>
-      <link>/project/stylebot/</link>
+      <link>https://wafajohal.github.io/project/stylebot/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/stylebot/</guid>
+      <guid>https://wafajohal.github.io/project/stylebot/</guid>
       <description>&lt;p&gt;I have been developing a model of the so called behavioral styles. These styles act like a filter over
 communicative gestures to transpose a way of performing an action. We used multiple platforms (Nao – humanoid,
 and Reeti – facial expression) to test this rendering on facial and bodily communication [14]. We showed
@@ -1715,9 +1715,9 @@ robot.&lt;/p&gt;
     
     <item>
       <title>Behavioural Styles</title>
-      <link>/project/under_grad_past_projects/curriculum_analysis/</link>
+      <link>https://wafajohal.github.io/project/under_grad_past_projects/curriculum_analysis/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/under_grad_past_projects/curriculum_analysis/</guid>
+      <guid>https://wafajohal.github.io/project/under_grad_past_projects/curriculum_analysis/</guid>
       <description>&lt;p&gt;I have been developing a model of the so called behavioral styles. These styles act like a filter over
 communicative gestures to transpose a way of performing an action. We used multiple platforms (Nao – humanoid,
 and Reeti – facial expression) to test this rendering on facial and bodily communication [14]. We showed
@@ -1746,9 +1746,9 @@ robot.&lt;/p&gt;
     
     <item>
       <title>Cellulo</title>
-      <link>/project/cellulo/</link>
+      <link>https://wafajohal.github.io/project/cellulo/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/cellulo/</guid>
+      <guid>https://wafajohal.github.io/project/cellulo/</guid>
       <description>&lt;p&gt;With the Cellulo project [6], a part of the Transversal Educational Activities of the NCCR Robotics, we introduced a
 new robotic platform which is small and easily deployable. A dotted pattern printed on regular paper enables the
 Cellulo robots with absolute localization with a precision of 270 microns [7]. The robots also have a new
@@ -1794,18 +1794,18 @@ collaborative state of the group.&lt;/p&gt;
     
     <item>
       <title>CoWriter</title>
-      <link>/project/cowriter/</link>
+      <link>https://wafajohal.github.io/project/cowriter/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/cowriter/</guid>
+      <guid>https://wafajohal.github.io/project/cowriter/</guid>
       <description>&lt;p&gt;In the CoWriter Project, we explore how the learning by teaching approach can be employed to motivate children to practice their handwriting skills with a small humanoid robot.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>CoWriting Kazakh</title>
-      <link>/project/cowriting_kazakh/</link>
+      <link>https://wafajohal.github.io/project/cowriting_kazakh/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/cowriting_kazakh/</guid>
+      <guid>https://wafajohal.github.io/project/cowriting_kazakh/</guid>
       <description>&lt;h1 id=&#34;project-summary&#34;&gt;Project Summary&lt;/h1&gt;
 &lt;p&gt;This research occurred in a special context where Kazakhstan’s recent decision to switch from Cyrillic to the Latin-based alphabet has resulted in challenges connected with teaching literacy, addressing a rare combination of research hypotheses and technical objectives about language learning. Teachers are not necessarily trained to teach the new alphabet, and this could result in a harder challenge for children with difficulties. Prior research studies in Human-Robot Interaction (HRI) have proposed the use of a robot to teach handwriting to children. Drawing on the Kazakhstani case, our study takes an interdisciplinary approach by bringing together smart solutions from robotics, computer vision areas and educational frameworks, language and cognitive studies that will benefit diverse groups of stakeholders.&lt;/p&gt;
 &lt;p&gt;Relatively little is known about the transfer of writing skills across scripts and it is extremely difficult to isolate the role of motor skills in this transfer, as compared to other cognitive and linguistic skills. Since handwriting combines visual, language, and motor dimensions, neuroimaging does not provide a clear account of cerebral substrates of handwriting.  A recent change of policy in Kazakhstan gave us an opportunity to measure transfer, as the Latin-based Kazakh alphabet has not yet been introduced. With the aim to understand if the script change of the Kazakh language from Cyrillic to Latin would have an effect on handwriting performance of young children and potentially increase the number of children with learning disabilities such as dyslexia and dysgraphia, we investigated the transfer of handwriting skills (from Cyrillic to Latin) in primary school children. To this end, we conducted an analysis of children’s handwriting dynamic data in both scripts (acquired from 200 children aged 6-11 years old who were asked to write a short text on a digital tablet using its stylus) in order to identify if the number of years spent practicing Cyrillic has an effect on the quality of handwriting in the Latin alphabet. The results showed that some of the differences between the two scripts were constant across all grades. These differences thus reflect the intrinsic differences in the handwriting dynamics between the two alphabets. For instance, several features related to the pen pressure on the tablet are quite different.  Other features, however, revealed decreasing differences between the two scripts across grades. While we found that the quality of Cyrillic writing increased from grades 1 to 4, due to increased practice, we also found that the quality of the Latin writing increased as well, despite the fact that all of the pupils had the same absence of experience in writing in Latin. We can therefore interpret this improvement in Latin script as an indicator of the transfer of fine motor control skills from Cyrillic to Latin. This result is especially surprising given that one could instead hypothesize a negative transfer, i.e., that the finger controls automated for one alphabet would interfere with those required by the other alphabet.&lt;/p&gt;
@@ -1823,9 +1823,9 @@ collaborative state of the group.&lt;/p&gt;
     
     <item>
       <title>Find Your Voice</title>
-      <link>/project/fyv/</link>
+      <link>https://wafajohal.github.io/project/fyv/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/fyv/</guid>
+      <guid>https://wafajohal.github.io/project/fyv/</guid>
       <description>&lt;p&gt;Many children struggle to find their voice in social situations. They may be shy, suffer from social anxiety, not speak the native language as their first language, be new to a culture (migrants), or have a special need involving communication impairments (e.g., autism, speech, and hearing) [1]. Their voices often go unheard as they find it hard to contribute to conversations and group work, in both face to face and online settings, which puts them at risk for poor socio-emotional and achievement outcomes.&lt;br&gt;
 Various interventions have been proposed in an effort to help these children integrate better into social settings, including ice-breaking activities, support groups, [2][3]. Another promising alternative is to teach children how to interpret and use humor effectively to facilitate social interaction [4]. Having a sense of humour might help children to reduce stress [5] and ease social interactions, enabling them to overcome their social inhibitions and make friends more easily. Also, humour could promotes children’s language, literacy, and inference skills, since understanding jokes require a mastery of language ambiguity, and comprehension [6].
 One manner to use humor effectively is by ‘joke telling’. A joke is the shortest clearly-structured conversation one can have with one or more peers. Telling jokes can help children improve their confidence, socialization, [4], literacy [8], and cultural learning [7]. For example, a child could start a ‘joke’ that implies a question. He/she knows the answer, but not his/her peers. Then, he/she has the advantage of knowing what the answer is. This helps him/her to gain confidence. In terms of literacy, telling a joke requires the reinterpretation of the syntax underlying the question, then, understanding the ambiguity in a joke might help them in the comprehension of language [8]. Regarding socialization, this dynamic allows children to take part in role-taking, and understanding what other people needs to know to get it. Also, it can create a positive environment where children can laugh together and share their understanding. In terms of learning, a jokes encapsulate cultural assumptions, for example, differences between pronunciation, a dual meaning of a word, and the structural and ambiguity of sentences [7].  The question this raises is: how can we help children from all walks of life learn the art of telling jokes and importantly feel comfortable, and in doing so, increase their confidence, social skills and even literacy?
@@ -1837,9 +1837,9 @@ Finally, an engaging joke-telling learning scenario will need to be designed in 
     
     <item>
       <title>Robots for Learning (R4L)</title>
-      <link>/project/robots4learning/</link>
+      <link>https://wafajohal.github.io/project/robots4learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/robots4learning/</guid>
+      <guid>https://wafajohal.github.io/project/robots4learning/</guid>
       <description>&lt;p&gt;With the increasing number of engineering jobs, politics have more recently turned towards introduction of
 engineering subjects in early stages of curricula. More and more countries have started to introduce programming
 (and even robotics) to young children. However, this constitutes a real challenge for the teaching
@@ -1865,9 +1865,9 @@ mix scientists from field of robotics with those from digital education and lear
     
     <item>
       <title>Visitors and PostDoc</title>
-      <link>/prospective/visitors/</link>
+      <link>https://wafajohal.github.io/prospective/visitors/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/prospective/visitors/</guid>
+      <guid>https://wafajohal.github.io/prospective/visitors/</guid>
       <description>&lt;p&gt;Grants for postdocs&lt;/p&gt;
 &lt;p&gt;Grans for visitors:
 french
@@ -1878,9 +1878,9 @@ others&lt;/p&gt;
     
     <item>
       <title>Cellulo @ the Robots Zoo, Cambridge Science Festival</title>
-      <link>/post/cellulocsf2016/</link>
+      <link>https://wafajohal.github.io/post/cellulocsf2016/</link>
       <pubDate>Sat, 16 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/cellulocsf2016/</guid>
+      <guid>https://wafajohal.github.io/post/cellulocsf2016/</guid>
       <description>&lt;p&gt;We demonstrated an activity on wind with Cellulo robots at the Cambridge Science Festival.
 About 2000 people came to our stand. This demonstration was prepared by all the Cellulo project members. We were kindly invited by Swissnex Boston.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://youtu.be/g_7glQmTIVo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtu.be/g_7glQmTIVo&lt;/a&gt;&lt;/p&gt;
@@ -1890,9 +1890,9 @@ About 2000 people came to our stand. This demonstration was prepared by all the 
     
     <item>
       <title>French Translation of Bartneck’s Godspeed Questionnaire</title>
-      <link>/post/frenchgodspeed/</link>
+      <link>https://wafajohal.github.io/post/frenchgodspeed/</link>
       <pubDate>Sat, 16 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/frenchgodspeed/</guid>
+      <guid>https://wafajohal.github.io/post/frenchgodspeed/</guid>
       <description>&lt;p&gt;I recently contributed to the translation in French of the godspeed questionnaire.&lt;/p&gt;
 &lt;p&gt;This questionnaire aims to measure user’s perception of robots.&lt;/p&gt;
 </description>
@@ -1900,9 +1900,9 @@ About 2000 people came to our stand. This demonstration was prepared by all the 
     
     <item>
       <title>Social Touch Grand Challenge @ICMI 2015</title>
-      <link>/post/icmi2015/</link>
+      <link>https://wafajohal.github.io/post/icmi2015/</link>
       <pubDate>Sat, 16 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/icmi2015/</guid>
+      <guid>https://wafajohal.github.io/post/icmi2015/</guid>
       <description>&lt;p&gt;My team and I won the Social Touch Grand Challenge of ICMI 2015.&lt;/p&gt;
 &lt;p&gt;I presented our results at the Grand Challenge session. We had the best scores for recognition of social gestures.&lt;/p&gt;
 </description>
@@ -1910,9 +1910,9 @@ About 2000 people came to our stand. This demonstration was prepared by all the 
     
     <item>
       <title>Visit the Personal Robots Group at MIT Media Lab</title>
-      <link>/post/visitmitprg2016/</link>
+      <link>https://wafajohal.github.io/post/visitmitprg2016/</link>
       <pubDate>Sat, 16 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/visitmitprg2016/</guid>
+      <guid>https://wafajohal.github.io/post/visitmitprg2016/</guid>
       <description>&lt;p&gt;I gave a talk and discussed with some members of the Personal Robots Group. I also got to see Tega, Leonardo and Nexi for real. 🙂&lt;/p&gt;
 &lt;p&gt;Unfortunately, no Jibo around yet.&lt;/p&gt;
 &lt;p&gt;We also took a tour in the MIT Media Lab building.&lt;/p&gt;
@@ -1921,25 +1921,25 @@ About 2000 people came to our stand. This demonstration was prepared by all the 
     
     <item>
       <title>MIT Media Lab, Personal Robotics Group, April 2016</title>
-      <link>/talk/mit2016/</link>
+      <link>https://wafajohal.github.io/talk/mit2016/</link>
       <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/talk/mit2016/</guid>
+      <guid>https://wafajohal.github.io/talk/mit2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Swissnex Boston, April 2016</title>
-      <link>/talk/swissnex2016/</link>
+      <link>https://wafajohal.github.io/talk/swissnex2016/</link>
       <pubDate>Thu, 14 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/talk/swissnex2016/</guid>
+      <guid>https://wafajohal.github.io/talk/swissnex2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Child-robot spatial arrangement in a learning by teaching activity</title>
-      <link>/publication/johal-2016-child/</link>
+      <link>https://wafajohal.github.io/publication/johal-2016-child/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2016-child/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2016-child/</guid>
       <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vSqJ_JQtZQ8C9jo5IomgDuCi7wAK4d8asJYW3UnFRr4fmh_uOrXdX5rfc949x8fqaruRFhLYdePjLfG/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -1948,89 +1948,89 @@ About 2000 people came to our stand. This demonstration was prepared by all the 
     
     <item>
       <title>Cognitive architecture for mutual modelling</title>
-      <link>/publication/jacq-2016-cognitive/</link>
+      <link>https://wafajohal.github.io/publication/jacq-2016-cognitive/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/jacq-2016-cognitive/</guid>
+      <guid>https://wafajohal.github.io/publication/jacq-2016-cognitive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Permanent magnet-assisted omnidirectional ball drive</title>
-      <link>/publication/ozgur-2016-permanent/</link>
+      <link>https://wafajohal.github.io/publication/ozgur-2016-permanent/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/ozgur-2016-permanent/</guid>
+      <guid>https://wafajohal.github.io/publication/ozgur-2016-permanent/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R2T2: Robotics to integrate educational efforts in South Africa and Europe</title>
-      <link>/publication/mondada-2016-r-2-t-2/</link>
+      <link>https://wafajohal.github.io/publication/mondada-2016-r-2-t-2/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/mondada-2016-r-2-t-2/</guid>
+      <guid>https://wafajohal.github.io/publication/mondada-2016-r-2-t-2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Social human-robot interaction: A new cognitive and affective interaction-oriented architecture</title>
-      <link>/publication/adam-2016-social/</link>
+      <link>https://wafajohal.github.io/publication/adam-2016-social/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/adam-2016-social/</guid>
+      <guid>https://wafajohal.github.io/publication/adam-2016-social/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Starting engagement detection towards a companion robot using multimodal features</title>
-      <link>/publication/vaufreydaz-2016-starting/</link>
+      <link>https://wafajohal.github.io/publication/vaufreydaz-2016-starting/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/vaufreydaz-2016-starting/</guid>
+      <guid>https://wafajohal.github.io/publication/vaufreydaz-2016-starting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A cognitive and affective architecture for social human-robot interaction</title>
-      <link>/publication/johal-2015-cognitive/</link>
+      <link>https://wafajohal.github.io/publication/johal-2015-cognitive/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2015-cognitive/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2015-cognitive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Companion Robots Behaving with Style: Towards Plasticity in Social Human-Robot Interaction</title>
-      <link>/publication/johal-2015-companion/</link>
+      <link>https://wafajohal.github.io/publication/johal-2015-companion/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2015-companion/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2015-companion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Non-verbal Signals in HRI: Interference in Human Perception</title>
-      <link>/publication/johal-2015-non/</link>
+      <link>https://wafajohal.github.io/publication/johal-2015-non/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2015-non/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2015-non/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robots Interacting with Style</title>
-      <link>/publication/johal-2015-robots/</link>
+      <link>https://wafajohal.github.io/publication/johal-2015-robots/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2015-robots/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2015-robots/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Grenoble system for the social touch challenge at ICMI 2015</title>
-      <link>/publication/ta-2015-grenoble/</link>
+      <link>https://wafajohal.github.io/publication/ta-2015-grenoble/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/ta-2015-grenoble/</guid>
+      <guid>https://wafajohal.github.io/publication/ta-2015-grenoble/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demo at Eclipse IOT Day 2014, Grenoble</title>
-      <link>/post/eclipseiot2014/</link>
+      <link>https://wafajohal.github.io/post/eclipseiot2014/</link>
       <pubDate>Wed, 16 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>/post/eclipseiot2014/</guid>
+      <guid>https://wafajohal.github.io/post/eclipseiot2014/</guid>
       <description>&lt;p&gt;Demo using iPOPO, OpenHab via MQTT with Nao as natural remote control of the smart home sensors and actuators. (in collaboration with Shadi Abras, Thomas Calmant and Amr Alyafi).&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://youtu.be/4vBSJ7csp8g&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtu.be/4vBSJ7csp8g&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -2038,89 +2038,89 @@ About 2000 people came to our stand. This demonstration was prepared by all the 
     
     <item>
       <title>A Robot with Style, because you are Worth it!</title>
-      <link>/publication/johal-2014-robot/</link>
+      <link>https://wafajohal.github.io/publication/johal-2014-robot/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2014-robot/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2014-robot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Acceptability of a companion robot for children in daily life situations</title>
-      <link>/publication/johal-2014-acceptability/</link>
+      <link>https://wafajohal.github.io/publication/johal-2014-acceptability/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2014-acceptability/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2014-acceptability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Des Styles pour une Personnalisation de l&#39;Interaction Homme-Robot</title>
-      <link>/publication/johal-2014-styles/</link>
+      <link>https://wafajohal.github.io/publication/johal-2014-styles/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2014-styles/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2014-styles/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Expressing Parenting Styles with Companion Robots</title>
-      <link>/publication/johal-2014-expressing/</link>
+      <link>https://wafajohal.github.io/publication/johal-2014-expressing/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2014-expressing/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2014-expressing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards companion robots behaving with style</title>
-      <link>/publication/johal-2014-towards/</link>
+      <link>https://wafajohal.github.io/publication/johal-2014-towards/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2014-towards/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2014-towards/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Acceptabilité d&#39;un robot compagnon dans des situations de la vie quotidienne.</title>
-      <link>/publication/adam-2013-acceptabilite/</link>
+      <link>https://wafajohal.github.io/publication/adam-2013-acceptabilite/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/adam-2013-acceptabilite/</guid>
+      <guid>https://wafajohal.github.io/publication/adam-2013-acceptabilite/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modelling interactions in a mixed agent world.</title>
-      <link>/publication/johal-2013-modelling/</link>
+      <link>https://wafajohal.github.io/publication/johal-2013-modelling/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/johal-2013-modelling/</guid>
+      <guid>https://wafajohal.github.io/publication/johal-2013-modelling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Detection of non-verbal communication cues using multi-modal sensors : engagement detection </title>
-      <link>/publication/benkaouar-2012/</link>
+      <link>https://wafajohal.github.io/publication/benkaouar-2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>/publication/benkaouar-2012/</guid>
+      <guid>https://wafajohal.github.io/publication/benkaouar-2012/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multi-sensors engagement detection with a robot companion in a home environment</title>
-      <link>/publication/benkaouar-2012-multi/</link>
+      <link>https://wafajohal.github.io/publication/benkaouar-2012-multi/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>/publication/benkaouar-2012-multi/</guid>
+      <guid>https://wafajohal.github.io/publication/benkaouar-2012-multi/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/home/</link>
+      <link>https://wafajohal.github.io/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/home/</guid>
+      <guid>https://wafajohal.github.io/home/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CAIO</title>
-      <link>/project/caio/</link>
+      <link>https://wafajohal.github.io/project/caio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/caio/</guid>
+      <guid>https://wafajohal.github.io/project/caio/</guid>
       <description>&lt;p&gt;One of my interests is to make robots able to autonomously sustain interactions with users, and in order to do
 so, they have to be able to reason about the users’ and their environment. During my PhD, I have
 been working on a Cognitive Architecture able to reason on Emotion, named CAIO (Cognitive and
@@ -2144,10 +2144,10 @@ path according to the diagnosis and the learner’s handwriting difficulties.&lt
     
     <item>
       <title>Find Your Voice: Use of Voice Assistant for Learning</title>
-      <link>/prospective/undergrad/fyv_2020/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/fyv_2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/fyv_2020/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/student-projects/fyv2020.png&#34; alt=&#34;FYV&#34;&gt;&lt;/p&gt;
+      <guid>https://wafajohal.github.io/prospective/undergrad/fyv_2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/student-projects/fyv2020.png&#34; alt=&#34;FYV&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Many children struggle to find their voice in social situations. They may be shy, suffer from social anxiety, be new to a culture (migrants) or have impairments in communication due to atypical development  (e.g., autism spectrum disorder, speech or hearing disorders).&lt;/p&gt;
 &lt;p&gt;The voices of these children often go unheard, as they find it hard to contribute to a conversation.&lt;/p&gt;
@@ -2198,9 +2198,9 @@ path according to the diagnosis and the learner’s handwriting difficulties.&lt
     
     <item>
       <title>Human Action Recognition from AD Movies</title>
-      <link>/prospective/undergrad/human_action_recognition/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/human_action_recognition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/human_action_recognition/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/human_action_recognition/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Action Recognition is curcial for robots to perfoma around humans.
 Indeed, robot need to asses human action and intentions in order to assist them in everyday life tasks and to collaborative efficiently.&lt;/p&gt;
@@ -2238,9 +2238,9 @@ This extraction tool should be fexible and allow for integration of next action.
     
     <item>
       <title>I Spy - An AR Game with a Robot in Home Environment</title>
-      <link>/prospective/undergrad/ispy_hololens_2021/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/ispy_hololens_2021/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/ispy_hololens_2021/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/ispy_hololens_2021/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;In the context of the (HURL project)[https://wafa.johal.org/project/hurl/], we investigate various ways to enable novice users to train robots to perform everyday life tasks. In particular, we employ gamification and Augmented Reality (AR) to make the training more engaging for the human trainer.&lt;/p&gt;
 &lt;p&gt;In this project, your goal will be to implement a game &amp;ldquo;I spy&amp;rdquo; to be played with a robot in a home environment. For this game, we would like to use AR with the Hololens 2&lt;/p&gt;
@@ -2267,9 +2267,9 @@ D or above in a machine learning or AI course&lt;/p&gt;
     
     <item>
       <title>Machine Learning for Social Interaction Modelling</title>
-      <link>/prospective/undergrad/hri-dataset-mine/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/hri-dataset-mine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/hri-dataset-mine/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/hri-dataset-mine/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;The field of social human-robot interaction is growing.
 Understanding how communication between humans (human-human) generalises during human-robot communication is crucial in building fluent and enjoyable interactions with social robots.
@@ -2306,13 +2306,13 @@ Everyday, more datasets that feature social interaction between humans and betwe
     
     <item>
       <title>Persuasive Robots - Exploring Behavioural Styles</title>
-      <link>/prospective/undergrad/behavioural-styles/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/behavioural-styles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/behavioural-styles/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/behavioural-styles/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Social robots are foreseen to be encountered in our everyday life, playing roles as assistant or companion (to mention a few).
 Recent studies have shown the potential harmful impacts of overtrust in social robotics [1], as robots may collect sensitive information without the user’s knowledge.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/student-projects/styles.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/student-projects/styles.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Behavioural styles  allow  robots to express themselves differently within the same context. Given a specific gesture, keyframe manipulation can be used in order to generate style-based variation to the gesture.
 Behavioural styles have been studied in the past to improve robot&amp;rsquo;s behaviour during human-robot interaction [2].&lt;/p&gt;
 &lt;p&gt;In this project, we will explore how behavioural styles can influence engagement, trust and persuasion during human-robot interaction.&lt;/p&gt;
@@ -2348,9 +2348,9 @@ International Journal of Social Robotics, 3(1), 41-52.&lt;/li&gt;
     
     <item>
       <title>PhD Positions</title>
-      <link>/prospective/phd/</link>
+      <link>https://wafajohal.github.io/prospective/phd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/phd/</guid>
+      <guid>https://wafajohal.github.io/prospective/phd/</guid>
       <description>&lt;hr&gt;
 &lt;h3 id=&#34;candidate-profile&#34;&gt;Candidate Profile&lt;/h3&gt;
 &lt;h4 id=&#34;required-skills&#34;&gt;Required Skills&lt;/h4&gt;
@@ -2389,9 +2389,9 @@ The selection also usually takes into account your grades (mainly for the last 2
     
     <item>
       <title>Robot Writing</title>
-      <link>/prospective/undergrad/writing_2020/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/writing_2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/writing_2020/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/writing_2020/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Handwriting is one of the most important motor skill we learn as human. Children with handwriting difficulties can find their academic impacted and often succeed less at school.&lt;/p&gt;
 &lt;p&gt;In this project we propose to explore new methods for a robot to write using a pen. The project will use the Fetch Robot and aim to evaluate how a robot could learn handwriting trajectories using human demonstrations.&lt;/p&gt;
@@ -2416,10 +2416,10 @@ The selection also usually takes into account your grades (mainly for the last 2
     
     <item>
       <title>Tangible e-Ink Paper Interfaces for Learners</title>
-      <link>/prospective/undergrad/tip_2020/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/tip_2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/tip_2020/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/student-projects/tip.png&#34; alt=&#34;FYV&#34;&gt;&lt;/p&gt;
+      <guid>https://wafajohal.github.io/prospective/undergrad/tip_2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/student-projects/tip.png&#34; alt=&#34;FYV&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;While digital tools are more and more used in classrooms, teachers&#39; common practice remains to use photocopied paper documents to share and collect learning exercises from their students.
 With the Tangible e-Ink Paper (TIP) system, we aim to explore the use of tangible manipulatives interacting with paper sheets as a bridge between digital and paper traces of learning.
@@ -2456,10 +2456,10 @@ Featuring an e-Ink display, a paper-based localisation system and a wireless con
     
     <item>
       <title>Tangible Human Swarm Interaction</title>
-      <link>/prospective/undergrad/h-swarm_2020/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/h-swarm_2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/h-swarm_2020/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/student-projects/swarm.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+      <guid>https://wafajohal.github.io/prospective/undergrad/h-swarm_2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/student-projects/swarm.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;context&#34;&gt;Context:&lt;/h2&gt;
 &lt;p&gt;Visuo-Motor coordination problems can impair children in  their academic achievements and in their everyday life.
 Gross visuo-motor skills, in particular, are required in a range of social and educational activities that contribute to children&amp;rsquo;s physical and cognitive development such as playing a musical instrument, ball-based sports or dancing.
@@ -2487,10 +2487,10 @@ In this project, we aim to design new forms of interaction with a swarm for enha
     
     <item>
       <title>Tangible Robots for Collaborative Online Learning</title>
-      <link>/prospective/undergrad/tangible_online/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/tangible_online/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/tangible_online/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/cellulo.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+      <guid>https://wafajohal.github.io/prospective/undergrad/tangible_online/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/cellulo.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;context&#34;&gt;Context:&lt;/h2&gt;
 &lt;p&gt;Online learning  presents several advantages: decreasing cost, allowing more flexibility and access to far away training resources. However, studies have found that it also limits communications between peers and teachers, limits physical interactions and that it requires a big commitment on the student&amp;rsquo;s part to plan and stay assiduous in their learning.&lt;/p&gt;
 &lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
@@ -2533,9 +2533,9 @@ The project will consist in:&lt;/p&gt;
     
     <item>
       <title>TeleOp Game - Explore Gamification of Robot Teleoperation</title>
-      <link>/prospective/undergrad/cleanup_2021/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/cleanup_2021/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/cleanup_2021/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/cleanup_2021/</guid>
       <description>&lt;h1 id=&#34;context&#34;&gt;Context:&lt;/h1&gt;
 &lt;p&gt;Service robots are becoming more common in households. Tasks that they may be assigned include vacuuming the floor or grabbing objects from the top shelf. Augmented reality (AR) is one of the many interfaces the robot and the human user may communicate through. During teleoperation or robot training, human disengagement can be an issue (the task demonstrated by the human often repetitive).&lt;/p&gt;
 &lt;p&gt;As a preliminary step, we aim to explore how gamification can affect human engagement in an AR game setting where the objective of the game is to complete a common household task (such as clearing the table). The AR application will be developed for the Microsoft HoloLens 2 headset. The game can be thought of as encouraging the user to complete the task.&lt;/p&gt;
@@ -2563,9 +2563,9 @@ Game Design, Computer Vision&lt;/p&gt;
     
     <item>
       <title>Voice for ROS</title>
-      <link>/prospective/undergrad/voice-robot/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/voice-robot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/voice-robot/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/voice-robot/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Natural language is an important part of communication since it offers an intuitive and efficient way of conveying ideas to another individual. Enabling robots to efficiently use language is essential for human-robot collaboration. In this project, we aim to develop an interface between a dialog manager (i.e. DialogFlow) and ROS (Robotics Operating System). By doing this, we will be able to use the powerful dialogue systems in human-robot interaction scenario.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://miro.medium.com/max/1066/1*OCuPx7AmWofWptQdPN-TPA.png&#34; alt=&#34;robot-va&#34;&gt;&lt;/p&gt;

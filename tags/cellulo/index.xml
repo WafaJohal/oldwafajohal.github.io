@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cellulo | </title>
-    <link>/tags/cellulo/</link>
-      <atom:link href="/tags/cellulo/index.xml" rel="self" type="application/rss+xml" />
+    <title>cellulo | Wafa Johal</title>
+    <link>https://wafajohal.github.io/tags/cellulo/</link>
+      <atom:link href="https://wafajohal.github.io/tags/cellulo/index.xml" rel="self" type="application/rss+xml" />
     <description>cellulo</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>cellulo</title>
-      <link>/tags/cellulo/</link>
+      <link>https://wafajohal.github.io/tags/cellulo/</link>
     </image>
     
     <item>
       <title>Using Tabletop Robots to promote Inclusive Classroom Experiences</title>
-      <link>/publication/neto-using-2020/</link>
+      <link>https://wafajohal.github.io/publication/neto-using-2020/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/neto-using-2020/</guid>
+      <guid>https://wafajohal.github.io/publication/neto-using-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TIP: Tangible e-Ink Paper Manipulatives for Classroom Orchestration</title>
-      <link>/talk/ozchi2019/</link>
+      <link>https://wafajohal.github.io/talk/ozchi2019/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/ozchi2019/</guid>
+      <guid>https://wafajohal.github.io/talk/ozchi2019/</guid>
       <description>&lt;p&gt;Presented our work on the design of tangible devices for classroom orchestration.&lt;/p&gt;
 &lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vSAbsZww1VUF4gDexQLD7Goez5ApAkyU85mnNXrNaPgeiHIzSs9Aeo1RNkZWp3WaAK-aT4gjm0zMDID/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
@@ -34,10 +34,10 @@
     
     <item>
       <title>UC San Diego, California, USA, November 2019</title>
-      <link>/talk/ucsandiego_hrimini2019/</link>
+      <link>https://wafajohal.github.io/talk/ucsandiego_hrimini2019/</link>
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/ucsandiego_hrimini2019/</guid>
-      <description>&lt;p&gt;I gave a short talk at the HRI Mini symposium on Orchestration of Robot Populated Classrooms, a recent work started with &lt;a href=&#34;/authors/sina-shahmoradi/&#34;&gt;Sina Shahmoradi&lt;/a&gt;, &lt;a href=&#34;/authors/jauwairia-nasir/&#34;&gt;Jauwairia Nasir&lt;/a&gt; and &lt;a href=&#34;/authors/utku-norman/&#34;&gt;Utku Norman&lt;/a&gt;&lt;/p&gt;
+      <guid>https://wafajohal.github.io/talk/ucsandiego_hrimini2019/</guid>
+      <description>&lt;p&gt;I gave a short talk at the HRI Mini symposium on Orchestration of Robot Populated Classrooms, a recent work started with &lt;a href=&#34;https://wafajohal.github.io/authors/sina-shahmoradi/&#34;&gt;Sina Shahmoradi&lt;/a&gt;, &lt;a href=&#34;https://wafajohal.github.io/authors/jauwairia-nasir/&#34;&gt;Jauwairia Nasir&lt;/a&gt; and &lt;a href=&#34;https://wafajohal.github.io/authors/utku-norman/&#34;&gt;Utku Norman&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vTnhl9vGI8PfwTmAdzq8uh9axoV-atvvN87Xrlt4_ctt5YNDIO-mZbe4O9McfIyGlaQ2Vierw7k9tXO/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -46,9 +46,9 @@
     
     <item>
       <title>Animatas</title>
-      <link>/project/animatas/</link>
+      <link>https://wafajohal.github.io/project/animatas/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/animatas/</guid>
+      <guid>https://wafajohal.github.io/project/animatas/</guid>
       <description>&lt;p&gt;Animatas is a H2020 MCS International Training Network involving 8 insitutions from Europe and several international partners (amoong which UNSW).
 The goal of the project is to investigate social learning and embodiement of autonomous agents in learning contexts.&lt;/p&gt;
 &lt;p&gt;Three aspects are investigated at EPFL with some collaborators:&lt;/p&gt;
@@ -70,9 +70,9 @@ What are the advantages and drawbacks of robots in the classroom in terms of tea
     
     <item>
       <title>Cellulo</title>
-      <link>/project/cellulo/</link>
+      <link>https://wafajohal.github.io/project/cellulo/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/cellulo/</guid>
+      <guid>https://wafajohal.github.io/project/cellulo/</guid>
       <description>&lt;p&gt;With the Cellulo project [6], a part of the Transversal Educational Activities of the NCCR Robotics, we introduced a
 new robotic platform which is small and easily deployable. A dotted pattern printed on regular paper enables the
 Cellulo robots with absolute localization with a precision of 270 microns [7]. The robots also have a new
@@ -118,10 +118,10 @@ collaborative state of the group.&lt;/p&gt;
     
     <item>
       <title>Tangible Human Swarm Interaction</title>
-      <link>/prospective/undergrad/h-swarm_2020/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/h-swarm_2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/h-swarm_2020/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/student-projects/swarm.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+      <guid>https://wafajohal.github.io/prospective/undergrad/h-swarm_2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/student-projects/swarm.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;context&#34;&gt;Context:&lt;/h2&gt;
 &lt;p&gt;Visuo-Motor coordination problems can impair children in  their academic achievements and in their everyday life.
 Gross visuo-motor skills, in particular, are required in a range of social and educational activities that contribute to children&amp;rsquo;s physical and cognitive development such as playing a musical instrument, ball-based sports or dancing.
@@ -149,10 +149,10 @@ In this project, we aim to design new forms of interaction with a swarm for enha
     
     <item>
       <title>Tangible Robots for Collaborative Online Learning</title>
-      <link>/prospective/undergrad/tangible_online/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/tangible_online/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/tangible_online/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/cellulo.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+      <guid>https://wafajohal.github.io/prospective/undergrad/tangible_online/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wafajohal.github.io/img/cellulo.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;context&#34;&gt;Context:&lt;/h2&gt;
 &lt;p&gt;Online learning  presents several advantages: decreasing cost, allowing more flexibility and access to far away training resources. However, studies have found that it also limits communications between peers and teachers, limits physical interactions and that it requires a big commitment on the student&amp;rsquo;s part to plan and stay assiduous in their learning.&lt;/p&gt;
 &lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
@@ -195,9 +195,9 @@ The project will consist in:&lt;/p&gt;
     
     <item>
       <title>Voice for ROS</title>
-      <link>/prospective/undergrad/voice-robot/</link>
+      <link>https://wafajohal.github.io/prospective/undergrad/voice-robot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/prospective/undergrad/voice-robot/</guid>
+      <guid>https://wafajohal.github.io/prospective/undergrad/voice-robot/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Natural language is an important part of communication since it offers an intuitive and efficient way of conveying ideas to another individual. Enabling robots to efficiently use language is essential for human-robot collaboration. In this project, we aim to develop an interface between a dialog manager (i.e. DialogFlow) and ROS (Robotics Operating System). By doing this, we will be able to use the powerful dialogue systems in human-robot interaction scenario.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://miro.medium.com/max/1066/1*OCuPx7AmWofWptQdPN-TPA.png&#34; alt=&#34;robot-va&#34;&gt;&lt;/p&gt;
