@@ -5,12 +5,28 @@
     <link>https://wafajohal.github.io/publication/</link>
       <atom:link href="https://wafajohal.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>Publications</title>
       <link>https://wafajohal.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Automatic assessment of motor impairments in Autism Spectrum Disorders: a systematic review</title>
+      <link>https://wafajohal.github.io/publication/gargot-2022-automatic/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/gargot-2022-automatic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging eye tracking to understand children’s attention during game-based, tangible robotics activities</title>
+      <link>https://wafajohal.github.io/publication/olsen-2022-leveraging/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/olsen-2022-leveraging/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>10 Years of Human-NAO Interaction Research: A Scoping Review</title>
