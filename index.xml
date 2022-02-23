@@ -5,7 +5,7 @@
     <link>https://wafajohal.github.io/</link>
       <atom:link href="https://wafajohal.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Wafa Johal</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Mon, 07 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Tue, 22 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>Wafa Johal</title>
@@ -339,6 +339,22 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;show()
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your turn! &lt;/span&gt;
 &lt;span style=&#34;color:#75715e&#34;&gt;# Try to display the different channels of the YCrCb format individually for our given image using the method above or another method&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Data-Driven Curriculum Analysis</title>
+      <link>https://wafajohal.github.io/project/curriculum_analysis/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/project/curriculum_analysis/</guid>
+      <description>&lt;p&gt;Curriculum Analysis has for objectives: 1) to assess the curriculum to improve it, 2) to identify potential problem (gaps, overlap of topics), 3) to plan for updates of the curriculum and 4) to prepare audits of the curriculum. Unlike curriculum design or development, curriculum analysis looks at the current state of what is being taught and provides a means to unpack the components (e.g., knowledge, resources), investigate interconnections and reveal the relationships between these components (e.g., similarity, dependencies, alignment).&lt;/p&gt;
+&lt;p&gt;Often curriculum analysis is performed manually by lecturing staff who outline the knowledge in a subject and its relationships to the rest of a course (pre-requisites …) creating a map. Unfortunately, this is time consuming, and can be difficult to track and achieve completeness. Previous works have used knowledge maps and concept mapping to understand the links between subjects. We also found instances in which researchers proposed to use handbook entries to design an automatic tool to perform curriculum analysis. While the handbook of a course gives an overview of its content, it can be quite abstract and often doesn’t inform much about all the concepts covered in a course.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/PSQuJKMRKmA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In this project, we propose a novel method to build high quality representations of courses that illustrate the relationships between lectures, subjects, and courses. Using the curriculum and teaching materials generated for the purpose of teaching a subject (e.g., lecture slides, assignment sheets, handbook), this project will generate interactive visualisations of the curriculum that can be used to inform curriculum updates and design.  Teaching material This feature-based representation can then be used to assess subject similarity, infer pre-requisites, build concept maps, and perform clustering to design streams. We foresee this tool to be useful for both academic staff, designing and assessing curriculum and students who could use the tool to recommend subjects based on similarity or other relationships.&lt;/p&gt;
+</description>
     </item>
     
     <item>
