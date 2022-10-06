@@ -315,7 +315,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.6edaf3b475ce43de30d98828aea698be.js"></script>
+  <script src="/js/wowchemy-init.min.20eb0f3c4d04d41882b841af9fbef98c.js"></script>
 
   
 
@@ -713,24 +713,24 @@
 
         <div class="article-container">
           <div class="article-style" align="justify">
-            <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> cv2
-<span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
-<span style="color:#f92672">from</span> matplotlib <span style="color:#f92672">import</span> pyplot <span style="color:#66d9ef">as</span> plt
-</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#39;noisyImg_1.jpg&#39;</span>,<span style="color:#ae81ff">1</span>)
-<span style="color:#75715e">#convert BGR to RGB</span>
-img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2RGB)
-plt<span style="color:#f92672">.</span>imshow(img)
-</code></pre></div><pre><code>&lt;matplotlib.image.AxesImage at 0x1de43671b70&gt;
+            <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> cv2
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> matplotlib <span style="color:#f92672">import</span> pyplot <span style="color:#66d9ef">as</span> plt
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#39;noisyImg_1.jpg&#39;</span>,<span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#convert BGR to RGB</span>
+</span></span><span style="display:flex;"><span>img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2RGB)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(img)
+</span></span></code></pre></div><pre><code>&lt;matplotlib.image.AxesImage at 0x1de43671b70&gt;
 </code></pre>
 <p><img src="/img/teaching/computer_vision/week2/gaussian_blur/output_1_1.png" alt="png"></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#Gaussian filtering</span>
-blur <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>GaussianBlur(img,(<span style="color:#ae81ff">5</span>,<span style="color:#ae81ff">5</span>),<span style="color:#ae81ff">3</span>)
-plt<span style="color:#f92672">.</span>imshow(blur)
-</code></pre></div><pre><code>&lt;matplotlib.image.AxesImage at 0x1de437332e8&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#Gaussian filtering</span>
+</span></span><span style="display:flex;"><span>blur <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>GaussianBlur(img,(<span style="color:#ae81ff">5</span>,<span style="color:#ae81ff">5</span>),<span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(blur)
+</span></span></code></pre></div><pre><code>&lt;matplotlib.image.AxesImage at 0x1de437332e8&gt;
 </code></pre>
 <p><img src="/img/teaching/computer_vision/week2/gaussian_blur/output_2_1.png" alt="png"></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">cv2<span style="color:#f92672">.</span>getGaussianKernel<span style="color:#960050;background-color:#1e0010">?</span>
-</code></pre></div><pre><code>[1;31mDocstring:[0m
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>cv2<span style="color:#f92672">.</span>getGaussianKernel<span style="color:#960050;background-color:#1e0010">?</span>
+</span></span></code></pre></div><pre><code>[1;31mDocstring:[0m
 getGaussianKernel(ksize, sigma[, ktype]) -&gt; retval
 .   @brief Returns Gaussian filter coefficients.
 .   
@@ -751,16 +751,15 @@ getGaussianKernel(ksize, sigma[, ktype]) -&gt; retval
 .   @sa  sepFilter2D, getDerivKernels, getStructuringElement, GaussianBlur
 [1;31mType:[0m      builtin_function_or_method
 </code></pre>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#Gaussian filtering v2</span>
-G <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>getGaussianKernel(<span style="color:#ae81ff">5</span>,<span style="color:#ae81ff">3</span>)
-print(G)
-
-GM <span style="color:#f92672">=</span> G<span style="color:#f92672">*</span>G<span style="color:#f92672">.</span>T;
-print(GM)
-plt<span style="color:#f92672">.</span>matshow(GM)
-plt<span style="color:#f92672">.</span>show()
-
-</code></pre></div><pre><code>[[0.17820326]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#Gaussian filtering v2</span>
+</span></span><span style="display:flex;"><span>G <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>getGaussianKernel(<span style="color:#ae81ff">5</span>,<span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>print(G)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>GM <span style="color:#f92672">=</span> G<span style="color:#f92672">*</span>G<span style="color:#f92672">.</span>T;
+</span></span><span style="display:flex;"><span>print(GM)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>matshow(GM)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><pre><code>[[0.17820326]
  [0.21052227]
  [0.22254894]
  [0.21052227]
@@ -772,19 +771,18 @@ plt<span style="color:#f92672">.</span>show()
  [0.0317564  0.03751576 0.03965895 0.03751576 0.0317564 ]]
 </code></pre>
 <p><img src="/img/teaching/computer_vision/week2/gaussian_blur/output_4_1.png" alt="png"></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">blur2 <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>filter2D(img,<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>,GM)
-</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#show original and filtered images</span>
-plt<span style="color:#f92672">.</span>figure(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">10</span>))
-plt<span style="color:#f92672">.</span>subplot(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">1</span>),plt<span style="color:#f92672">.</span>imshow(img),plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#39;Original&#39;</span>)
-plt<span style="color:#f92672">.</span>xticks([]), plt<span style="color:#f92672">.</span>yticks([])
-plt<span style="color:#f92672">.</span>subplot(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">2</span>),plt<span style="color:#f92672">.</span>imshow(blur),plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#39;Blurred&#39;</span>)
-plt<span style="color:#f92672">.</span>xticks([]), plt<span style="color:#f92672">.</span>yticks([])
-plt<span style="color:#f92672">.</span>subplot(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">3</span>),plt<span style="color:#f92672">.</span>imshow(blur2),plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#39;Blurred 2&#39;</span>)
-plt<span style="color:#f92672">.</span>xticks([]), plt<span style="color:#f92672">.</span>yticks([])
-plt<span style="color:#f92672">.</span>show()
-</code></pre></div><p><img src="/img/teaching/computer_vision/week2/gaussian_blur/output_6_0.png" alt="png"></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>blur2 <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>filter2D(img,<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>,GM)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#show original and filtered images</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>figure(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">10</span>))
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>subplot(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">1</span>),plt<span style="color:#f92672">.</span>imshow(img),plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#39;Original&#39;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>xticks([]), plt<span style="color:#f92672">.</span>yticks([])
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>subplot(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">2</span>),plt<span style="color:#f92672">.</span>imshow(blur),plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#39;Blurred&#39;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>xticks([]), plt<span style="color:#f92672">.</span>yticks([])
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>subplot(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">3</span>),plt<span style="color:#f92672">.</span>imshow(blur2),plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#39;Blurred 2&#39;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>xticks([]), plt<span style="color:#f92672">.</span>yticks([])
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><p><img src="/img/teaching/computer_vision/week2/gaussian_blur/output_6_0.png" alt="png"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div>
           </div>
           
 
@@ -1020,7 +1018,7 @@ plt<span style="color:#f92672">.</span>show()
     
     
     
-    <script src="/en/js/wowchemy.min.206d44ff04f4ee6ccd6509e65d075497.js"></script>
+    <script src="/en/js/wowchemy.min.b066cc4d0559673b4f7a2e85b1993426.js"></script>
 
     
 

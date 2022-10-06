@@ -315,7 +315,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.6edaf3b475ce43de30d98828aea698be.js"></script>
+  <script src="/js/wowchemy-init.min.20eb0f3c4d04d41882b841af9fbef98c.js"></script>
 
   
 
@@ -813,38 +813,37 @@
           <h1>Demo Bit-Planes</h1>
 
           <div class="article-style">
-            <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> cv2
-<span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
-<span style="color:#f92672">from</span> matplotlib <span style="color:#f92672">import</span> pyplot <span style="color:#66d9ef">as</span> plt
-</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#39;minion.jpg&#39;</span>,<span style="color:#ae81ff">0</span>)
-plt<span style="color:#f92672">.</span>figure(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">10</span>))
-
-plt<span style="color:#f92672">.</span>imshow(img,<span style="color:#e6db74">&#39;gray&#39;</span>)
-
-plt<span style="color:#f92672">.</span>show()
-</code></pre></div><p><img src="/img/teaching/computer_vision/week2/bitplanes/output_2_0.svg" alt="svg"></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">out <span style="color:#f92672">=</span> []
-plt<span style="color:#f92672">.</span>figure(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">30</span>,<span style="color:#ae81ff">20</span>))
-<span style="color:#66d9ef">for</span> k <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">8</span>):
-    <span style="color:#75715e"># create an image for each k bit plane</span>
-    plane <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>full((img<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">0</span>], img<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">1</span>]), <span style="color:#ae81ff">2</span> <span style="color:#f92672">**</span> k, np<span style="color:#f92672">.</span>uint8)
-    <span style="color:#75715e"># execute bitwise and operation</span>
-    res <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>bitwise_and(plane, img)
-    <span style="color:#75715e"># multiply ones (bit plane sliced) with 255 just for better visualization</span>
-    x <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>equalizeHist(res)
-    out<span style="color:#f92672">.</span>append(res)
-    plt<span style="color:#f92672">.</span>subplot(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">8</span>,k<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>),plt<span style="color:#f92672">.</span>imshow(res,<span style="color:#e6db74">&#39;gray&#39;</span>),plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#34;plane &#34;</span><span style="color:#f92672">+</span>str(k))
-    plt<span style="color:#f92672">.</span>xticks([]), plt<span style="color:#f92672">.</span>yticks([])
-
-plt<span style="color:#f92672">.</span>show()
-</code></pre></div><p><img src="/img/teaching/computer_vision/week2/bitplanes/output_3_0.svg" alt="svg"></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">ms_planes <span style="color:#f92672">=</span> out[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>] <span style="color:#f92672">+</span>out[<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>] <span style="color:#f92672">+</span>out[<span style="color:#f92672">-</span><span style="color:#ae81ff">3</span>]
-plt<span style="color:#f92672">.</span>imshow(ms_planes,<span style="color:#e6db74">&#39;gray&#39;</span>),plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#34; plane 5-7&#34;</span>)
-</code></pre></div><pre><code>(&lt;matplotlib.image.AxesImage at 0x243a2f83be0&gt;, Text(0.5, 1.0, ' plane 5-7'))
+            <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> cv2
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> matplotlib <span style="color:#f92672">import</span> pyplot <span style="color:#66d9ef">as</span> plt
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#39;minion.jpg&#39;</span>,<span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>figure(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">10</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(img,<span style="color:#e6db74">&#39;gray&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><p><img src="/img/teaching/computer_vision/week2/bitplanes/output_2_0.svg" alt="svg"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>out <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>figure(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">30</span>,<span style="color:#ae81ff">20</span>))
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> k <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">8</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># create an image for each k bit plane</span>
+</span></span><span style="display:flex;"><span>    plane <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>full((img<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">0</span>], img<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">1</span>]), <span style="color:#ae81ff">2</span> <span style="color:#f92672">**</span> k, np<span style="color:#f92672">.</span>uint8)
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># execute bitwise and operation</span>
+</span></span><span style="display:flex;"><span>    res <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>bitwise_and(plane, img)
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># multiply ones (bit plane sliced) with 255 just for better visualization</span>
+</span></span><span style="display:flex;"><span>    x <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>equalizeHist(res)
+</span></span><span style="display:flex;"><span>    out<span style="color:#f92672">.</span>append(res)
+</span></span><span style="display:flex;"><span>    plt<span style="color:#f92672">.</span>subplot(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">8</span>,k<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>),plt<span style="color:#f92672">.</span>imshow(res,<span style="color:#e6db74">&#39;gray&#39;</span>),plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#34;plane &#34;</span><span style="color:#f92672">+</span>str(k))
+</span></span><span style="display:flex;"><span>    plt<span style="color:#f92672">.</span>xticks([]), plt<span style="color:#f92672">.</span>yticks([])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><p><img src="/img/teaching/computer_vision/week2/bitplanes/output_3_0.svg" alt="svg"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>ms_planes <span style="color:#f92672">=</span> out[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>] <span style="color:#f92672">+</span>out[<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>] <span style="color:#f92672">+</span>out[<span style="color:#f92672">-</span><span style="color:#ae81ff">3</span>]
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(ms_planes,<span style="color:#e6db74">&#39;gray&#39;</span>),plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#34; plane 5-7&#34;</span>)
+</span></span></code></pre></div><pre><code>(&lt;matplotlib.image.AxesImage at 0x243a2f83be0&gt;, Text(0.5, 1.0, ' plane 5-7'))
 </code></pre>
 <p><img src="/img/teaching/computer_vision/week2/bitplanes/output_4_1.svg" alt="svg"></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div>
           </div>
 
           
@@ -1021,7 +1020,7 @@ plt<span style="color:#f92672">.</span>imshow(ms_planes,<span style="color:#e6db
     
     
     
-    <script src="/en/js/wowchemy.min.206d44ff04f4ee6ccd6509e65d075497.js"></script>
+    <script src="/en/js/wowchemy.min.b066cc4d0559673b4f7a2e85b1993426.js"></script>
 
     
 

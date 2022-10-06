@@ -315,7 +315,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.6edaf3b475ce43de30d98828aea698be.js"></script>
+  <script src="/js/wowchemy-init.min.20eb0f3c4d04d41882b841af9fbef98c.js"></script>
 
   
 
@@ -813,157 +813,155 @@
           <h1>Demo 2 Color Spaces</h1>
 
           <div class="article-style">
-            <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> cv2
-<span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
-<span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
-
-
-img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#34;beachBox.jpg&#34;</span>)
-print(img<span style="color:#f92672">.</span>shape)
-plt<span style="color:#f92672">.</span>axis(<span style="color:#e6db74">&#39;off&#39;</span>) <span style="color:#75715e"># if you want to hide the axis</span>
-plt<span style="color:#f92672">.</span>imshow(img)
-plt<span style="color:#f92672">.</span>show()
-</code></pre></div><pre><code>(743, 1280, 3)
+            <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> cv2
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#34;beachBox.jpg&#34;</span>)
+</span></span><span style="display:flex;"><span>print(img<span style="color:#f92672">.</span>shape)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>axis(<span style="color:#e6db74">&#39;off&#39;</span>) <span style="color:#75715e"># if you want to hide the axis</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(img)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><pre><code>(743, 1280, 3)
 </code></pre>
 <p><img src="/img/teaching/computer_vision/week1/demo2/output_1_1.png" alt="png"></p>
 <p>Documentation on <a href="https://docs.opencv.org/3.4/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56" target="_blank" rel="noopener">imread</a></p>
 <p>Bookmark this <a href="https://docs.opencv.org/" target="_blank" rel="noopener">https://docs.opencv.org/</a></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">cv2<span style="color:#f92672">.</span>__version__
-</code></pre></div><pre><code>'3.4.5'
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>cv2<span style="color:#f92672">.</span>__version__
+</span></span></code></pre></div><pre><code>'3.4.5'
 </code></pre>
 <h1 id="plot-the-image">Plot the image</h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">RGB_im <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2RGB)
-print(RGB_im<span style="color:#f92672">.</span>shape)
-plt<span style="color:#f92672">.</span>imshow(RGB_im)
-plt<span style="color:#f92672">.</span>show()
-</code></pre></div><pre><code>(743, 1280, 3)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>RGB_im <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2RGB)
+</span></span><span style="display:flex;"><span>print(RGB_im<span style="color:#f92672">.</span>shape)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(RGB_im)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><pre><code>(743, 1280, 3)
 </code></pre>
 <p><img src="/img/teaching/computer_vision/week1/demo2/output_5_1.png" alt="png"></p>
 <h1 id="rgb-channel-decomposition">RGB Channel Decomposition</h1>
 <p><img src="/img/teaching/computer_vision/week1/ColorSpaces/RGB.jpg" alt=""></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">b <span style="color:#f92672">=</span> RGB_im<span style="color:#f92672">.</span>copy()
-<span style="color:#75715e"># (x,y,nb_channels = 3  [R, G, B])</span>
-<span style="color:#75715e"># set green and red channels to 0</span>
-b[:, :, <span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span> <span style="color:#75715e"># sets the value in the red channels to 0</span>
-b[:, :, <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span> <span style="color:#75715e"># sets the value in the green channels to 0</span>
-
-
-g <span style="color:#f92672">=</span> RGB_im<span style="color:#f92672">.</span>copy()
-<span style="color:#75715e"># set blue and red channels to 0</span>
-g[:, :, <span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
-g[:, :, <span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
-
-r <span style="color:#f92672">=</span> RGB_im<span style="color:#f92672">.</span>copy()
-<span style="color:#75715e"># set blue and green channels to 0</span>
-r[:, :, <span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
-r[:, :, <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
-
-rg <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(r,cv2<span style="color:#f92672">.</span>COLOR_RGB2GRAY)
-bg <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(b,cv2<span style="color:#f92672">.</span>COLOR_RGB2GRAY)
-gg <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(g,cv2<span style="color:#f92672">.</span>COLOR_RGB2GRAY)
-
-plt<span style="color:#f92672">.</span>imshow(RGB_im)
-plt<span style="color:#f92672">.</span>show()
-plt<span style="color:#f92672">.</span>imshow(r)
-plt<span style="color:#f92672">.</span>show()
-plt<span style="color:#f92672">.</span>imshow(g)
-plt<span style="color:#f92672">.</span>show()
-plt<span style="color:#f92672">.</span>imshow(b)
-plt<span style="color:#f92672">.</span>show()
-
-</code></pre></div><p><img src="/img/teaching/computer_vision/week1/demo2/output_7_0.png" alt="png"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>b <span style="color:#f92672">=</span> RGB_im<span style="color:#f92672">.</span>copy()
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># (x,y,nb_channels = 3  [R, G, B])</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># set green and red channels to 0</span>
+</span></span><span style="display:flex;"><span>b[:, :, <span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span> <span style="color:#75715e"># sets the value in the red channels to 0</span>
+</span></span><span style="display:flex;"><span>b[:, :, <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span> <span style="color:#75715e"># sets the value in the green channels to 0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>g <span style="color:#f92672">=</span> RGB_im<span style="color:#f92672">.</span>copy()
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># set blue and red channels to 0</span>
+</span></span><span style="display:flex;"><span>g[:, :, <span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>g[:, :, <span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>r <span style="color:#f92672">=</span> RGB_im<span style="color:#f92672">.</span>copy()
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># set blue and green channels to 0</span>
+</span></span><span style="display:flex;"><span>r[:, :, <span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>r[:, :, <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>rg <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(r,cv2<span style="color:#f92672">.</span>COLOR_RGB2GRAY)
+</span></span><span style="display:flex;"><span>bg <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(b,cv2<span style="color:#f92672">.</span>COLOR_RGB2GRAY)
+</span></span><span style="display:flex;"><span>gg <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(g,cv2<span style="color:#f92672">.</span>COLOR_RGB2GRAY)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(RGB_im)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(r)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(g)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(b)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><p><img src="/img/teaching/computer_vision/week1/demo2/output_7_0.png" alt="png"></p>
 <p><img src="/img/teaching/computer_vision/week1/demo2/output_7_1.png" alt="png"></p>
 <p><img src="/img/teaching/computer_vision/week1/demo2/output_7_2.png" alt="png"></p>
 <p><img src="/img/teaching/computer_vision/week1/demo2/output_7_3.png" alt="png"></p>
 <h1 id="hsv">HSV</h1>
 <p><img src="/img/teaching/computer_vision/week1/ColorSpaces/HSV.jpg" alt=""></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">imgHSV <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2HSV)
-</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">h <span style="color:#f92672">=</span> imgHSV<span style="color:#f92672">.</span>copy()
-<span style="color:#75715e"># set S and V channels to 255</span>
-h[:, :, <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">255</span>
-h[:, :, <span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">255</span>
-
-
-s <span style="color:#f92672">=</span> imgHSV<span style="color:#f92672">.</span>copy()
-<span style="color:#75715e"># set H to 179 and V to 255 (max)</span>
-s[:, :, <span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">179</span>
-s[:, :, <span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">255</span>
-
-v <span style="color:#f92672">=</span> imgHSV<span style="color:#f92672">.</span>copy()
-<span style="color:#75715e"># set H to 179 and S to 0</span>
-v[:, :, <span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">179</span>
-v[:, :, <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
-
-
-
-h_RGB <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(h,cv2<span style="color:#f92672">.</span>COLOR_HSV2RGB) <span style="color:#75715e"># convert back to RGB for matplotlib to be able to plot it properly </span>
-s_RGB <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(s,cv2<span style="color:#f92672">.</span>COLOR_HSV2RGB)
-v_RGB <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(v,cv2<span style="color:#f92672">.</span>COLOR_HSV2RGB)
-
-plt<span style="color:#f92672">.</span>imshow(RGB_im)
-plt<span style="color:#f92672">.</span>show()
-plt<span style="color:#f92672">.</span>imshow(h_RGB)
-plt<span style="color:#f92672">.</span>show()
-plt<span style="color:#f92672">.</span>imshow(s_RGB)
-plt<span style="color:#f92672">.</span>show()
-plt<span style="color:#f92672">.</span>imshow(v_RGB)
-plt<span style="color:#f92672">.</span>show()
-
-</code></pre></div><p><img src="/img/teaching/computer_vision/week1/demo2/output_10_0.png" alt="png"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>imgHSV <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2HSV)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>h <span style="color:#f92672">=</span> imgHSV<span style="color:#f92672">.</span>copy()
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># set S and V channels to 255</span>
+</span></span><span style="display:flex;"><span>h[:, :, <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">255</span>
+</span></span><span style="display:flex;"><span>h[:, :, <span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">255</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>s <span style="color:#f92672">=</span> imgHSV<span style="color:#f92672">.</span>copy()
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># set H to 179 and V to 255 (max)</span>
+</span></span><span style="display:flex;"><span>s[:, :, <span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">179</span>
+</span></span><span style="display:flex;"><span>s[:, :, <span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">255</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>v <span style="color:#f92672">=</span> imgHSV<span style="color:#f92672">.</span>copy()
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># set H to 179 and S to 0</span>
+</span></span><span style="display:flex;"><span>v[:, :, <span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">179</span>
+</span></span><span style="display:flex;"><span>v[:, :, <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>h_RGB <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(h,cv2<span style="color:#f92672">.</span>COLOR_HSV2RGB) <span style="color:#75715e"># convert back to RGB for matplotlib to be able to plot it properly </span>
+</span></span><span style="display:flex;"><span>s_RGB <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(s,cv2<span style="color:#f92672">.</span>COLOR_HSV2RGB)
+</span></span><span style="display:flex;"><span>v_RGB <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(v,cv2<span style="color:#f92672">.</span>COLOR_HSV2RGB)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(RGB_im)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(h_RGB)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(s_RGB)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(v_RGB)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><p><img src="/img/teaching/computer_vision/week1/demo2/output_10_0.png" alt="png"></p>
 <p><img src="/img/teaching/computer_vision/week1/demo2/output_10_1.png" alt="png"></p>
 <p><img src="/img/teaching/computer_vision/week1/demo2/output_10_2.png" alt="png"></p>
 <p><img src="/img/teaching/computer_vision/week1/demo2/output_10_3.png" alt="png"></p>
 <h1 id="lab">LAB</h1>
 <p><img src="/img/teaching/computer_vision/week1/ColorSpaces/Lab.png" alt=""></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">imgLAB <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2LAB)
-</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> matplotlib.colors <span style="color:#66d9ef">as</span> clr <span style="color:#75715e"># this library is used to create the color maps for matplotlib </span>
-
-
-l <span style="color:#f92672">=</span> imgLAB<span style="color:#f92672">.</span>copy()
-l[:, :, <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
-l[:, :, <span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
-
-
-a <span style="color:#f92672">=</span> imgLAB<span style="color:#f92672">.</span>copy()
-a[:, :, <span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">127</span>
-a[:, :, <span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
-
-b <span style="color:#f92672">=</span> imgLAB<span style="color:#f92672">.</span>copy()
-b[:, :, <span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">127</span>
-b[:, :, <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
-
-<span style="color:#75715e"># here we want to result to be encoded on one channel only, so we can convert the color image into a GRAY scale image. </span>
-<span style="color:#75715e"># Since opencv doesnt have the LAB2GRAY converter, we have to go through the RGB format and then to GRAY</span>
-l_RGB <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(l,cv2<span style="color:#f92672">.</span>COLOR_LAB2RGB)
-l_GRAY <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(l_RGB,cv2<span style="color:#f92672">.</span>COLOR_RGB2GRAY)
-a_RGB <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(a,cv2<span style="color:#f92672">.</span>COLOR_LAB2RGB)
-a_GRAY <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(a_RGB,cv2<span style="color:#f92672">.</span>COLOR_RGB2GRAY)
-b_RGB <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(b,cv2<span style="color:#f92672">.</span>COLOR_LAB2RGB)
-b_GRAY <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(b_RGB,cv2<span style="color:#f92672">.</span>COLOR_RGB2GRAY)
-
-plt<span style="color:#f92672">.</span>imshow(RGB_im)
-plt<span style="color:#f92672">.</span>show()
-plt<span style="color:#f92672">.</span>imshow(l_GRAY, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;gray&#34;</span>) <span style="color:#75715e"># L is on the gray scale</span>
-plt<span style="color:#f92672">.</span>show()
-
-<span style="color:#75715e"># the &#39;a&#39; values are between red and green, so we create a colormap for matplotlib to display the color range correctly</span>
-cmap_a <span style="color:#f92672">=</span> clr<span style="color:#f92672">.</span>LinearSegmentedColormap<span style="color:#f92672">.</span>from_list(<span style="color:#e6db74">&#39;custom blue&#39;</span>, [<span style="color:#e6db74">&#39;Red&#39;</span>,<span style="color:#e6db74">&#34;Gray&#34;</span>,<span style="color:#e6db74">&#39;Green&#39;</span>], N<span style="color:#f92672">=</span><span style="color:#ae81ff">255</span>)
-plt<span style="color:#f92672">.</span>imshow(a_GRAY,  cmap<span style="color:#f92672">=</span>cmap_a)
-plt<span style="color:#f92672">.</span>show()
-
-<span style="color:#75715e"># Same for &#39;b&#39;, between yellow and blue</span>
-cmap_b <span style="color:#f92672">=</span> clr<span style="color:#f92672">.</span>LinearSegmentedColormap<span style="color:#f92672">.</span>from_list(<span style="color:#e6db74">&#39;custom blue&#39;</span>, [<span style="color:#e6db74">&#39;Yellow&#39;</span>,<span style="color:#e6db74">&#34;Gray&#34;</span>,<span style="color:#e6db74">&#39;Blue&#39;</span>], N<span style="color:#f92672">=</span><span style="color:#ae81ff">255</span>)
-plt<span style="color:#f92672">.</span>imshow(b_GRAY, cmap<span style="color:#f92672">=</span>cmap_b)
-plt<span style="color:#f92672">.</span>show()
-</code></pre></div><p><img src="/img/teaching/computer_vision/week1/demo2/output_13_0.png" alt="png"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>imgLAB <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2LAB)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.colors <span style="color:#66d9ef">as</span> clr <span style="color:#75715e"># this library is used to create the color maps for matplotlib </span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>l <span style="color:#f92672">=</span> imgLAB<span style="color:#f92672">.</span>copy()
+</span></span><span style="display:flex;"><span>l[:, :, <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>l[:, :, <span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>a <span style="color:#f92672">=</span> imgLAB<span style="color:#f92672">.</span>copy()
+</span></span><span style="display:flex;"><span>a[:, :, <span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">127</span>
+</span></span><span style="display:flex;"><span>a[:, :, <span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>b <span style="color:#f92672">=</span> imgLAB<span style="color:#f92672">.</span>copy()
+</span></span><span style="display:flex;"><span>b[:, :, <span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">127</span>
+</span></span><span style="display:flex;"><span>b[:, :, <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># here we want to result to be encoded on one channel only, so we can convert the color image into a GRAY scale image. </span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Since opencv doesnt have the LAB2GRAY converter, we have to go through the RGB format and then to GRAY</span>
+</span></span><span style="display:flex;"><span>l_RGB <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(l,cv2<span style="color:#f92672">.</span>COLOR_LAB2RGB)
+</span></span><span style="display:flex;"><span>l_GRAY <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(l_RGB,cv2<span style="color:#f92672">.</span>COLOR_RGB2GRAY)
+</span></span><span style="display:flex;"><span>a_RGB <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(a,cv2<span style="color:#f92672">.</span>COLOR_LAB2RGB)
+</span></span><span style="display:flex;"><span>a_GRAY <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(a_RGB,cv2<span style="color:#f92672">.</span>COLOR_RGB2GRAY)
+</span></span><span style="display:flex;"><span>b_RGB <span style="color:#f92672">=</span>  cv2<span style="color:#f92672">.</span>cvtColor(b,cv2<span style="color:#f92672">.</span>COLOR_LAB2RGB)
+</span></span><span style="display:flex;"><span>b_GRAY <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(b_RGB,cv2<span style="color:#f92672">.</span>COLOR_RGB2GRAY)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(RGB_im)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(l_GRAY, cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;gray&#34;</span>) <span style="color:#75715e"># L is on the gray scale</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># the &#39;a&#39; values are between red and green, so we create a colormap for matplotlib to display the color range correctly</span>
+</span></span><span style="display:flex;"><span>cmap_a <span style="color:#f92672">=</span> clr<span style="color:#f92672">.</span>LinearSegmentedColormap<span style="color:#f92672">.</span>from_list(<span style="color:#e6db74">&#39;custom blue&#39;</span>, [<span style="color:#e6db74">&#39;Red&#39;</span>,<span style="color:#e6db74">&#34;Gray&#34;</span>,<span style="color:#e6db74">&#39;Green&#39;</span>], N<span style="color:#f92672">=</span><span style="color:#ae81ff">255</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(a_GRAY,  cmap<span style="color:#f92672">=</span>cmap_a)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Same for &#39;b&#39;, between yellow and blue</span>
+</span></span><span style="display:flex;"><span>cmap_b <span style="color:#f92672">=</span> clr<span style="color:#f92672">.</span>LinearSegmentedColormap<span style="color:#f92672">.</span>from_list(<span style="color:#e6db74">&#39;custom blue&#39;</span>, [<span style="color:#e6db74">&#39;Yellow&#39;</span>,<span style="color:#e6db74">&#34;Gray&#34;</span>,<span style="color:#e6db74">&#39;Blue&#39;</span>], N<span style="color:#f92672">=</span><span style="color:#ae81ff">255</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(b_GRAY, cmap<span style="color:#f92672">=</span>cmap_b)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><p><img src="/img/teaching/computer_vision/week1/demo2/output_13_0.png" alt="png"></p>
 <p><img src="/img/teaching/computer_vision/week1/demo2/output_13_1.png" alt="png"></p>
 <p><img src="/img/teaching/computer_vision/week1/demo2/output_13_2.png" alt="png"></p>
 <p><img src="/img/teaching/computer_vision/week1/demo2/output_13_3.png" alt="png"></p>
 <h1 id="ycrcb">YCrCb</h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">imgYCrCb <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2YCrCb)
-</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Your turn! </span>
-<span style="color:#75715e"># Try to display the different channels of the YCrCb format individually for our given image using the method above or another method</span>
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>imgYCrCb <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2YCrCb)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Your turn! </span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Try to display the different channels of the YCrCb format individually for our given image using the method above or another method</span>
+</span></span></code></pre></div>
           </div>
 
           
@@ -1140,7 +1138,7 @@ plt<span style="color:#f92672">.</span>show()
     
     
     
-    <script src="/en/js/wowchemy.min.206d44ff04f4ee6ccd6509e65d075497.js"></script>
+    <script src="/en/js/wowchemy.min.b066cc4d0559673b4f7a2e85b1993426.js"></script>
 
     
 

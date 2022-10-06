@@ -315,7 +315,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.6edaf3b475ce43de30d98828aea698be.js"></script>
+  <script src="/js/wowchemy-init.min.20eb0f3c4d04d41882b841af9fbef98c.js"></script>
 
   
 
@@ -813,48 +813,48 @@
           <h1>Demo 1 OpenCV Basics</h1>
 
           <div class="article-style">
-            <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np 
-<span style="color:#f92672">import</span> cv2
-<span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
-</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># read an image</span>
-img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#39;test1.jpg&#39;</span>,<span style="color:#ae81ff">1</span>)
-</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">cv2<span style="color:#f92672">.</span>imshow(<span style="color:#e6db74">&#39;image&#39;</span>,img)
-cv2<span style="color:#f92672">.</span>waitKey(<span style="color:#ae81ff">0</span>)
-cv2<span style="color:#f92672">.</span>destroyAllWindows()
-</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># print image dimension</span>
-print(img<span style="color:#f92672">.</span>shape)
-</code></pre></div><pre><code>(225, 225, 3)
+            <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np 
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> cv2
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># read an image</span>
+</span></span><span style="display:flex;"><span>img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(<span style="color:#e6db74">&#39;test1.jpg&#39;</span>,<span style="color:#ae81ff">1</span>)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>cv2<span style="color:#f92672">.</span>imshow(<span style="color:#e6db74">&#39;image&#39;</span>,img)
+</span></span><span style="display:flex;"><span>cv2<span style="color:#f92672">.</span>waitKey(<span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>cv2<span style="color:#f92672">.</span>destroyAllWindows()
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># print image dimension</span>
+</span></span><span style="display:flex;"><span>print(img<span style="color:#f92672">.</span>shape)
+</span></span></code></pre></div><pre><code>(225, 225, 3)
 </code></pre>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># print a pixel value</span>
-px <span style="color:#f92672">=</span> img[<span style="color:#ae81ff">100</span>,<span style="color:#ae81ff">100</span>]
-print(px)
-</code></pre></div><pre><code>[  8 150 255]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># print a pixel value</span>
+</span></span><span style="display:flex;"><span>px <span style="color:#f92672">=</span> img[<span style="color:#ae81ff">100</span>,<span style="color:#ae81ff">100</span>]
+</span></span><span style="display:flex;"><span>print(px)
+</span></span></code></pre></div><pre><code>[  8 150 255]
 </code></pre>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># get an ROI region</span>
-roi <span style="color:#f92672">=</span> img[<span style="color:#ae81ff">100</span>:<span style="color:#ae81ff">120</span>, <span style="color:#ae81ff">100</span>:<span style="color:#ae81ff">120</span>]
-<span style="color:#75715e"># replace another region in the image with the selected ROI</span>
-img[<span style="color:#ae81ff">180</span>:<span style="color:#ae81ff">200</span>, <span style="color:#ae81ff">180</span>:<span style="color:#ae81ff">200</span>] <span style="color:#f92672">=</span> roi
-</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># display the modified image</span>
-cv2<span style="color:#f92672">.</span>imshow(<span style="color:#e6db74">&#39;image2&#39;</span>,img)
-cv2<span style="color:#f92672">.</span>waitKey(<span style="color:#ae81ff">0</span>)
-cv2<span style="color:#f92672">.</span>destroyAllWindows()
-</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># write the image output into a new file</span>
-cv2<span style="color:#f92672">.</span>imwrite(<span style="color:#e6db74">&#39;res_1.png&#39;</span>,img)
-</code></pre></div><pre><code>True
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># get an ROI region</span>
+</span></span><span style="display:flex;"><span>roi <span style="color:#f92672">=</span> img[<span style="color:#ae81ff">100</span>:<span style="color:#ae81ff">120</span>, <span style="color:#ae81ff">100</span>:<span style="color:#ae81ff">120</span>]
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># replace another region in the image with the selected ROI</span>
+</span></span><span style="display:flex;"><span>img[<span style="color:#ae81ff">180</span>:<span style="color:#ae81ff">200</span>, <span style="color:#ae81ff">180</span>:<span style="color:#ae81ff">200</span>] <span style="color:#f92672">=</span> roi
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># display the modified image</span>
+</span></span><span style="display:flex;"><span>cv2<span style="color:#f92672">.</span>imshow(<span style="color:#e6db74">&#39;image2&#39;</span>,img)
+</span></span><span style="display:flex;"><span>cv2<span style="color:#f92672">.</span>waitKey(<span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>cv2<span style="color:#f92672">.</span>destroyAllWindows()
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># write the image output into a new file</span>
+</span></span><span style="display:flex;"><span>cv2<span style="color:#f92672">.</span>imwrite(<span style="color:#e6db74">&#39;res_1.png&#39;</span>,img)
+</span></span></code></pre></div><pre><code>True
 </code></pre>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">plt<span style="color:#f92672">.</span>imshow(img)
-</code></pre></div><pre><code>&lt;matplotlib.image.AxesImage at 0x28e7f6ba550&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(img)
+</span></span></code></pre></div><pre><code>&lt;matplotlib.image.AxesImage at 0x28e7f6ba550&gt;
 </code></pre>
 <p><img src="/img/teaching/computer_vision/week1/demo1/output_9_1.png" alt="png"></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#convert BGR to RGB</span>
-rgb_img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2RGB)
-plt<span style="color:#f92672">.</span>imshow(rgb_img)
-</code></pre></div><pre><code>&lt;matplotlib.image.AxesImage at 0x28e7f7680b8&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#convert BGR to RGB</span>
+</span></span><span style="display:flex;"><span>rgb_img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>cvtColor(img, cv2<span style="color:#f92672">.</span>COLOR_BGR2RGB)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>imshow(rgb_img)
+</span></span></code></pre></div><pre><code>&lt;matplotlib.image.AxesImage at 0x28e7f7680b8&gt;
 </code></pre>
 <p><img src="/img/teaching/computer_vision/week1/demo1/output_10_1.png" alt="png"></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">## to look at the documentation of a function inside your notebook use a &#39;?&#39;</span>
-cv2<span style="color:#f92672">.</span>cvtColor<span style="color:#960050;background-color:#1e0010">?</span>
-</code></pre></div><pre><code>cvtColor(src, code[, dst[, dstCn]]) -&gt; dst
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">## to look at the documentation of a function inside your notebook use a &#39;?&#39;</span>
+</span></span><span style="display:flex;"><span>cv2<span style="color:#f92672">.</span>cvtColor<span style="color:#960050;background-color:#1e0010">?</span>
+</span></span></code></pre></div><pre><code>cvtColor(src, code[, dst[, dstCn]]) -&gt; dst
 .   @brief Converts an image from one color space to another.
 .   
 .   The function converts an input image from one color space to another. In case of a transformation
@@ -896,8 +896,7 @@ cv2<span style="color:#f92672">.</span>cvtColor<span style="color:#960050;backgr
 .   
 .   @see @ref imgproc_color_conversions
 </code></pre>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div>
           </div>
 
           
@@ -1067,7 +1066,7 @@ cv2<span style="color:#f92672">.</span>cvtColor<span style="color:#960050;backgr
     
     
     
-    <script src="/en/js/wowchemy.min.206d44ff04f4ee6ccd6509e65d075497.js"></script>
+    <script src="/en/js/wowchemy.min.b066cc4d0559673b4f7a2e85b1993426.js"></script>
 
     
 
