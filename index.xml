@@ -5,7 +5,7 @@
     <link>https://wafajohal.github.io/</link>
       <atom:link href="https://wafajohal.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Wafa Johal</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Tue, 22 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Tue, 22 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>Wafa Johal</title>
@@ -563,7 +563,7 @@ Up to now the research in the field has considered a couple of classical scenari
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/post/decra2021/</guid>
       <description>&lt;p&gt;About a year after landing foot in Australia, I have been awarded with a Discovery Early Career Research Award (DECRA) by the Asutralian Research Council (acceptance 16%).&lt;/p&gt;
-&lt;p&gt;The project I proposed is inline with my vision to build co-learning system in which robots can teach novices some skills (see &lt;a href=&#34;https://wafajohal.github.io/project/cowriter/&#34;&gt;CoWriter Project&lt;/a&gt;) but also learn from human trainers. 
+&lt;p&gt;The project I proposed is inline with my vision to build co-learning system in which robots can teach novices some skills (see &lt;a href=&#34;https://wafajohal.github.io/project/cowriter/&#34;&gt;CoWriter Project&lt;/a&gt;) but also learn from human trainers.
 To find out more about the project see the page: &lt;a href=&#34;https://wafajohal.github.io/project/hurl/&#34;&gt;HURL&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
@@ -1543,7 +1543,7 @@ Ana Paiva and
     </item>
     
     <item>
-      <title>Une architecture cognitive et affective orientée interaction</title>
+      <title>Une architecture cognitive et affective oriente interaction</title>
       <link>https://wafajohal.github.io/publication/pellier-2018-architecture/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/publication/pellier-2018-architecture/</guid>
@@ -2205,6 +2205,30 @@ About 2000 people came to our stand. This demonstration was prepared by all the 
       <link>https://wafajohal.github.io/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/home/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://wafajohal.github.io/publication/bruno-2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/bruno-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://wafajohal.github.io/publication/ozgur-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/ozgur-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://wafajohal.github.io/publication/tozadore-2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/tozadore-2023/</guid>
       <description></description>
     </item>
     
