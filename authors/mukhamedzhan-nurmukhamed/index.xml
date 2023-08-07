@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mukhamedzhan Nurmukhamed | Wafa Johal</title>
+    <link>https://wafajohal.github.io/authors/mukhamedzhan-nurmukhamed/</link>
+      <atom:link href="https://wafajohal.github.io/authors/mukhamedzhan-nurmukhamed/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mukhamedzhan Nurmukhamed</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
+      <title>Mukhamedzhan Nurmukhamed</title>
+      <link>https://wafajohal.github.io/authors/mukhamedzhan-nurmukhamed/</link>
+    </image>
+    
+    <item>
+      <title>To Transfer or Not To Transfer: Engagement Recognition within Robot-assisted Autism Therapy</title>
+      <link>https://wafajohal.github.io/publication/rakhymbayeva-2022-transfer/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/rakhymbayeva-2022-transfer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
