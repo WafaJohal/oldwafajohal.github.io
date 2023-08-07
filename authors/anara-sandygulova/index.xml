@@ -5,12 +5,20 @@
     <link>https://wafajohal.github.io/authors/anara-sandygulova/</link>
       <atom:link href="https://wafajohal.github.io/authors/anara-sandygulova/index.xml" rel="self" type="application/rss+xml" />
     <description>Anara Sandygulova</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>Anara Sandygulova</title>
       <link>https://wafajohal.github.io/authors/anara-sandygulova/</link>
     </image>
+    
+    <item>
+      <title>Culture in Social Robots for Education</title>
+      <link>https://wafajohal.github.io/publication/bruno-2023/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/bruno-2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>To Transfer or Not To Transfer: Engagement Recognition within Robot-assisted Autism Therapy</title>

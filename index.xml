@@ -5,7 +5,7 @@
     <link>https://wafajohal.github.io/</link>
       <atom:link href="https://wafajohal.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Wafa Johal</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Tue, 22 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en</language><lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wafajohal.github.io/media/icon_hua8722e2d0f9e76eb4e7e1bd847ea9615_2326_512x512_fill_box_center_3.png</url>
       <title>Wafa Johal</title>
@@ -334,6 +334,22 @@ getGaussianKernel(ksize, sigma[, ktype]) -&amp;gt; retval
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Your turn! &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Try to display the different channels of the YCrCb format individually for our given image using the method above or another method&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Exploring Data Agency and Autonomous Agents as Embodied Data Visualizations</title>
+      <link>https://wafajohal.github.io/publication/schombs-2023/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/schombs-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Culture in Social Robots for Education</title>
+      <link>https://wafajohal.github.io/publication/bruno-2023/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://wafajohal.github.io/publication/bruno-2023/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -2205,14 +2221,6 @@ About 2000 people came to our stand. This demonstration was prepared by all the 
       <link>https://wafajohal.github.io/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wafajohal.github.io/home/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://wafajohal.github.io/publication/bruno-2023/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wafajohal.github.io/publication/bruno-2023/</guid>
       <description></description>
     </item>
     
